@@ -1,11 +1,15 @@
 # Téléchargement et organisation iCloud Drive
 
-Script Python pour télécharger tous les documents d'un compte iCloud et les organiser automatiquement en dossiers et sous-dossiers.
+Script Python qui :
+1. **Télécharge** tous les documents de votre iCloud Drive en local
+2. **Crée automatiquement** les dossiers et sous-dossiers organisés **directement dans iCloud Drive**
 
-## Structure des dossiers créés
+Après exécution, ouvrez l'app **Fichiers** sur iPhone/iPad ou le Finder sur Mac → **iCloud Drive** → `Documents_Organisés/`
+
+## Structure des dossiers créés (locale ET dans iCloud Drive)
 
 ```
-iCloud_Documents/
+Documents_Organisés/
 ├── PDF/
 │   ├── document1.pdf
 │   └── document2.pdf
@@ -33,7 +37,7 @@ iCloud_Documents/
 Avec l'option `--by-year`, un sous-dossier par année est ajouté :
 
 ```
-iCloud_Documents/
+Documents_Organisés/
 ├── PDF/
 │   ├── 2023/
 │   │   └── contrat.pdf
@@ -53,22 +57,17 @@ pip install -r requirements.txt
 ## Utilisation
 
 ```bash
-# Téléchargement de base
+# Par défaut : télécharge localement ET crée les dossiers dans iCloud Drive
 python download_icloud.py --username votre@apple.com
 
-# Avec organisation par année
+# Avec sous-dossiers par année
 python download_icloud.py --username votre@apple.com --by-year
 
-# Dossier de destination personnalisé
-python download_icloud.py --username votre@apple.com --output ~/Bureau/MesDocuments
+# Local seulement (sans créer de dossiers dans iCloud Drive)
+python download_icloud.py --username votre@apple.com --no-upload
 
-# Toutes les options
-python download_icloud.py \
-    --username votre@apple.com \
-    --password "motdepasse" \
-    --output ~/iCloud_Backup \
-    --by-year \
-    --verbose
+# Dossier local personnalisé
+python download_icloud.py --username votre@apple.com --output ~/Bureau/MesDocuments
 ```
 
 ## Options
@@ -77,8 +76,9 @@ python download_icloud.py \
 |--------|-------------|
 | `--username` / `-u` | Identifiant Apple (obligatoire) |
 | `--password` / `-p` | Mot de passe Apple (demandé si absent) |
-| `--output` / `-o` | Dossier de destination (défaut: `~/iCloud_Backup`) |
+| `--output` / `-o` | Dossier local de destination (défaut: `~/iCloud_Backup`) |
 | `--by-year` | Créer un sous-dossier par année de modification |
+| `--no-upload` | Ne pas créer de dossiers dans iCloud Drive |
 | `--verbose` / `-v` | Activer les logs détaillés |
 
 ## Double authentification (2FA)
