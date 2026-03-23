@@ -1,0 +1,75 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(cat:*)",
+      "Bash(echo:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(rm:*)",
+      "mcp__gmail__*",
+      "mcp__google-calendar__*"
+    ],
+    "deny": []
+  },
+  "scheduledTasks": [
+    {
+      "id": "daily-summary",
+      "name": "Résumé quotidien",
+      "description": "Génère un résumé quotidien des emails et du calendrier",
+      "schedule": "0 8 * * *",
+      "prompt": "Vérifie mes emails non lus via Gmail, regarde mes événements du calendrier pour aujourd'hui, puis génère un résumé structuré de ma journée. Sauvegarde le résumé dans automations/daily-summary.md",
+      "enabled": true
+    },
+    {
+      "id": "weekly-report",
+      "name": "Rapport hebdomadaire",
+      "description": "Génère un rapport d'activité chaque lundi matin",
+      "schedule": "0 9 * * 1",
+      "prompt": "Analyse mes emails de la semaine passée, liste les événements importants du calendrier, et génère un rapport hebdomadaire dans automations/weekly-report.md",
+      "enabled": true
+    },
+    {
+      "id": "email-followup",
+      "name": "Suivi emails sans réponse",
+      "description": "Vérifie les emails sans réponse depuis plus de 3 jours",
+      "schedule": "0 10 * * *",
+      "prompt": "Cherche dans Gmail les emails envoyés sans réponse depuis plus de 3 jours. Liste-les dans automations/followup-needed.md avec l'objet et le destinataire.",
+      "enabled": true
+    }
+  ],
+  "mcpServers": {
+    "gmail": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-gmail"],
+      "env": {
+        "GMAIL_CREDENTIALS_PATH": "~/.gmail-credentials.json"
+      }
+    },
+    "google-calendar": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-google-calendar"],
+      "env": {
+        "GOOGLE_CALENDAR_CREDENTIALS_PATH": "~/.google-calendar-credentials.json"
+      }
+    }
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[$(date)] Bash tool used' >> ~/.claude/activity.log"
+          }
+        ]
+      }
+    ]
+  }
+}
