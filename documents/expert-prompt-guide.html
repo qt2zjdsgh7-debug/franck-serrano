@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guide Expert — Ingénierie de Prompts pour Claude</title>
+  
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.7;
+    color: #1a1a2e;
+    background: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 60px;
+  }
+
+  h1 {
+    font-size: 26pt;
+    font-weight: 700;
+    color: #0f3460;
+    border-bottom: 3px solid #0f3460;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #16213e;
+    border-left: 4px solid #e94560;
+    padding-left: 14px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    font-size: 13pt;
+    font-weight: 600;
+    color: #0f3460;
+    margin-top: 28px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #533483;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  p {
+    margin-bottom: 12px;
+    color: #2d2d44;
+  }
+
+  blockquote {
+    background: #f0f4ff;
+    border-left: 4px solid #0f3460;
+    padding: 12px 18px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+    color: #3a3a5c;
+  }
+
+  blockquote strong {
+    font-style: normal;
+  }
+
+  code {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 9pt;
+    background: #f5f5f5;
+    color: #c7254e;
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+
+  pre {
+    background: #1e1e2e;
+    color: #cdd6f4;
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin: 16px 0;
+    overflow-x: auto;
+    line-height: 1.5;
+  }
+
+  pre code {
+    background: none;
+    color: #cdd6f4;
+    padding: 0;
+    font-size: 9pt;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 10pt;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  thead tr {
+    background: #0f3460;
+    color: #ffffff;
+  }
+
+  thead th {
+    padding: 10px 16px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  tbody tr:nth-child(even) {
+    background: #f7f9ff;
+  }
+
+  tbody tr:nth-child(odd) {
+    background: #ffffff;
+  }
+
+  tbody td {
+    padding: 9px 16px;
+    border-bottom: 1px solid #e8eaf6;
+    color: #2d2d44;
+  }
+
+  ul, ol {
+    padding-left: 24px;
+    margin-bottom: 12px;
+    color: #2d2d44;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #e8eaf6;
+    margin: 32px 0;
+  }
+
+  strong { color: #0f3460; }
+
+  a { color: #e94560; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .toc {
+    background: #f7f9ff;
+    border: 1px solid #dde4f5;
+    border-radius: 8px;
+    padding: 20px 28px;
+    margin-bottom: 36px;
+  }
+
+  .toc p { font-weight: 700; color: #0f3460; margin-bottom: 10px; font-size: 12pt; }
+  .toc ol { margin: 0; }
+  .toc li { margin-bottom: 4px; }
+
+  .cover {
+    text-align: center;
+    padding: 60px 0 40px 0;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e8eaf6;
+  }
+
+  .cover .subtitle {
+    font-size: 13pt;
+    color: #6b7280;
+    margin-top: 10px;
+  }
+
+  .cover .badge {
+    display: inline-block;
+    background: #0f3460;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 9pt;
+    margin-top: 16px;
+    font-weight: 500;
+  }
+</style>
+
+</head>
+<body>
+<h1 id="guide-expert-ingenierie-de-prompts-pour-claude">Guide Expert — Ingénierie de Prompts pour Claude</h1>
+<blockquote>
+<p>Référence complète basée sur la documentation officielle Anthropic (2026) et les meilleures pratiques industrielles.<br />
+Modèles couverts : Claude Opus 4.6 · Sonnet 4.6 · Haiku 4.5</p>
+</blockquote>
+<hr />
+<h2 id="table-des-matieres">Table des matières</h2>
+<ol>
+<li><a href="#1-fondamentaux">Fondamentaux</a></li>
+<li><a href="#2-structure-dun-prompt-expert">Structure d'un prompt expert</a></li>
+<li><a href="#3-techniques-essentielles">Techniques essentielles</a></li>
+<li><a href="#4-contrôle-du-format-de-sortie">Contrôle du format de sortie</a></li>
+<li><a href="#5-raisonnement-et-thinking">Raisonnement et Thinking</a></li>
+<li><a href="#6-utilisation-des-outils">Utilisation des outils</a></li>
+<li><a href="#7-systèmes-agentiques">Systèmes agentiques</a></li>
+<li><a href="#8-techniques-avancées">Techniques avancées</a></li>
+<li><a href="#9-anti-patterns-à-éviter">Anti-patterns à éviter</a></li>
+<li><a href="#10-checklists-et-templates">Checklists et templates</a></li>
+</ol>
+<hr />
+<h2 id="1-fondamentaux">1. Fondamentaux</h2>
+<h3 id="le-principe-du-contrat">Le principe du contrat</h3>
+<p>Claude interprète le system prompt comme un <strong>contrat</strong> : une description explicite et bornée de l'identité, des règles et du format attendu. Plus le contrat est précis, plus le comportement est prévisible.</p>
+<blockquote>
+<p><strong>Règle d'or :</strong> Montre ton prompt à un collègue sans contexte. S'il est confus, Claude le sera aussi.</p>
+</blockquote>
+<h3 id="clarte-avant-longueur">Clarté avant longueur</h3>
+<p>Un prompt court et précis surpasse un prompt long et vague. Sois explicite sur :<br />
+- L'objectif final et les critères de succès<br />
+- Les contraintes (format, longueur, langue, ton)<br />
+- Ce que Claude doit faire — pas seulement ce qu'il ne doit pas faire</p>
+<h3 id="expliquer-le-pourquoi">Expliquer le pourquoi</h3>
+<p>Fournir le contexte derrière une règle permet à Claude de la généraliser intelligemment.</p>
+<table>
+<thead>
+<tr>
+<th>Moins efficace</th>
+<th>Plus efficace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NEVER use ellipses</code></td>
+<td><code>Never use ellipses — the text-to-speech engine can't pronounce them</code></td>
+</tr>
+<tr>
+<td><code>Be concise</code></td>
+<td><code>Limit your response to 3 sentences — it will appear in a mobile notification</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-structure-dun-prompt-expert">2. Structure d'un prompt expert</h2>
+<h3 id="ordre-recommande-des-elements">Ordre recommandé des éléments</h3>
+<pre class="codehilite"><code>1. Rôle / identité (une phrase)
+2. Contexte général et motivation
+3. Documents / données de référence  ← toujours avant la requête
+4. Instructions détaillées et règles
+5. Exemples (few-shot)
+6. Format de sortie
+7. Requête / input utilisateur       ← toujours en dernier
+</code></pre>
+
+<blockquote>
+<p><strong>Important :</strong> Pour les contextes longs (&gt; 20 000 tokens), placer les documents <em>avant</em> la requête améliore les performances jusqu'à <strong>+30 %</strong>.</p>
+</blockquote>
+<h3 id="squelette-de-system-prompt">Squelette de system prompt</h3>
+<pre class="codehilite"><code class="language-xml">You are [RÔLE EN UNE PHRASE].
+
+&lt;context&gt;
+[Contexte, motivation, audience cible]
+&lt;/context&gt;
+
+&lt;instructions&gt;
+1. [Règle 1]
+2. [Règle 2]
+3. [Règle 3]
+&lt;/instructions&gt;
+
+&lt;output_format&gt;
+[Description précise du format attendu]
+&lt;/output_format&gt;
+
+&lt;examples&gt;
+  &lt;example&gt;
+    &lt;input&gt;[Exemple d'entrée]&lt;/input&gt;
+    &lt;output&gt;[Exemple de sortie idéale]&lt;/output&gt;
+  &lt;/example&gt;
+&lt;/examples&gt;
+
+If you are not certain about any fact, say so explicitly. Do not guess.
+</code></pre>
+
+<h3 id="squelette-de-user-prompt-template">Squelette de user prompt (template)</h3>
+<pre class="codehilite"><code class="language-xml">&lt;input&gt;
+{{USER_INPUT}}
+&lt;/input&gt;
+
+[Instruction principale]
+</code></pre>
+
+<hr />
+<h2 id="3-techniques-essentielles">3. Techniques essentielles</h2>
+<h3 id="31-xml-tags-structure-semantique">3.1 XML Tags — structure sémantique</h3>
+<p>Claude est <strong>XML-natif</strong> : les balises sont des conteneurs sémantiques, pas du formatage.</p>
+<pre class="codehilite"><code class="language-xml">&lt;instructions&gt;Résume ce document en 3 points.&lt;/instructions&gt;
+
+&lt;document&gt;
+{{DOCUMENT}}
+&lt;/document&gt;
+</code></pre>
+
+<p>Balises recommandées : <code>&lt;instructions&gt;</code>, <code>&lt;context&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;output&gt;</code>, <code>&lt;examples&gt;</code>, <code>&lt;thinking&gt;</code>, <code>&lt;document&gt;</code>, <code>&lt;constraints&gt;</code>, <code>&lt;format&gt;</code>.</p>
+<h3 id="32-role-cible">3.2 Rôle ciblé</h3>
+<p>Une seule phrase suffit. Évite les personas trop élaborés.</p>
+<pre class="codehilite"><code>You are a senior Python engineer specializing in performance optimization.
+</code></pre>
+
+<p>Au lieu d'un rôle rigide, décris la <strong>perspective</strong> souhaitée :</p>
+<pre class="codehilite"><code>Analyze this architecture from a security-first perspective, prioritizing threat modeling over feature delivery.
+</code></pre>
+
+<h3 id="33-few-shot-35-exemples">3.3 Few-shot (3–5 exemples)</h3>
+<p>Les exemples sont plus fiables que les descriptions abstraites pour ancrer le format et le style.</p>
+<pre class="codehilite"><code class="language-xml">&lt;examples&gt;
+  &lt;example&gt;
+    &lt;input&gt;Résume : &quot;L'apprentissage automatique révolutionne...&quot;&lt;/input&gt;
+    &lt;output&gt;L'IA transforme l'industrie en automatisant des tâches complexes.&lt;/output&gt;
+  &lt;/example&gt;
+  &lt;example&gt;
+    &lt;input&gt;Résume : &quot;La blockchain offre une transparence...&quot;&lt;/input&gt;
+    &lt;output&gt;La blockchain garantit la traçabilité sans intermédiaire de confiance.&lt;/output&gt;
+  &lt;/example&gt;
+&lt;/examples&gt;
+</code></pre>
+
+<p><strong>Règles :</strong> pertinents (proches du cas réel), diversifiés (couvrent les cas limites), structurés (balises <code>&lt;example&gt;</code>).</p>
+<h3 id="34-permission-dincertitude">3.4 Permission d'incertitude</h3>
+<p>Réduit drastiquement les hallucinations.</p>
+<pre class="codehilite"><code>If you are not certain about any fact, explicitly state your uncertainty level
+(high / medium / low confidence) rather than presenting assumptions as facts.
+</code></pre>
+
+<h3 id="35-criteres-de-succes-verifiables">3.5 Critères de succès vérifiables</h3>
+<p>Claude doit pouvoir évaluer sa propre réponse.</p>
+<pre class="codehilite"><code>A successful response:
+- Is under 200 words
+- Contains exactly 3 actionable recommendations
+- Cites at least one specific metric
+- Uses no jargon unfamiliar to a non-technical executive
+</code></pre>
+
+<hr />
+<h2 id="4-controle-du-format-de-sortie">4. Contrôle du format de sortie</h2>
+<h3 id="dire-quoi-faire-pas-quoi-eviter">Dire quoi faire (pas quoi éviter)</h3>
+<table>
+<thead>
+<tr>
+<th>❌ Moins efficace</th>
+<th>✅ Plus efficace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Do not use markdown</code></td>
+<td><code>Write in smoothly flowing prose paragraphs</code></td>
+</tr>
+<tr>
+<td><code>Don't use bullet points</code></td>
+<td><code>Present ideas as connected sentences within paragraphs</code></td>
+</tr>
+<tr>
+<td><code>No long responses</code></td>
+<td><code>Limit your response to 150 words</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="format-json-avec-schema">Format JSON avec schéma</h3>
+<pre class="codehilite"><code>Return your analysis as valid JSON matching this schema exactly:
+{
+  &quot;summary&quot;: string,         // 1-2 sentences
+  &quot;confidence&quot;: &quot;high&quot; | &quot;medium&quot; | &quot;low&quot;,
+  &quot;recommendations&quot;: string[], // exactly 3 items
+  &quot;caveats&quot;: string | null
+}
+</code></pre>
+
+<h3 id="supprimer-les-preambules">Supprimer les préambules</h3>
+<pre class="codehilite"><code>Respond directly without preamble.
+Do not start with phrases like &quot;Here is...&quot;, &quot;Based on...&quot;, &quot;Certainly!&quot;.
+</code></pre>
+
+<h3 id="prose-sans-markdown-excessif">Prose sans markdown excessif</h3>
+<pre class="codehilite"><code class="language-xml">&lt;avoid_excessive_markdown&gt;
+Write in clear, flowing prose using complete paragraphs. Reserve markdown only
+for `inline code`, code blocks, and top-level headings (##). Do not use
+**bold**, *italics*, or bullet lists unless the content is genuinely enumerable.
+&lt;/avoid_excessive_markdown&gt;
+</code></pre>
+
+<hr />
+<h2 id="5-raisonnement-et-thinking">5. Raisonnement et Thinking</h2>
+<h3 id="chain-of-thought-cot">Chain-of-Thought (CoT)</h3>
+<p>Pour les tâches complexes (analyse, code, math, décisions multi-critères) :</p>
+<pre class="codehilite"><code>Before providing your answer, work through the problem step by step
+in &lt;thinking&gt; tags. Show your reasoning, then give your final answer
+outside the tags.
+</code></pre>
+
+<p>Dans les exemples few-shot, inclure le raisonnement dans <code>&lt;thinking&gt;</code> pour enseigner le pattern.</p>
+<h3 id="thinking-adaptatif-opus-46-sonnet-46">Thinking adaptatif (Opus 4.6 / Sonnet 4.6)</h3>
+<pre class="codehilite"><code class="language-python">client.messages.create(
+    model=&quot;claude-opus-4-6&quot;,
+    thinking={&quot;type&quot;: &quot;adaptive&quot;},
+    output_config={&quot;effort&quot;: &quot;high&quot;},  # low | medium | high | max
+    max_tokens=64000,
+    messages=[...]
+)
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th>Effort</th>
+<th>Usage recommandé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>low</code></td>
+<td>Tâches simples, haute fréquence, latence sensible</td>
+</tr>
+<tr>
+<td><code>medium</code></td>
+<td>La plupart des cas (défaut conseillé)</td>
+</tr>
+<tr>
+<td><code>high</code></td>
+<td>Code complexe, analyse approfondie, agents</td>
+</tr>
+<tr>
+<td><code>max</code></td>
+<td>Opus 4.6 uniquement — problèmes très longs, recherche</td>
+</tr>
+</tbody>
+</table>
+<h3 id="auto-verification">Auto-vérification</h3>
+<pre class="codehilite"><code>Before finalizing your response, verify it against these criteria:
+- [ ] Does it answer the exact question asked?
+- [ ] Are all claims grounded in the provided context?
+- [ ] Does it respect the required format?
+</code></pre>
+
+<h3 id="activer-le-thinking-etendu-dans-un-skill">Activer le thinking étendu dans un skill</h3>
+<p>Inclure le mot <code>ultrathink</code> n'importe où dans le contenu du skill.</p>
+<h3 id="eviter-la-sur-reflexion">Éviter la sur-réflexion</h3>
+<pre class="codehilite"><code>Choose an approach and commit to it. Avoid revisiting decisions unless
+you encounter new information that directly contradicts your reasoning.
+</code></pre>
+
+<hr />
+<h2 id="6-utilisation-des-outils">6. Utilisation des outils</h2>
+<h3 id="framing-imperatif">Framing impératif</h3>
+<pre class="codehilite"><code># ❌
+Can you suggest some changes to this function?
+
+# ✅
+Refactor this function to reduce its cyclomatic complexity.
+</code></pre>
+
+<h3 id="appels-paralleles">Appels parallèles</h3>
+<pre class="codehilite"><code class="language-xml">&lt;use_parallel_tool_calls&gt;
+If you intend to call multiple tools and there are no dependencies between
+them, make all independent calls in parallel. Never use placeholders or guess
+missing parameters.
+&lt;/use_parallel_tool_calls&gt;
+</code></pre>
+
+<h3 id="comportement-proactif-vs-conservateur">Comportement proactif vs conservateur</h3>
+<p><strong>Proactif (implémente par défaut) :</strong></p>
+<pre class="codehilite"><code class="language-xml">&lt;default_to_action&gt;
+Implement changes rather than only suggesting them. If intent is unclear,
+infer the most useful action and proceed, using tools to discover missing details.
+&lt;/default_to_action&gt;
+</code></pre>
+
+<p><strong>Conservateur (propose avant d'agir) :</strong></p>
+<pre class="codehilite"><code class="language-xml">&lt;do_not_act_before_instructions&gt;
+Do not modify files unless explicitly instructed. Default to research,
+analysis, and recommendations. Only implement when the user explicitly requests it.
+&lt;/do_not_act_before_instructions&gt;
+</code></pre>
+
+<hr />
+<h2 id="7-systemes-agentiques">7. Systèmes agentiques</h2>
+<h3 id="gestion-du-contexte-long-multi-fenetres">Gestion du contexte long (multi-fenêtres)</h3>
+<pre class="codehilite"><code>Your context window will be automatically compacted as it approaches its limit.
+Do not stop tasks early due to token budget concerns. As you approach the limit,
+save your current progress and state to memory before the context refreshes.
+Always be as persistent and autonomous as possible.
+</code></pre>
+
+<h3 id="actions-reversibles-vs-irreversibles">Actions réversibles vs irréversibles</h3>
+<pre class="codehilite"><code>Consider the reversibility of each action before proceeding:
+- Local, reversible actions (editing files, running tests): proceed freely
+- Hard-to-reverse actions (git push --force, deleting files, external posts):
+  ask for confirmation first
+</code></pre>
+
+<h3 id="eviter-la-sur-ingenierie">Éviter la sur-ingénierie</h3>
+<pre class="codehilite"><code class="language-xml">&lt;minimal_scope&gt;
+Only make changes directly requested or clearly necessary. Do not:
+- Add features beyond what was asked
+- Refactor surrounding code during a bug fix
+- Add docstrings/comments to code you didn't change
+- Create helpers for one-time operations
+- Design for hypothetical future requirements
+&lt;/minimal_scope&gt;
+</code></pre>
+
+<h3 id="suivi-detat-structure">Suivi d'état structuré</h3>
+<pre class="codehilite"><code class="language-json">// tests.json — format structuré pour les états machine
+{
+  &quot;tests&quot;: [
+    {&quot;id&quot;: 1, &quot;name&quot;: &quot;auth_flow&quot;, &quot;status&quot;: &quot;passing&quot;},
+    {&quot;id&quot;: 2, &quot;name&quot;: &quot;user_api&quot;, &quot;status&quot;: &quot;failing&quot;}
+  ],
+  &quot;summary&quot;: {&quot;total&quot;: 2, &quot;passing&quot;: 1, &quot;failing&quot;: 1}
+}
+</code></pre>
+
+<pre class="codehilite"><code>// progress.txt — format libre pour les notes de progression
+Session 3: Fixed auth token validation. Next: investigate user_api failure.
+</code></pre>
+
+<hr />
+<h2 id="8-techniques-avancees">8. Techniques avancées</h2>
+<h3 id="meta-prompting">Meta-prompting</h3>
+<p>Utiliser Claude pour améliorer ses propres prompts.</p>
+<pre class="codehilite"><code>Here is a prompt draft I've written:
+&lt;draft_prompt&gt;
+{{PROMPT}}
+&lt;/draft_prompt&gt;
+
+Analyze this prompt and:
+1. Identify any ambiguities or missing constraints
+2. Flag potential failure modes
+3. Produce an improved version
+</code></pre>
+
+<h3 id="prompt-chaining">Prompt chaining</h3>
+<p>Décomposer une tâche complexe en appels API séquentiels.</p>
+<pre class="codehilite"><code>Appel 1 → Génération du draft
+Appel 2 → Révision critique contre critères
+Appel 3 → Raffinement basé sur la critique
+</code></pre>
+
+<p>Utile quand la visibilité des étapes intermédiaires est requise.</p>
+<h3 id="confidence-calibree">Confidence calibrée</h3>
+<pre class="codehilite"><code>For each factual claim, indicate your confidence:
+- HIGH: well-established fact you are certain about
+- MEDIUM: reasonable inference with some uncertainty
+- LOW: speculation or extrapolation — flag clearly
+</code></pre>
+
+<h3 id="simulation-multi-perspectives">Simulation multi-perspectives</h3>
+<pre class="codehilite"><code>Analyze this decision from three perspectives:
+1. A security engineer focused on attack surface
+2. A product manager focused on user experience
+3. A CTO focused on technical debt
+
+Then synthesize a recommendation that balances all three views.
+</code></pre>
+
+<h3 id="rag-structuration-du-contexte-recupere">RAG — structuration du contexte récupéré</h3>
+<pre class="codehilite"><code class="language-xml">&lt;documents&gt;
+  &lt;document index=&quot;1&quot;&gt;
+    &lt;source&gt;{{SOURCE_NAME}}&lt;/source&gt;
+    &lt;document_content&gt;{{RETRIEVED_CONTENT}}&lt;/document_content&gt;
+  &lt;/document&gt;
+&lt;/documents&gt;
+
+Find quotes from the documents that are directly relevant to the question,
+place them in &lt;quotes&gt; tags, then answer based solely on those quotes.
+</code></pre>
+
+<h3 id="constitutional-prompting">Constitutional prompting</h3>
+<p>Embarquer les règles éthiques et les limites dans le system prompt :</p>
+<pre class="codehilite"><code>You are [ROLE].
+
+&lt;principles&gt;
+- Never fabricate citations, statistics, or quotes
+- If a request conflicts with user safety, decline clearly and explain why
+- Maintain user privacy: never store, repeat, or infer personal information
+- When uncertain, say so rather than presenting assumptions as facts
+&lt;/principles&gt;
+</code></pre>
+
+<hr />
+<h2 id="9-anti-patterns-a-eviter">9. Anti-patterns à éviter</h2>
+<table>
+<thead>
+<tr>
+<th>Anti-pattern</th>
+<th>Conséquence</th>
+<th>Correction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Instructions vagues (<code>be helpful</code>)</td>
+<td>Comportement imprévisible</td>
+<td>Critères de succès précis</td>
+</tr>
+<tr>
+<td>Tâches multiples dans un seul prompt</td>
+<td>Attention fragmentée</td>
+<td>Chainer les appels API</td>
+</tr>
+<tr>
+<td>Instructions négatives seules (<code>don't use X</code>)</td>
+<td>Moins fiable</td>
+<td>Formuler positivement ce qu'il faut faire</td>
+</tr>
+<tr>
+<td>Documents après la requête</td>
+<td>-30 % de performance</td>
+<td>Toujours documents → requête</td>
+</tr>
+<tr>
+<td>Pas d'exemples pour les formats complexes</td>
+<td>Format aléatoire</td>
+<td>3–5 exemples dans <code>&lt;example&gt;</code></td>
+</tr>
+<tr>
+<td>Pas de permission d'incertitude</td>
+<td>Hallucinations confiantes</td>
+<td>Ajouter la clause d'incertitude</td>
+</tr>
+<tr>
+<td>Langage outil trop agressif (<code>MUST ALWAYS</code>)</td>
+<td>Déclenchement excessif sur Opus 4.6</td>
+<td><code>Use this tool when...</code></td>
+</tr>
+<tr>
+<td>Prompt édité directement en production</td>
+<td>Régressions non détectées</td>
+<td>Dev → staging → prod avec évals</td>
+</tr>
+<tr>
+<td>Pas d'auto-vérification</td>
+<td>Erreurs non détectées</td>
+<td>Ajouter une étape de vérification finale</td>
+</tr>
+<tr>
+<td>Rôle trop élaboré</td>
+<td>Bruit, comportement instable</td>
+<td>Une phrase de rôle, pas un roman</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="10-checklists-et-templates">10. Checklists et templates</h2>
+<h3 id="checklist-avant-deploiement">Checklist avant déploiement</h3>
+<pre class="codehilite"><code>AVANT D'ÉCRIRE
+□ Les critères de succès sont définis et mesurables
+□ Le modèle optimal est choisi (Haiku / Sonnet / Opus)
+□ Le niveau d'effort est calibré (low / medium / high / max)
+
+STRUCTURE DU PROMPT
+□ Rôle défini en une phrase
+□ XML tags utilisés pour séparer les sections
+□ Documents placés avant la requête
+□ 3–5 exemples few-shot si format critique
+□ Critères de succès inclus
+□ Format de sortie précisément décrit
+□ Permission d'incertitude ajoutée
+□ Auto-vérification finale demandée
+
+AVANT PRODUCTION
+□ Testé sur 5+ cas représentatifs (dont cas limites)
+□ Cas d'hallucination potentiels identifiés et couverts
+□ Version trackée (git / système de versioning)
+□ Évaluation quantitative définie
+</code></pre>
+
+<h3 id="template-universel">Template universel</h3>
+<pre class="codehilite"><code class="language-xml">&lt;!-- SYSTEM PROMPT --&gt;
+You are [RÔLE EN UNE PHRASE].
+
+&lt;context&gt;
+[Contexte, audience, enjeux]
+&lt;/context&gt;
+
+&lt;instructions&gt;
+1. [Règle principale]
+2. [Contraintes clés]
+3. [Comportement face à l'incertitude]
+&lt;/instructions&gt;
+
+&lt;output_format&gt;
+[Format exact attendu : JSON / Markdown / prose / longueur / langue]
+&lt;/output_format&gt;
+
+&lt;examples&gt;
+  &lt;example&gt;
+    &lt;input&gt;[Input type]&lt;/input&gt;
+    &lt;output&gt;[Output idéal]&lt;/output&gt;
+  &lt;/example&gt;
+&lt;/examples&gt;
+
+If you are not certain, say so explicitly. Do not guess.
+Before finalizing, verify your response against the output format requirements.
+
+&lt;!-- USER PROMPT --&gt;
+&lt;input&gt;
+{{USER_INPUT}}
+&lt;/input&gt;
+
+[Instruction principale — toujours en dernier]
+</code></pre>
+
+<h3 id="parametres-api-recommandes-par-cas-dusage">Paramètres API recommandés par cas d'usage</h3>
+<table>
+<thead>
+<tr>
+<th>Cas d'usage</th>
+<th>Modèle</th>
+<th>Effort</th>
+<th>Thinking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Classification, extraction simple</td>
+<td>Haiku 4.5</td>
+<td>low</td>
+<td>disabled</td>
+</tr>
+<tr>
+<td>Rédaction, résumé, Q&amp;A</td>
+<td>Sonnet 4.6</td>
+<td>medium</td>
+<td>disabled</td>
+</tr>
+<tr>
+<td>Code, analyse technique</td>
+<td>Sonnet 4.6</td>
+<td>medium</td>
+<td>adaptive</td>
+</tr>
+<tr>
+<td>Agent autonome multi-étapes</td>
+<td>Opus 4.6</td>
+<td>high</td>
+<td>adaptive</td>
+</tr>
+<tr>
+<td>Recherche longue, migration complexe</td>
+<td>Opus 4.6</td>
+<td>max</td>
+<td>adaptive</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="references">Références</h2>
+<ul>
+<li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices">Anthropic — Prompting Best Practices (officiel)</a></li>
+<li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview">Anthropic — Prompt Engineering Overview</a></li>
+<li><a href="https://github.com/anthropics/prompt-eng-interactive-tutorial">Anthropic — Interactive Tutorial (GitHub)</a></li>
+<li><a href="https://code.claude.com/docs/en/skills">Claude Code Skills Documentation</a></li>
+<li><a href="https://www.promptingguide.ai/techniques">Prompting Guide — Techniques</a></li>
+<li><a href="https://www.lakera.ai/blog/prompt-engineering-guide">Lakera — Ultimate Guide to Prompt Engineering 2026</a></li>
+</ul>
+</body>
+</html>

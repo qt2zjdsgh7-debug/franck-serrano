@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skill — expert-prompt (Claude Code)</title>
+  
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.7;
+    color: #1a1a2e;
+    background: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 60px;
+  }
+
+  h1 {
+    font-size: 26pt;
+    font-weight: 700;
+    color: #0f3460;
+    border-bottom: 3px solid #0f3460;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #16213e;
+    border-left: 4px solid #e94560;
+    padding-left: 14px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    font-size: 13pt;
+    font-weight: 600;
+    color: #0f3460;
+    margin-top: 28px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #533483;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  p {
+    margin-bottom: 12px;
+    color: #2d2d44;
+  }
+
+  blockquote {
+    background: #f0f4ff;
+    border-left: 4px solid #0f3460;
+    padding: 12px 18px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+    color: #3a3a5c;
+  }
+
+  blockquote strong {
+    font-style: normal;
+  }
+
+  code {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 9pt;
+    background: #f5f5f5;
+    color: #c7254e;
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+
+  pre {
+    background: #1e1e2e;
+    color: #cdd6f4;
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin: 16px 0;
+    overflow-x: auto;
+    line-height: 1.5;
+  }
+
+  pre code {
+    background: none;
+    color: #cdd6f4;
+    padding: 0;
+    font-size: 9pt;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 10pt;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  thead tr {
+    background: #0f3460;
+    color: #ffffff;
+  }
+
+  thead th {
+    padding: 10px 16px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  tbody tr:nth-child(even) {
+    background: #f7f9ff;
+  }
+
+  tbody tr:nth-child(odd) {
+    background: #ffffff;
+  }
+
+  tbody td {
+    padding: 9px 16px;
+    border-bottom: 1px solid #e8eaf6;
+    color: #2d2d44;
+  }
+
+  ul, ol {
+    padding-left: 24px;
+    margin-bottom: 12px;
+    color: #2d2d44;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #e8eaf6;
+    margin: 32px 0;
+  }
+
+  strong { color: #0f3460; }
+
+  a { color: #e94560; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .toc {
+    background: #f7f9ff;
+    border: 1px solid #dde4f5;
+    border-radius: 8px;
+    padding: 20px 28px;
+    margin-bottom: 36px;
+  }
+
+  .toc p { font-weight: 700; color: #0f3460; margin-bottom: 10px; font-size: 12pt; }
+  .toc ol { margin: 0; }
+  .toc li { margin-bottom: 4px; }
+
+  .cover {
+    text-align: center;
+    padding: 60px 0 40px 0;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e8eaf6;
+  }
+
+  .cover .subtitle {
+    font-size: 13pt;
+    color: #6b7280;
+    margin-top: 10px;
+  }
+
+  .cover .badge {
+    display: inline-block;
+    background: #0f3460;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 9pt;
+    margin-top: 16px;
+    font-weight: 500;
+  }
+</style>
+
+</head>
+<body>
+<hr />
+<p>name: expert-prompt<br />
+description: Craft an expert-level prompt for Claude from scratch or improve an existing one. Use when the user wants to write, create, design, or improve a prompt. Activates automatically when the request mentions "prompt", "system prompt", or asks to "craft instructions for Claude".<br />
+argument-hint: <task description or existing prompt to improve><br />
+effort: high</p>
+<hr />
+<p>Tu es un expert en ingénierie de prompts pour Claude (Anthropic). Ta mission est de produire un prompt de niveau expert, prêt pour la production, pour la tâche décrite ci-dessous.</p>
+<p><task><br />
+$ARGUMENTS<br />
+</task></p>
+<hr />
+<h2 id="processus-de-construction-du-prompt-expert">Processus de construction du prompt expert</h2>
+<p>Suis ces étapes dans l'ordre. Raisonne à voix haute dans des blocs <code>&lt;thinking&gt;</code> avant chaque section clé.</p>
+<h3 id="etape-1-analyse-de-la-tache">Étape 1 — Analyse de la tâche</h3>
+<p><thinking><br />
+Analyse la tâche :<br />
+- Quel est l'objectif final et les critères de succès mesurables ?<br />
+- Quel modèle Claude est le plus adapté (Haiku 4.5 pour la vitesse/coût, Sonnet 4.6 pour l'équilibre, Opus 4.6 pour la complexité maximale) ?<br />
+- Faut-il un system prompt + user prompt, ou juste un user prompt ?<br />
+- Quels risques d'ambiguïté, d'hallucination ou de format incorrect ?<br />
+- Faut-il des exemples few-shot ? Du chain-of-thought ? Des outils ?<br />
+- Quel niveau d'effort (low / medium / high / max) ?<br />
+</thinking></p>
+<p>Présente ton analyse sous cette forme :</p>
+<pre class="codehilite"><code>ANALYSE
+-------
+Objectif          : [une phrase précise]
+Modèle conseillé  : [modèle + justification]
+Type de prompt    : [system+user / user seul / chaîne de prompts]
+Risques principaux: [liste]
+Techniques retenues: [XML tags / few-shot / CoT / rôle / thinking / outils / ...]
+Effort suggéré    : [low | medium | high | max]
+</code></pre>
+
+<hr />
+<h3 id="etape-2-construction-du-prompt">Étape 2 — Construction du prompt</h3>
+<p>Produis le prompt complet en respectant les règles ci-dessous.</p>
+<h4 id="regles-fondamentales-toujours-appliquer">Règles fondamentales (toujours appliquer)</h4>
+<ol>
+<li>
+<p><strong>Contrat explicite</strong> — Commence le system prompt par l'identité, les règles non-négociables et le format de sortie attendu. Claude interprète le system prompt comme un contrat.</p>
+</li>
+<li>
+<p><strong>Clarté &gt; longueur</strong> — Préfère une instruction claire et courte à une instruction longue et vague. Règle d'or : un collègue sans contexte doit pouvoir suivre le prompt sans confusion.</p>
+</li>
+<li>
+<p><strong>XML pour structurer</strong> — Utilise des balises XML sémantiques pour séparer les sections (<code>&lt;instructions&gt;</code>, <code>&lt;context&gt;</code>, <code>&lt;examples&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;output_format&gt;</code>). Claude est XML-natif.</p>
+</li>
+<li>
+<p><strong>Rôle ciblé</strong> — Une seule phrase de rôle dans le system prompt suffit. Évite le role-prompting excessif ; préfère décrire la perspective souhaitée.</p>
+</li>
+<li>
+<p><strong>Exemples few-shot</strong> — Si le format ou le style est critique, fournis 3 à 5 exemples dans des balises <code>&lt;example&gt;</code> (ou <code>&lt;examples&gt;</code>). Les exemples priment sur les longues descriptions.</p>
+</li>
+<li>
+<p><strong>Chain-of-thought</strong> — Pour les tâches complexes, demande explicitement un raisonnement intermédiaire (<code>&lt;thinking&gt;</code> interne) avant la réponse finale. Utilise "ultrathink" pour activer le thinking étendu si nécessaire.</p>
+</li>
+<li>
+<p><strong>Critères de succès</strong> — Inclus des conditions de réussite vérifiables. Claude doit savoir <em>comment</em> évaluer sa propre réponse.</p>
+</li>
+<li>
+<p><strong>Permission d'incertitude</strong> — Ajoute explicitement : <em>"Si tu n'es pas certain, dis-le clairement. Ne devine pas."</em> Réduit les hallucinations.</p>
+</li>
+<li>
+<p><strong>Format de sortie précis</strong> — Décris le format attendu (JSON, Markdown, prose, longueur max, langue). Si JSON, fournis le schéma.</p>
+</li>
+<li>
+<p><strong>Contexte en tête, requête en bas</strong> — Pour les longs documents, place les données en haut et la question/instruction en bas (améliore les performances jusqu'à +30 %).</p>
+</li>
+</ol>
+<h4 id="regles-avancees-appliquer-si-pertinent">Règles avancées (appliquer si pertinent)</h4>
+<ul>
+<li><strong>Délégation de résultat</strong> — Définis les critères de succès, pas les étapes. Laisse Claude choisir son approche.</li>
+<li><strong>Appels parallèles</strong> — Si des outils sont impliqués, instruis Claude d'appeler les outils indépendants en parallèle.</li>
+<li><strong>Chaînage de prompts</strong> — Pour les pipelines multi-étapes, sépare les appels API : génération → révision → raffinement.</li>
+<li><strong>Contexte dynamique</strong> — Pour les skills Claude Code, utilise <code>!`commande shell`</code> pour injecter du contexte live.</li>
+<li><strong>Thinking adaptatif</strong> — Pour Opus 4.6/Sonnet 4.6, spécifie <code>thinking: {type: "adaptive"}</code> + paramètre <code>effort</code> dans l'API si pertinent.</li>
+<li><strong>Auto-vérification</strong> — Ajoute : <em>"Avant de finaliser, vérifie ta réponse par rapport aux critères suivants : [liste]."</em></li>
+</ul>
+<hr />
+<h3 id="etape-3-livraison-du-prompt">Étape 3 — Livraison du prompt</h3>
+<p>Présente le prompt dans ce format :</p>
+<pre class="codehilite"><code>═══════════════════════════════════════════════════════════
+PROMPT EXPERT — [NOM COURT DE LA TÂCHE]
+═══════════════════════════════════════════════════════════
+
+📋 PARAMÈTRES API RECOMMANDÉS
+  Modèle  : [ex: claude-opus-4-6]
+  Effort  : [low | medium | high | max]
+  Thinking: [disabled | adaptive | enabled + budget_tokens]
+  Max tokens: [valeur]
+
+─────────────────────────────────────────────────────────
+SYSTEM PROMPT
+─────────────────────────────────────────────────────────
+[system prompt complet ici]
+
+─────────────────────────────────────────────────────────
+USER PROMPT (template)
+─────────────────────────────────────────────────────────
+[user prompt avec variables {{PLACEHOLDER}} si nécessaire]
+
+═══════════════════════════════════════════════════════════
+</code></pre>
+
+<hr />
+<h3 id="etape-4-justification-alternatives">Étape 4 — Justification &amp; alternatives</h3>
+<p>Après le prompt, fournis :</p>
+<p><strong>Choix techniques</strong> — Explique brièvement pourquoi chaque technique a été retenue (ou écartée).</p>
+<p><strong>Anti-patterns évités</strong> — Liste les erreurs que ce prompt évite (hallucinations, format incorrect, refus inutiles, verbosité excessive, etc.).</p>
+<p><strong>Variantes</strong> — Propose 1 à 2 versions alternatives si le contexte d'usage change (ex : version allégée pour production haute fréquence, version avec outils).</p>
+<p><strong>Test rapide</strong> — Suggère 2 à 3 cas de test représentatifs (dont au moins un cas limite) pour valider le prompt.</p>
+<hr />
+<h2 id="reference-rapide-des-techniques">Référence rapide des techniques</h2>
+<table>
+<thead>
+<tr>
+<th>Technique</th>
+<th>Quand l'utiliser</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XML tags (<code>&lt;instructions&gt;</code>, <code>&lt;context&gt;</code>…)</td>
+<td>Toujours — sépare les sections du prompt</td>
+</tr>
+<tr>
+<td>Rôle en une phrase</td>
+<td>Toujours — ancre le comportement de Claude</td>
+</tr>
+<tr>
+<td>Few-shot (3-5 exemples)</td>
+<td>Format/style critique, tâches créatives</td>
+</tr>
+<tr>
+<td>Chain-of-thought / <code>&lt;thinking&gt;</code></td>
+<td>Raisonnement multi-étapes, math, code</td>
+</tr>
+<tr>
+<td>Critères de succès explicites</td>
+<td>Tâches évaluables, agents autonomes</td>
+</tr>
+<tr>
+<td>Permission d'incertitude</td>
+<td>Données factuelles, domaines spécialisés</td>
+</tr>
+<tr>
+<td>Données en haut, requête en bas</td>
+<td>Contextes &gt; 20k tokens</td>
+</tr>
+<tr>
+<td>Appels outils en parallèle</td>
+<td>Recherche, lecture de fichiers multiples</td>
+</tr>
+<tr>
+<td>Thinking adaptatif (<code>effort</code>)</td>
+<td>Opus 4.6 / Sonnet 4.6, tâches complexes</td>
+</tr>
+<tr>
+<td>Délégation de résultat</td>
+<td>Agents autonomes, tâches longues</td>
+</tr>
+<tr>
+<td>Auto-vérification finale</td>
+<td>Code, calculs, décisions critiques</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
