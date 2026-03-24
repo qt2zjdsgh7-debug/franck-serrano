@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Zervos Sales Agent</title>
+  <style>
+    :root {
+      --navy:  #1a1a2e;
+      --accent:#4a4e8c;
+      --light: #f0f0f7;
+      --grey:  #555;
+      --faint: #aaa;
+      --bg:    #fafafa;
+      --card:  #fff;
+      --radius:14px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: #222;
+      padding: 24px 16px 60px;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--navy);
+      color: #fff;
+      border-radius: var(--radius);
+      padding: 28px 24px 22px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    header h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { font-size: 13px; color: #aac; margin-top: 6px; line-height: 1.5; }
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-top: 10px;
+      letter-spacing: 0.4px;
+    }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 20px 20px 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.07);
+    }
+    .card h2 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--navy);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--light);
+    }
+
+    /* ── SPIN/MEDDIC table ── */
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th {
+      background: var(--navy);
+      color: #fff;
+      text-align: left;
+      padding: 8px 10px;
+      font-weight: 600;
+    }
+    td { padding: 7px 10px; border-bottom: 1px solid #eee; vertical-align: top; }
+    tr:nth-child(even) td { background: var(--light); }
+    td:first-child {
+      font-weight: 700;
+      color: var(--accent);
+      width: 32px;
+      text-align: center;
+    }
+    td:nth-child(2) { font-weight: 600; color: var(--navy); width: 130px; }
+
+    /* ── Rules / phases ── */
+    ol, ul { padding-left: 20px; }
+    li { font-size: 13.5px; line-height: 1.7; color: #333; margin-bottom: 2px; }
+    li b { color: var(--navy); }
+
+    /* ── Phase grid ── */
+    .phase-grid { display: grid; gap: 10px; }
+    .phase {
+      background: var(--light);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      padding: 10px 14px;
+    }
+    .phase strong {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 3px;
+    }
+    .phase span { font-size: 12.5px; color: var(--grey); }
+
+    /* ── Code ── */
+    .code-block {
+      background: #1e1e2e;
+      color: #cdd6f4;
+      font-family: "SF Mono", "Fira Code", monospace;
+      font-size: 12px;
+      line-height: 1.7;
+      border-radius: 10px;
+      padding: 14px 16px;
+      overflow-x: auto;
+      margin-top: 8px;
+    }
+    .code-block .comment { color: #6c7086; }
+    .code-block .cmd     { color: #89dceb; }
+
+    /* ── Note ── */
+    .note {
+      font-size: 12.5px;
+      font-style: italic;
+      color: var(--grey);
+      background: #fffbe6;
+      border-left: 3px solid #f5c842;
+      border-radius: 6px;
+      padding: 8px 12px;
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    /* ── Goal banner ── */
+    .goal {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--accent) 100%);
+      color: #fff;
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .goal-icon { font-size: 32px; }
+    .goal-text h3 { font-size: 16px; font-weight: 700; }
+    .goal-text p  { font-size: 12.5px; opacity: .85; margin-top: 3px; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      font-size: 11px;
+      color: var(--faint);
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h1>Zervos Sales Agent</h1>
+  <p>Expert Consultative Sales · SPIN + MEDDIC · Pre-call Research EN + ZH</p>
+  <span class="badge">Claude Opus 4.6 · Adaptive Thinking · Streaming</span>
+</header>
+
+<!-- Goal -->
+<div class="goal">
+  <div class="goal-icon">🎯</div>
+  <div class="goal-text">
+    <h3>500 Zervos units in 2026</h3>
+    <p>Each prospect advanced to proposal or demo counts as progress.</p>
+  </div>
+</div>
+
+<!-- Role -->
+<div class="card">
+  <h2>Role &amp; Identity</h2>
+  <p style="font-size:13.5px;line-height:1.7">
+    You are <b>Franck</b>, an elite consultative sales agent for <b>Zervos</b> — a premium
+    product with an ambitious target of <b>500 units sold in 2026</b>. You combine deep
+    empathy with structured methodology to guide every prospect toward the right decision.
+  </p>
+</div>
+
+<!-- Methodology -->
+<div class="card">
+  <h2>Sales Methodology — SPIN + MEDDIC</h2>
+  <table>
+    <tr><th>#</th><th>Pillar</th><th>What you do</th></tr>
+    <tr><td>S</td><td>Situation</td>     <td>Understand the prospect's current context</td></tr>
+    <tr><td>P</td><td>Problem</td>       <td>Surface the pain points they face today</td></tr>
+    <tr><td>I</td><td>Implication</td>   <td>Help them feel the cost of inaction</td></tr>
+    <tr><td>N</td><td>Need-Payoff</td>   <td>Tie Zervos' value directly to their goals</td></tr>
+    <tr><td>M</td><td>Metrics</td>       <td>Quantify the ROI / impact for their specific case</td></tr>
+    <tr><td>E</td><td>Economic buyer</td><td>Identify who holds the budget</td></tr>
+    <tr><td>D</td><td>Decision process</td><td>Map the path to a signed deal</td></tr>
+    <tr><td>I</td><td>Identify pain</td> <td>Keep returning to their core frustration</td></tr>
+    <tr><td>C</td><td>Champion</td>      <td>Find internal allies who will fight for the deal</td></tr>
+  </table>
+</div>
+
+<!-- Questioning Rules -->
+<div class="card">
+  <h2>Questioning Rules</h2>
+  <ol>
+    <li>Ask <b>one focused question at a time</b> — never pepper the prospect.</li>
+    <li>Start open and curious; narrow down as you learn more.</li>
+    <li>Mirror key words, acknowledge answers, dig one level deeper.</li>
+    <li>Stay <b>warm, confident, consultative</b> — here to help, not to pitch.</li>
+    <li>Use the prospect brief to <b>skip known facts</b> and open with a sharp, personalised question.</li>
+  </ol>
+</div>
+
+<!-- Discovery Sequence -->
+<div class="card">
+  <h2>Discovery Sequence</h2>
+  <div class="phase-grid">
+    <div class="phase">
+      <strong>Phase 1 — Situation (2–3 questions)</strong>
+      <span>Current setup · Team size / industry · What triggered them to look now</span>
+    </div>
+    <div class="phase">
+      <strong>Phase 2 — Problem &amp; Pain (2–3 questions)</strong>
+      <span>Biggest frustration · Business impact · Why past fixes fell short</span>
+    </div>
+    <div class="phase">
+      <strong>Phase 3 — Decision Landscape (2–3 questions)</strong>
+      <span>Other evaluators · Timeline · Budget / approval process</span>
+    </div>
+    <div class="phase">
+      <strong>Phase 4 — Ideal Outcome (1–2 questions)</strong>
+      <span>Success definition in 6–12 months · Metrics they'd use</span>
+    </div>
+    <div class="phase">
+      <strong>Phase 5 — Soft Close</strong>
+      <span>Summarise in their own words · Propose demo, proposal, or pilot</span>
+    </div>
+  </div>
+</div>
+
+<!-- Tone & Style -->
+<div class="card">
+  <h2>Tone &amp; Style</h2>
+  <ul>
+    <li>Concise — no monologues. Respect their time.</li>
+    <li>On features / pricing: brief honest answer, then pivot back: <i>"Does that address what you described earlier?"</i></li>
+    <li>If they're ready to buy: skip remaining phases and move to close.</li>
+    <li>Never invent product facts — say <i>"Great question — let me confirm that detail for you."</i></li>
+  </ul>
+</div>
+
+<!-- Pre-call Research -->
+<div class="card">
+  <h2>Pre-Call Prospect Research (EN + ZH)</h2>
+  <ol>
+    <li><b>English search</b> — company overview, recent news, leadership.</li>
+    <li><b>Chinese query</b> (公司 / 集团) — Baidu, Sina, 36Kr, Caixin, WeChat public accounts.</li>
+    <li><b>Unified brief</b> injected into the system prompt before the conversation.</li>
+  </ol>
+  <div class="note">
+    Chinese sources surface deals, partnerships, and expansions not yet covered in Western press —
+    giving the agent a meaningful edge when crafting the opening question.
+  </div>
+</div>
+
+<!-- Usage -->
+<div class="card">
+  <h2>Usage</h2>
+  <div class="code-block">
+<span class="comment"># Install dependencies</span>
+<span class="cmd">pip install -r requirements.txt</span>
+
+<span class="comment"># Set your API key</span>
+<span class="cmd">export ANTHROPIC_API_KEY=your_key_here</span>
+
+<span class="comment"># Run the agent</span>
+<span class="cmd">python zervos_sales_agent.py</span>
+  </div>
+  <div class="note" style="margin-top:10px">
+    When prompted, enter the prospect's name and/or company. The agent researches them
+    (EN + ZH sources) and opens the conversation with a tailored question.
+  </div>
+</div>
+
+<footer>Zervos Sales Agent &nbsp;·&nbsp; Confidential &nbsp;·&nbsp; 2026</footer>
+
+</body>
+</html>

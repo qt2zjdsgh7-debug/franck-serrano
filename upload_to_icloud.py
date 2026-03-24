@@ -13,8 +13,8 @@ from pyicloud import PyiCloudService
 from pyicloud.exceptions import PyiCloudFailedLoginException
 
 FILES = [
-    Path("zervos_sales_agent.md"),
-    Path("zervos_sales_agent_prompt.pdf"),
+    Path("zervos_sales_agent_prompt.pdf"),   # artefact 1 — PDF formaté
+    Path("zervos_sales_agent.html"),          # artefact 2 — HTML optimisé iPad
 ]
 ICLOUD_FOLDER = "Zervos"   # folder created in iCloud Drive root
 
