@@ -33,11 +33,14 @@ def fetch_youtube_transcript(video_id: str, languages: list[str]) -> list[dict] 
     """
     Tente de récupérer les sous-titres YouTube via youtube-transcript-api.
     Retourne une liste de segments ou None si indisponible.
+    Compatible avec youtube-transcript-api >= 1.0.0.
     """
     try:
-        from youtube_transcript_api import YouTubeTranscriptApi, NoTranscriptFound, TranscriptsDisabled
-        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=languages)
-        return transcript
+        from youtube_transcript_api import YouTubeTranscriptApi
+        api = YouTubeTranscriptApi()
+        fetched = api.fetch(video_id, languages=languages)
+        # FetchedTranscript est itérable, chaque élément a .text et .start
+        return [{"text": s.text, "start": s.start} for s in fetched]
     except ImportError:
         print("[!] youtube-transcript-api non installé. Lancez : pip install youtube-transcript-api")
         return None
