@@ -12,6 +12,7 @@ The following superpowers skills are installed in `~/.claude/skills/`:
 - **subagent-driven-development** — Use when executing implementation plans
 - **using-git-worktrees** — Use when starting feature work needing isolation
 - **writing-skills** — Use when creating or editing skills
+- **code-simplifier** — Use to simplify and refine code for clarity and maintainability
 
 ## Project
 
