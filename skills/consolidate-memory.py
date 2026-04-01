@@ -1,25 +1,27 @@
 #!/usr/bin/env python3
 """
-consolidate-memory skill
+consolidate-memory skill (no API key required)
 Reads the past 24hrs of Claude conversation logs from ~/.claude,
-extracts key decisions, preferences, and facts, updates memory files,
+extracts key decisions, preferences, and facts via Ollama (local LLM),
 and promotes important facts/patterns from recent → long-term memory.
+
+Requirements: pip install ollama
+Also requires Ollama running locally: https://ollama.com
+Default model: mistral (or any model pulled via `ollama pull <model>`)
 
 Usage:
     python skills/consolidate-memory.py
-    python skills/consolidate-memory.py --promote-only   # only promote recent → long-term
-    python skills/consolidate-memory.py --dry-run        # show what would change
+    python skills/consolidate-memory.py --model llama3
+    python skills/consolidate-memory.py --promote-only
+    python skills/consolidate-memory.py --dry-run
 """
 
 import argparse
 import json
-import os
 import re
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
-
-import anthropic
 
 REPO_ROOT = Path(__file__).parent.parent
 MEMORY_DIR = REPO_ROOT / "memory"
@@ -28,42 +30,32 @@ LONG_TERM_MEMORY = MEMORY_DIR / "long-term-memory.md"
 PROJECT_MEMORY = MEMORY_DIR / "project-memory.md"
 CLAUDE_LOGS_DIR = Path.home() / ".claude" / "projects"
 
-MODEL = "claude-sonnet-4-6"
+DEFAULT_MODEL = "mistral"
 
 
 def find_recent_logs(hours: int = 24) -> list[dict]:
-    """Scan ~/.claude/projects for conversation logs from the past N hours."""
     cutoff = datetime.now() - timedelta(hours=hours)
     logs = []
-
     if not CLAUDE_LOGS_DIR.exists():
-        print(f"No Claude logs directory found at {CLAUDE_LOGS_DIR}", file=sys.stderr)
         return logs
-
     for jsonl_file in CLAUDE_LOGS_DIR.rglob("*.jsonl"):
         try:
-            mtime = datetime.fromtimestamp(jsonl_file.stat().st_mtime)
-            if mtime < cutoff:
+            if datetime.fromtimestamp(jsonl_file.stat().st_mtime) < cutoff:
                 continue
             with open(jsonl_file) as f:
                 for line in f:
                     line = line.strip()
-                    if not line:
-                        continue
-                    try:
-                        entry = json.loads(line)
-                        entry["_source_file"] = str(jsonl_file)
-                        logs.append(entry)
-                    except json.JSONDecodeError:
-                        continue
+                    if line:
+                        try:
+                            logs.append(json.loads(line))
+                        except json.JSONDecodeError:
+                            pass
         except (OSError, PermissionError):
-            continue
-
+            pass
     return logs
 
 
 def extract_text_from_logs(logs: list[dict]) -> str:
-    """Pull human/assistant message text from raw log entries."""
     parts = []
     for entry in logs:
         role = entry.get("type") or entry.get("role", "")
@@ -79,62 +71,47 @@ def extract_text_from_logs(logs: list[dict]) -> str:
     return "\n".join(parts)
 
 
-def call_claude(system: str, user: str, client: anthropic.Anthropic) -> str:
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=2048,
-        system=system,
-        messages=[{"role": "user", "content": user}],
-    )
-    return response.content[0].text
+def call_ollama(prompt: str, model: str) -> str:
+    try:
+        import ollama
+        response = ollama.generate(model=model, prompt=prompt)
+        return response["response"]
+    except Exception as e:
+        print(f"  [Ollama error] {e}", file=sys.stderr)
+        print("  Is Ollama running? Start with: ollama serve", file=sys.stderr)
+        print(f"  Model pulled? Run: ollama pull {model}", file=sys.stderr)
+        return "_Ollama unavailable — install and run: https://ollama.com_"
 
 
-def consolidate_recent(logs_text: str, client: anthropic.Anthropic) -> str:
-    """Use Claude to extract a rolling 48hr context summary."""
-    system = (
-        "You are a memory consolidation assistant. Given raw Claude conversation logs, "
-        "extract: (1) Active conversations and their status, (2) Key decisions made, "
-        "(3) Pending tasks, (4) Important context notes. "
-        "Format your response as Markdown under these four headings. Be concise."
-    )
+def consolidate_recent(logs_text: str, model: str) -> str:
     if not logs_text.strip():
         return "_No conversation logs found in the past 24 hours._"
-    return call_claude(system, f"Logs:\n\n{logs_text[:8000]}", client)
-
-
-def extract_promotable_facts(recent_md: str, client: anthropic.Anthropic) -> str:
-    """Identify facts/patterns from recent memory worth promoting to long-term."""
-    system = (
-        "You are a memory curator. Given a recent-memory snapshot, identify facts, "
-        "user preferences, and confirmed patterns that are stable enough for long-term storage. "
-        "Return ONLY a Markdown bullet list (no headings). If nothing is promotable, return 'NONE'."
+    prompt = (
+        "You are a memory consolidation assistant. Given these Claude conversation logs, "
+        "extract and summarize:\n"
+        "## Active Conversations\n## Recent Decisions\n## Pending Tasks\n## Context Notes\n\n"
+        f"Logs:\n{logs_text[:6000]}\n\n"
+        "Respond with Markdown under the four headings above. Be concise."
     )
-    return call_claude(system, f"Recent memory:\n\n{recent_md}", client)
+    return call_ollama(prompt, model)
 
 
-def update_file_section(filepath: Path, section_header: str, new_content: str) -> None:
-    """Replace the content under a markdown section header."""
-    text = filepath.read_text()
-    # Match from header to next ## header or end of file
-    pattern = re.compile(
-        rf"(## {re.escape(section_header)}\n)(.*?)(\n## |\Z)", re.DOTALL
+def extract_promotable_facts(recent_md: str, model: str) -> str:
+    prompt = (
+        "Given this recent memory snapshot, list only the facts, user preferences, "
+        "and patterns stable enough for long-term storage. "
+        "Return a Markdown bullet list only, or the single word NONE.\n\n"
+        f"Recent memory:\n{recent_md[:3000]}"
     )
-    replacement = rf"\g<1>\n{new_content}\n\g<3>"
-    new_text, n = pattern.subn(replacement, text)
-    if n == 0:
-        # Section not found — append it
-        new_text = text.rstrip() + f"\n\n## {section_header}\n\n{new_content}\n"
-    filepath.write_text(new_text)
+    return call_ollama(prompt, model)
 
 
 def append_to_long_term(facts: str, filepath: Path) -> None:
-    """Append promoted facts under Confirmed Patterns in long-term memory."""
-    if facts.strip() == "NONE" or not facts.strip():
+    if facts.strip().upper() == "NONE" or not facts.strip():
         return
     timestamp = datetime.now().strftime("%Y-%m-%d")
     block = f"\n### Promoted {timestamp}\n\n{facts.strip()}\n"
     text = filepath.read_text()
-    # Insert before new_learnings section
     if "## new_learnings" in text:
         text = text.replace("## new_learnings", block + "\n## new_learnings")
     else:
@@ -150,43 +127,32 @@ def update_timestamp(filepath: Path) -> None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Consolidate Claude memory files")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model", default=DEFAULT_MODEL, help="Ollama model name")
     parser.add_argument("--promote-only", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("Error: ANTHROPIC_API_KEY not set", file=sys.stderr)
-        sys.exit(1)
-
-    client = anthropic.Anthropic(api_key=api_key)
-
     if not args.promote_only:
-        print("Scanning Claude logs (past 24h)...")
+        print(f"Scanning Claude logs (past 24h)...")
         logs = find_recent_logs(hours=24)
         print(f"Found {len(logs)} log entries")
         logs_text = extract_text_from_logs(logs)
 
-        print("Generating recent memory summary...")
-        recent_summary = consolidate_recent(logs_text, client)
+        print(f"Generating recent memory summary (model: {args.model})...")
+        recent_summary = consolidate_recent(logs_text, args.model)
 
         if args.dry_run:
-            print("\n--- recent-memory.md (new content) ---")
+            print("\n--- recent-memory.md ---")
             print(recent_summary)
         else:
-            for section in ["Active Conversations", "Recent Decisions", "Pending Tasks", "Context Notes"]:
-                # Clear old auto-content; consolidate_recent returns all sections
-                pass
-            # Overwrite main body while preserving header
-            header = "# Recent Memory (Rolling 48hr Context)\n\n"
-            timestamp_line = f"_Last updated: {datetime.now().strftime('%Y-%m-%d')}_\n\n"
-            RECENT_MEMORY.write_text(header + timestamp_line + recent_summary + "\n")
+            header = f"# Recent Memory (Rolling 48hr Context)\n\n_Last updated: {datetime.now().strftime('%Y-%m-%d')}_\n\n"
+            RECENT_MEMORY.write_text(header + recent_summary + "\n")
             print(f"Updated {RECENT_MEMORY}")
 
-    print("Extracting promotable facts for long-term memory...")
+    print("Extracting promotable facts...")
     recent_text = RECENT_MEMORY.read_text()
-    promotable = extract_promotable_facts(recent_text, client)
+    promotable = extract_promotable_facts(recent_text, args.model)
 
     if args.dry_run:
         print("\n--- Promotable facts ---")

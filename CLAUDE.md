@@ -67,12 +67,14 @@ system before responding:
 
 ---
 
-## Required Environment Variables
+## Required Setup (No API Keys Needed)
 
-| Variable | Used by |
-|----------|---------|
-| `ANTHROPIC_API_KEY` | consolidate-memory, research-scout |
-| `GEMINI_API_KEY` | media-memory (Gemini Embedding 2) |
+| Dependency | Used by | Install |
+|-----------|---------|---------|
+| **Ollama** (local LLM) | consolidate-memory, research-scout | https://ollama.com → `ollama pull mistral` |
+| **sentence-transformers** | media-memory (local embeddings) | `pip install sentence-transformers` |
+| **ChromaDB** | media-memory (vector DB) | `pip install chromadb` |
+| **duckduckgo-search** | research-scout (free web search) | `pip install duckduckgo-search` |
 
 ---
 
