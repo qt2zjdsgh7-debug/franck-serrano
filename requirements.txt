@@ -1,3 +1,11 @@
 pyicloud>=1.0.0
 click>=8.0.0
 tqdm>=4.60.0
+
+# Memory system
+anthropic>=0.40.0
+
+# Media memory
+google-generativeai>=0.8.0
+chromadb>=0.5.0
+pypdf>=4.0.0
