@@ -3,6 +3,9 @@
 Script pour télécharger tous les documents iCloud Drive, les organiser localement
 ET créer la même structure de dossiers/sous-dossiers directement dans iCloud Drive.
 
+Structure : Documents_Organisés/<Thème>/<Type>/[Année]/fichier
+Thèmes    : Travail, Personnel, Finances, Médias
+
 Usage: python download_icloud.py --username <apple_id>
 """
 
@@ -37,6 +40,28 @@ log = logging.getLogger(__name__)
 # Dossier racine créé dans iCloud Drive
 ICLOUD_ROOT_FOLDER = "Documents_Organisés"
 
+# Mots-clés dans le chemin iCloud → thème
+THEME_KEYWORDS = {
+    "Travail": ["travail", "pro", "boulot", "professionnel", "job", "office", "bureau", "contrat", "client"],
+    "Finances": ["facture", "finance", "banque", "compta", "comptabilité", "impôt", "impot", "fiscal", "budget", "factures", "recette", "dépense"],
+    "Médias": ["photo", "vidéo", "video", "image", "média", "media", "musique", "music", "souvenir"],
+    "Personnel": ["personnel", "perso", "famille", "privé", "prive", "maison", "santé", "sante"],
+}
+
+# Catégorie de fichier → thème par défaut
+TYPE_TO_THEME = {
+    "Images": "Médias",
+    "Vidéos": "Médias",
+    "Audio": "Médias",
+    "Tableurs": "Finances",
+    "PDF": "Travail",
+    "Texte": "Travail",
+    "Présentations": "Travail",
+    "Code": "Travail",
+    "Archives": "Personnel",
+    "Autres": "Personnel",
+}
+
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -67,6 +92,16 @@ def extension_category(filename: str) -> str:
         if ext in extensions:
             return category
     return "Autres"
+
+
+def detect_theme(path_parts: list, category: str) -> str:
+    """Détecte le thème depuis le chemin iCloud, avec fallback par type de fichier."""
+    for part in path_parts:
+        part_lower = part.lower()
+        for theme, keywords in THEME_KEYWORDS.items():
+            if any(kw in part_lower for kw in keywords):
+                return theme
+    return TYPE_TO_THEME.get(category, "Personnel")
 
 
 def year_of(item) -> str:
@@ -186,8 +221,9 @@ def upload_to_icloud(item, folder_node, filename: str) -> bool:
 def organize(api: PyiCloudService, output_dir: Path, by_year: bool, upload: bool) -> dict:
     """
     1. Explore iCloud Drive
-    2. Télécharge chaque fichier localement dans output_dir/Documents_Organisés/<Catégorie>/[Année]/
-    3. (optionnel) Crée la même structure dans iCloud Drive et y uploade les fichiers
+    2. Détecte le thème de chaque fichier (chemin iCloud → fallback par type)
+    3. Télécharge localement dans output_dir/Documents_Organisés/<Thème>/<Type>/[Année]/
+    4. (optionnel) Crée la même structure dans iCloud Drive
     """
     drive = api.drive
 
@@ -216,15 +252,16 @@ def organize(api: PyiCloudService, output_dir: Path, by_year: bool, upload: bool
     for item, icloud_path in tqdm(all_items, desc="Traitement", unit="fichier"):
         filename = icloud_path[-1]
         category = sanitize(extension_category(filename))
+        theme = sanitize(detect_theme(icloud_path[:-1], extension_category(filename)))
 
-        # Chemin local
+        # Chemin local : <racine>/<Thème>/<Type>/[<Année>/]<fichier>
         if by_year:
             year = year_of(item)
-            local_dest = local_root / category / year / sanitize(filename)
-            folder_key = f"{category}/{year}"
+            local_dest = local_root / theme / category / year / sanitize(filename)
+            folder_key = f"{theme}/{category}/{year}"
         else:
-            local_dest = local_root / category / sanitize(filename)
-            folder_key = category
+            local_dest = local_root / theme / category / sanitize(filename)
+            folder_key = f"{theme}/{category}"
 
         # Téléchargement local
         ok_local = download_item_locally(item, local_dest)
@@ -236,10 +273,8 @@ def organize(api: PyiCloudService, output_dir: Path, by_year: bool, upload: bool
         # Upload dans iCloud Drive
         if upload and icloud_root is not None:
             if folder_key not in icloud_folder_cache:
-                # Créer les nœuds intermédiaires
                 node = icloud_root
-                parts = folder_key.split("/")
-                for part in parts:
+                for part in folder_key.split("/"):
                     node = get_or_create_icloud_folder(node, part)
                     if node is None:
                         break

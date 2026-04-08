@@ -2,50 +2,78 @@
 
 Script Python qui :
 1. **Télécharge** tous les documents de votre iCloud Drive en local
-2. **Crée automatiquement** les dossiers et sous-dossiers organisés **directement dans iCloud Drive**
+2. **Crée automatiquement** les dossiers organisés **par thème puis par type** directement dans iCloud Drive
 
 Après exécution, ouvrez l'app **Fichiers** sur iPhone/iPad ou le Finder sur Mac → **iCloud Drive** → `Documents_Organisés/`
 
-## Structure des dossiers créés (locale ET dans iCloud Drive)
+## Structure des dossiers créés
 
 ```
 Documents_Organisés/
-├── PDF/
-│   ├── document1.pdf
-│   └── document2.pdf
-├── Texte/
-│   ├── note.docx
-│   └── rapport.pages
-├── Tableurs/
-│   └── budget.xlsx
-├── Présentations/
-│   └── presentation.key
-├── Images/
-│   └── photo.heic
-├── Vidéos/
-│   └── film.mov
-├── Audio/
-│   └── musique.m4a
-├── Archives/
-│   └── backup.zip
-├── Code/
-│   └── script.py
-└── Autres/
-    └── fichier_inconnu.xyz
-```
-
-Avec l'option `--by-year`, un sous-dossier par année est ajouté :
-
-```
-Documents_Organisés/
-├── PDF/
-│   ├── 2023/
+├── Travail/
+│   ├── PDF/
 │   │   └── contrat.pdf
-│   └── 2024/
-│       └── facture.pdf
-└── Images/
-    └── 2025/
-        └── photo.heic
+│   ├── Texte/
+│   │   └── rapport.docx
+│   ├── Présentations/
+│   │   └── slides.key
+│   └── Code/
+│       └── script.py
+├── Personnel/
+│   ├── Texte/
+│   │   └── note.txt
+│   └── Archives/
+│       └── backup.zip
+├── Finances/
+│   └── Tableurs/
+│       └── budget.xlsx
+└── Médias/
+    ├── Images/
+    │   └── photo.heic
+    ├── Vidéos/
+    │   └── film.mov
+    └── Audio/
+        └── musique.m4a
+```
+
+### Détection du thème
+
+Le thème est déterminé **en deux étapes** :
+
+1. **Mots-clés dans le chemin iCloud** — si le fichier se trouve dans un dossier contenant un mot reconnu, il est classé dans le thème correspondant :
+
+| Thème | Mots-clés détectés |
+|-------|-------------------|
+| Travail | travail, pro, boulot, professionnel, job, office, bureau, contrat, client |
+| Finances | facture, finance, banque, compta, impôt, fiscal, budget… |
+| Médias | photo, vidéo, image, média, musique, souvenir… |
+| Personnel | personnel, perso, famille, privé, maison, santé… |
+
+2. **Fallback par type de fichier** — si aucun mot-clé n'est trouvé :
+
+| Type | Thème par défaut |
+|------|-----------------|
+| Images, Vidéos, Audio | Médias |
+| Tableurs | Finances |
+| PDF, Texte, Présentations, Code | Travail |
+| Archives, Autres | Personnel |
+
+### Option `--by-year`
+
+Un sous-dossier par année est ajouté entre le type et le fichier :
+
+```
+Documents_Organisés/
+├── Travail/
+│   └── PDF/
+│       ├── 2023/
+│       │   └── contrat.pdf
+│       └── 2024/
+│           └── facture.pdf
+└── Médias/
+    └── Images/
+        └── 2025/
+            └── photo.heic
 ```
 
 ## Installation
