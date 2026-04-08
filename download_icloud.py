@@ -3,8 +3,9 @@
 Script pour télécharger tous les documents iCloud Drive, les organiser localement
 ET créer la même structure de dossiers/sous-dossiers directement dans iCloud Drive.
 
-Structure : Documents_Organisés/<Thème>/<Type>/[Année]/fichier
-Thèmes    : Travail, Personnel, Finances, Médias
+Structure : Documents_Organisés/<Chantier>/<Type>/[Année]/fichier
+Le chantier correspond au dossier racine d'origine dans iCloud Drive.
+Les fichiers sans dossier parent sont rangés dans « Sans_Projet ».
 
 Usage: python download_icloud.py --username <apple_id>
 """
@@ -40,27 +41,8 @@ log = logging.getLogger(__name__)
 # Dossier racine créé dans iCloud Drive
 ICLOUD_ROOT_FOLDER = "Documents_Organisés"
 
-# Mots-clés dans le chemin iCloud → thème
-THEME_KEYWORDS = {
-    "Travail": ["travail", "pro", "boulot", "professionnel", "job", "office", "bureau", "contrat", "client"],
-    "Finances": ["facture", "finance", "banque", "compta", "comptabilité", "impôt", "impot", "fiscal", "budget", "factures", "recette", "dépense"],
-    "Médias": ["photo", "vidéo", "video", "image", "média", "media", "musique", "music", "souvenir"],
-    "Personnel": ["personnel", "perso", "famille", "privé", "prive", "maison", "santé", "sante"],
-}
-
-# Catégorie de fichier → thème par défaut
-TYPE_TO_THEME = {
-    "Images": "Médias",
-    "Vidéos": "Médias",
-    "Audio": "Médias",
-    "Tableurs": "Finances",
-    "PDF": "Travail",
-    "Texte": "Travail",
-    "Présentations": "Travail",
-    "Code": "Travail",
-    "Archives": "Personnel",
-    "Autres": "Personnel",
-}
+# Dossier pour les fichiers sans chantier parent
+NO_PROJECT_FOLDER = "Sans_Projet"
 
 
 # ---------------------------------------------------------------------------
@@ -94,14 +76,15 @@ def extension_category(filename: str) -> str:
     return "Autres"
 
 
-def detect_theme(path_parts: list, category: str) -> str:
-    """Détecte le thème depuis le chemin iCloud, avec fallback par type de fichier."""
-    for part in path_parts:
-        part_lower = part.lower()
-        for theme, keywords in THEME_KEYWORDS.items():
-            if any(kw in part_lower for kw in keywords):
-                return theme
-    return TYPE_TO_THEME.get(category, "Personnel")
+def project_from_path(path_parts: list) -> str:
+    """
+    Retourne le nom du chantier/projet à partir du chemin iCloud.
+    Utilise le dossier de premier niveau comme nom de projet.
+    Si le fichier est à la racine, retourne NO_PROJECT_FOLDER.
+    """
+    if len(path_parts) >= 2:
+        return sanitize(path_parts[0])
+    return NO_PROJECT_FOLDER
 
 
 def year_of(item) -> str:
@@ -196,7 +179,6 @@ def download_item_locally(item, dest_path: Path) -> bool:
 def upload_to_icloud(item, folder_node, filename: str) -> bool:
     """Relit le fichier depuis iCloud et l'uploade dans folder_node."""
     try:
-        # Vérifier si le fichier existe déjà dans le dossier cible
         existing = list(folder_node.dir())
         if filename in existing:
             log.debug("Déjà présent dans iCloud Drive : %s", filename)
@@ -221,8 +203,8 @@ def upload_to_icloud(item, folder_node, filename: str) -> bool:
 def organize(api: PyiCloudService, output_dir: Path, by_year: bool, upload: bool) -> dict:
     """
     1. Explore iCloud Drive
-    2. Détecte le thème de chaque fichier (chemin iCloud → fallback par type)
-    3. Télécharge localement dans output_dir/Documents_Organisés/<Thème>/<Type>/[Année]/
+    2. Détermine le chantier/projet depuis le dossier d'origine de chaque fichier
+    3. Télécharge localement dans output_dir/Documents_Organisés/<Chantier>/<Type>/[Année]/
     4. (optionnel) Crée la même structure dans iCloud Drive
     """
     drive = api.drive
@@ -244,7 +226,7 @@ def organize(api: PyiCloudService, output_dir: Path, by_year: bool, upload: bool
     all_items = collect_all_items(drive)
     log.info("%d fichier(s) trouvé(s).", len(all_items))
 
-    # Cache des nœuds iCloud Drive déjà créés pour éviter les requêtes répétées
+    # Cache des nœuds iCloud Drive déjà créés
     icloud_folder_cache: dict = {}
 
     stats = {"local_ok": 0, "icloud_ok": 0, "error": 0}
@@ -252,16 +234,16 @@ def organize(api: PyiCloudService, output_dir: Path, by_year: bool, upload: bool
     for item, icloud_path in tqdm(all_items, desc="Traitement", unit="fichier"):
         filename = icloud_path[-1]
         category = sanitize(extension_category(filename))
-        theme = sanitize(detect_theme(icloud_path[:-1], extension_category(filename)))
+        project = project_from_path(icloud_path)
 
-        # Chemin local : <racine>/<Thème>/<Type>/[<Année>/]<fichier>
+        # Chemin local : <racine>/<Chantier>/<Type>/[<Année>/]<fichier>
         if by_year:
             year = year_of(item)
-            local_dest = local_root / theme / category / year / sanitize(filename)
-            folder_key = f"{theme}/{category}/{year}"
+            local_dest = local_root / project / category / year / sanitize(filename)
+            folder_key = f"{project}/{category}/{year}"
         else:
-            local_dest = local_root / theme / category / sanitize(filename)
-            folder_key = f"{theme}/{category}"
+            local_dest = local_root / project / category / sanitize(filename)
+            folder_key = f"{project}/{category}"
 
         # Téléchargement local
         ok_local = download_item_locally(item, local_dest)
@@ -295,7 +277,7 @@ def organize(api: PyiCloudService, output_dir: Path, by_year: bool, upload: bool
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Télécharge et organise tous les documents iCloud Drive, "
+        description="Télécharge et organise tous les documents iCloud Drive par chantier/projet, "
                     "localement ET dans iCloud Drive."
     )
     parser.add_argument("--username", "-u", required=True,

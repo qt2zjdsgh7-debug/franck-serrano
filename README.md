@@ -1,62 +1,41 @@
-# Téléchargement et organisation iCloud Drive
+# Téléchargement et organisation iCloud Drive par chantier
 
 Script Python qui :
 1. **Télécharge** tous les documents de votre iCloud Drive en local
-2. **Crée automatiquement** les dossiers organisés **par thème puis par type** directement dans iCloud Drive
+2. **Crée automatiquement** les dossiers organisés **par chantier/projet puis par type** directement dans iCloud Drive
 
 Après exécution, ouvrez l'app **Fichiers** sur iPhone/iPad ou le Finder sur Mac → **iCloud Drive** → `Documents_Organisés/`
+
+> **Note :** Seuls les fichiers iCloud Drive sont accessibles via ce script. Les fichiers stockés **uniquement en local sur l'iPad** (hors iCloud) ne peuvent pas être organisés automatiquement.
 
 ## Structure des dossiers créés
 
 ```
 Documents_Organisés/
-├── Travail/
+├── Renovation_Cuisine/        ← nom du dossier d'origine dans iCloud
 │   ├── PDF/
-│   │   └── contrat.pdf
-│   ├── Texte/
-│   │   └── rapport.docx
-│   ├── Présentations/
-│   │   └── slides.key
-│   └── Code/
-│       └── script.py
-├── Personnel/
-│   ├── Texte/
-│   │   └── note.txt
-│   └── Archives/
-│       └── backup.zip
-├── Finances/
+│   │   └── devis.pdf
+│   ├── Images/
+│   │   └── photo_avant.heic
 │   └── Tableurs/
 │       └── budget.xlsx
-└── Médias/
-    ├── Images/
-    │   └── photo.heic
-    ├── Vidéos/
-    │   └── film.mov
-    └── Audio/
-        └── musique.m4a
+├── Chantier_Dupont/
+│   ├── PDF/
+│   │   └── contrat.pdf
+│   └── Texte/
+│       └── notes.docx
+└── Sans_Projet/               ← fichiers sans dossier parent dans iCloud
+    └── PDF/
+        └── document.pdf
 ```
 
-### Détection du thème
+### Règle de classement
 
-Le thème est déterminé **en deux étapes** :
+Le **nom du chantier** est déterminé par le **dossier de premier niveau** dans iCloud Drive où se trouve le fichier.
 
-1. **Mots-clés dans le chemin iCloud** — si le fichier se trouve dans un dossier contenant un mot reconnu, il est classé dans le thème correspondant :
-
-| Thème | Mots-clés détectés |
-|-------|-------------------|
-| Travail | travail, pro, boulot, professionnel, job, office, bureau, contrat, client |
-| Finances | facture, finance, banque, compta, impôt, fiscal, budget… |
-| Médias | photo, vidéo, image, média, musique, souvenir… |
-| Personnel | personnel, perso, famille, privé, maison, santé… |
-
-2. **Fallback par type de fichier** — si aucun mot-clé n'est trouvé :
-
-| Type | Thème par défaut |
-|------|-----------------|
-| Images, Vidéos, Audio | Médias |
-| Tableurs | Finances |
-| PDF, Texte, Présentations, Code | Travail |
-| Archives, Autres | Personnel |
+- `Renovation_Cuisine/Devis/devis.pdf` → rangé dans `Renovation_Cuisine/PDF/`
+- `Chantier_Dupont/contrat.pdf` → rangé dans `Chantier_Dupont/PDF/`
+- `document.pdf` (à la racine) → rangé dans `Sans_Projet/PDF/`
 
 ### Option `--by-year`
 
@@ -64,16 +43,12 @@ Un sous-dossier par année est ajouté entre le type et le fichier :
 
 ```
 Documents_Organisés/
-├── Travail/
-│   └── PDF/
-│       ├── 2023/
-│       │   └── contrat.pdf
-│       └── 2024/
-│           └── facture.pdf
-└── Médias/
-    └── Images/
+└── Renovation_Cuisine/
+    └── PDF/
+        ├── 2024/
+        │   └── devis.pdf
         └── 2025/
-            └── photo.heic
+            └── facture_finale.pdf
 ```
 
 ## Installation
