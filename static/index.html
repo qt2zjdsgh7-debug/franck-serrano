@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent Paléographique — XVIe–XVIIIe s.</title>
+  <style>
+    /* ── Reset & variables ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:      #1a1408;
+      --parchment:#f5f0e1;
+      --aged:     #e8dfc8;
+      --sepia:    #8b5e3c;
+      --sepia-lt: #c4965c;
+      --sepia-dk: #5c3d1e;
+      --red-wax:  #8b1a1a;
+      --border:   #c4a882;
+      --shadow:   rgba(91,59,30,.18);
+      --radius:   6px;
+      --font-body: 'Georgia', 'Times New Roman', serif;
+      --font-mono: 'Courier New', Courier, monospace;
+    }
+
+    body {
+      background: var(--parchment);
+      color: var(--ink);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      padding: 0;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--sepia-dk);
+      color: var(--parchment);
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      border-bottom: 4px solid var(--sepia-lt);
+    }
+    header svg { flex-shrink: 0; opacity: .9; }
+    header h1 { font-size: 1.5rem; letter-spacing: .04em; font-weight: normal; }
+    header p  { font-size: .85rem; opacity: .75; margin-top: .15rem; letter-spacing: .02em; }
+
+    /* ── Layout ── */
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1.5rem 4rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    @media (max-width: 780px) { main { grid-template-columns: 1fr; } }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--aged);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      box-shadow: 0 2px 10px var(--shadow);
+    }
+    .card h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: var(--sepia-dk);
+      margin-bottom: 1.2rem;
+      padding-bottom: .5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ── Upload zone ── */
+    #drop-zone {
+      border: 2px dashed var(--sepia-lt);
+      border-radius: var(--radius);
+      padding: 2.5rem 1rem;
+      text-align: center;
+      cursor: pointer;
+      transition: background .2s, border-color .2s;
+      position: relative;
+    }
+    #drop-zone:hover, #drop-zone.over {
+      background: rgba(139,94,60,.08);
+      border-color: var(--sepia);
+    }
+    #drop-zone input[type="file"] {
+      position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
+    }
+    #drop-zone .icon { font-size: 2.8rem; margin-bottom: .6rem; display: block; }
+    #drop-zone p { color: var(--sepia); font-size: .9rem; }
+    #drop-zone small { color: var(--sepia-lt); font-size: .78rem; }
+
+    /* ── Preview ── */
+    #preview-wrap {
+      margin-top: 1rem;
+      display: none;
+      position: relative;
+    }
+    #preview-wrap.visible { display: block; }
+    #preview {
+      width: 100%;
+      max-height: 320px;
+      object-fit: contain;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: #fff;
+    }
+    #remove-img {
+      position: absolute;
+      top: .4rem; right: .4rem;
+      background: var(--red-wax);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 1.6rem; height: 1.6rem;
+      font-size: .9rem;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      line-height: 1;
+    }
+    #file-name { font-size: .8rem; color: var(--sepia); margin-top: .4rem; text-align: center; }
+
+    /* ── Form controls ── */
+    label { display: block; font-size: .85rem; color: var(--sepia-dk); margin-bottom: .4rem; font-weight: bold; }
+    select, textarea {
+      width: 100%;
+      background: var(--parchment);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: .55rem .75rem;
+      font-family: var(--font-body);
+      font-size: .9rem;
+      color: var(--ink);
+      outline: none;
+    }
+    select:focus, textarea:focus { border-color: var(--sepia); }
+    textarea { resize: vertical; min-height: 90px; }
+
+    .field { margin-bottom: 1.2rem; }
+
+    /* ── Mode descriptions ── */
+    .mode-desc {
+      font-size: .78rem;
+      color: var(--sepia);
+      margin-top: .3rem;
+      font-style: italic;
+      min-height: 2.4em;
+    }
+
+    /* ── Submit button ── */
+    #btn-analyze {
+      width: 100%;
+      padding: .85rem;
+      background: var(--sepia-dk);
+      color: var(--parchment);
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      letter-spacing: .06em;
+      cursor: pointer;
+      transition: background .2s;
+      margin-top: .5rem;
+    }
+    #btn-analyze:hover:not(:disabled) { background: var(--sepia); }
+    #btn-analyze:disabled { opacity: .55; cursor: not-allowed; }
+
+    /* ── Spinner ── */
+    .spinner {
+      display: inline-block;
+      width: 1em; height: 1em;
+      border: 2px solid rgba(245,240,225,.4);
+      border-top-color: var(--parchment);
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+      vertical-align: middle;
+      margin-right: .4rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Results panel ── */
+    #result-card {
+      grid-column: 1 / -1;
+      display: none;
+    }
+    #result-card.visible { display: block; }
+
+    .result-meta {
+      display: flex;
+      gap: 1.5rem;
+      font-size: .78rem;
+      color: var(--sepia);
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    /* ── Section blocks inside result ── */
+    .result-body { display: flex; flex-direction: column; gap: 1.2rem; }
+
+    .result-section {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .result-section-head {
+      background: var(--sepia-dk);
+      color: var(--parchment);
+      padding: .4rem .9rem;
+      font-size: .8rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+    .result-section-body {
+      padding: .9rem 1rem;
+      background: var(--parchment);
+      font-size: .92rem;
+      line-height: 1.75;
+      white-space: pre-wrap;
+      font-family: var(--font-mono);
+    }
+    .result-section-body.prose {
+      font-family: var(--font-body);
+    }
+
+    .raw-result {
+      white-space: pre-wrap;
+      font-family: var(--font-body);
+      font-size: .92rem;
+      line-height: 1.75;
+      padding: .9rem 1rem;
+      background: var(--parchment);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+    }
+
+    /* ── Error ── */
+    .error-box {
+      background: #fff0f0;
+      border: 1px solid #d9534f;
+      border-radius: var(--radius);
+      padding: 1rem;
+      color: var(--red-wax);
+      font-size: .9rem;
+    }
+
+    /* ── Copy button ── */
+    .copy-btn {
+      margin-left: auto;
+      background: transparent;
+      border: 1px solid rgba(245,240,225,.4);
+      border-radius: 3px;
+      color: var(--parchment);
+      font-size: .7rem;
+      padding: .15rem .45rem;
+      cursor: pointer;
+      letter-spacing: .04em;
+    }
+    .copy-btn:hover { background: rgba(255,255,255,.15); }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: .75rem;
+      color: var(--sepia-lt);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="4" y="2" width="24" height="34" rx="2" fill="#e8dfc8" stroke="#c4a882" stroke-width="1.5"/>
+    <rect x="8" y="6" width="16" height="2" rx="1" fill="#8b5e3c" opacity=".7"/>
+    <rect x="8" y="10" width="16" height="2" rx="1" fill="#8b5e3c" opacity=".5"/>
+    <rect x="8" y="14" width="12" height="2" rx="1" fill="#8b5e3c" opacity=".4"/>
+    <rect x="8" y="18" width="14" height="2" rx="1" fill="#8b5e3c" opacity=".3"/>
+    <line x1="28" y1="10" x2="35" y2="4" stroke="#c4965c" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="35" cy="3.5" r="2" fill="#c4965c"/>
+    <line x1="27" y1="11" x2="24" y2="14" stroke="#c4965c" stroke-width="1.2" stroke-linecap="round"/>
+  </svg>
+  <div>
+    <h1>Agent Paléographique</h1>
+    <p>Reconnaissance et transcription de manuscrits — XVI<sup>e</sup>, XVII<sup>e</sup>, XVIII<sup>e</sup> siècle</p>
+  </div>
+</header>
+
+<main>
+
+  <!-- ── Panneau gauche : upload + paramètres ── -->
+  <div class="card">
+    <h2>Document manuscrit</h2>
+
+    <div id="drop-zone">
+      <input type="file" id="file-input" accept="image/jpeg,image/png,image/webp,image/gif" />
+      <span class="icon">📜</span>
+      <p>Déposez une image ou cliquez pour sélectionner</p>
+      <small>JPEG · PNG · WebP · GIF — max 20 Mo</small>
+    </div>
+
+    <div id="preview-wrap">
+      <img id="preview" alt="Aperçu du manuscrit" />
+      <button id="remove-img" title="Supprimer">✕</button>
+      <p id="file-name"></p>
+    </div>
+  </div>
+
+  <!-- ── Panneau droit : options ── -->
+  <div class="card">
+    <h2>Paramètres d'analyse</h2>
+
+    <div class="field">
+      <label for="mode-select">Mode d'analyse</label>
+      <select id="mode-select">
+        <option value="complet">Analyse complète</option>
+        <option value="diplomatique">Transcription diplomatique</option>
+        <option value="modernise">Transcription modernisée</option>
+        <option value="identification">Identification seule</option>
+      </select>
+      <p class="mode-desc" id="mode-desc"></p>
+    </div>
+
+    <div class="field">
+      <label for="context-input">Contexte complémentaire <span style="font-weight:normal;opacity:.7">(optionnel)</span></label>
+      <textarea id="context-input" placeholder="Ex : acte notarié normand, vers 1680 — écriture difficile en bas à gauche…"></textarea>
+    </div>
+
+    <button id="btn-analyze" disabled>Analyser le manuscrit</button>
+  </div>
+
+  <!-- ── Résultats : pleine largeur ── -->
+  <div class="card" id="result-card">
+    <h2>Résultats de l'analyse</h2>
+    <div class="result-meta" id="result-meta"></div>
+    <div id="result-content"></div>
+  </div>
+
+</main>
+
+<footer>Propulsé par Claude claude-sonnet-4-6 · École nationale des chartes · IRHT-CNRS</footer>
+
+<script>
+  // ── Descriptions des modes ──
+  const MODES_DESC = {
+    complet:        "Identification paléographique + transcription diplomatique + version modernisée + annotations et glossaire + incertitudes.",
+    diplomatique:   "Transcription strictement fidèle à l'original, avec abréviations, lacunes et variantes graphiques signalées.",
+    modernise:      "Version lisible en français contemporain, avec bref résumé d'identification et notes essentielles.",
+    identification: "Identification du type de document, de l'écriture, de la datation probable et de l'origine géographique uniquement.",
+  };
+
+  // ── Sections attendues dans la réponse ──
+  const SECTIONS = [
+    { key: "IDENTIFICATION",            icon: "🔍", prose: true  },
+    { key: "TRANSCRIPTION DIPLOMATIQUE",icon: "📜", prose: false },
+    { key: "TRANSCRIPTION MODERNISÉE",  icon: "📖", prose: true  },
+    { key: "NOTES ET GLOSSAIRE",        icon: "📚", prose: true  },
+    { key: "INCERTITUDES",              icon: "❓", prose: true  },
+  ];
+
+  // ── DOM refs ──
+  const dropZone     = document.getElementById("drop-zone");
+  const fileInput    = document.getElementById("file-input");
+  const previewWrap  = document.getElementById("preview-wrap");
+  const previewImg   = document.getElementById("preview");
+  const removeBtn    = document.getElementById("remove-img");
+  const fileNameEl   = document.getElementById("file-name");
+  const modeSelect   = document.getElementById("mode-select");
+  const modeDesc     = document.getElementById("mode-desc");
+  const contextInput = document.getElementById("context-input");
+  const btnAnalyze   = document.getElementById("btn-analyze");
+  const resultCard   = document.getElementById("result-card");
+  const resultMeta   = document.getElementById("result-meta");
+  const resultContent= document.getElementById("result-content");
+
+  let selectedFile = null;
+
+  // ── Mode description update ──
+  function updateModeDesc() {
+    modeDesc.textContent = MODES_DESC[modeSelect.value] || "";
+  }
+  modeSelect.addEventListener("change", updateModeDesc);
+  updateModeDesc();
+
+  // ── File handling ──
+  function loadFile(file) {
+    if (!file || !file.type.startsWith("image/")) return;
+    selectedFile = file;
+    const url = URL.createObjectURL(file);
+    previewImg.src = url;
+    previewWrap.classList.add("visible");
+    fileNameEl.textContent = file.name + "  (" + (file.size / 1024).toFixed(0) + " Ko)";
+    btnAnalyze.disabled = false;
+  }
+
+  fileInput.addEventListener("change", () => { if (fileInput.files[0]) loadFile(fileInput.files[0]); });
+
+  dropZone.addEventListener("dragover", e => { e.preventDefault(); dropZone.classList.add("over"); });
+  dropZone.addEventListener("dragleave", () => dropZone.classList.remove("over"));
+  dropZone.addEventListener("drop", e => {
+    e.preventDefault();
+    dropZone.classList.remove("over");
+    if (e.dataTransfer.files[0]) loadFile(e.dataTransfer.files[0]);
+  });
+
+  removeBtn.addEventListener("click", () => {
+    selectedFile = null;
+    previewImg.src = "";
+    previewWrap.classList.remove("visible");
+    fileInput.value = "";
+    btnAnalyze.disabled = true;
+    resultCard.classList.remove("visible");
+  });
+
+  // ── Parse sections from model response ──
+  function parseSections(text) {
+    const result = [];
+    let remaining = text;
+
+    for (const section of SECTIONS) {
+      const pattern = new RegExp(
+        `\\*\\*\\[${section.key}\\]\\*\\*([\\s\\S]*?)(?=\\*\\*\\[|$)`,
+        "i"
+      );
+      const match = remaining.match(pattern);
+      if (match) {
+        result.push({ ...section, content: match[1].trim() });
+        remaining = remaining.replace(match[0], "");
+      }
+    }
+
+    // If nothing parsed, return raw
+    if (result.length === 0) return null;
+    return result;
+  }
+
+  function copyText(text, btn) {
+    navigator.clipboard.writeText(text).then(() => {
+      btn.textContent = "✓ Copié";
+      setTimeout(() => { btn.textContent = "Copier"; }, 1800);
+    });
+  }
+
+  function renderSections(sections, fullText) {
+    resultContent.innerHTML = "";
+
+    if (!sections) {
+      const raw = document.createElement("div");
+      raw.className = "raw-result";
+      raw.textContent = fullText;
+      resultContent.appendChild(raw);
+      return;
+    }
+
+    const body = document.createElement("div");
+    body.className = "result-body";
+
+    for (const s of sections) {
+      if (!s.content) continue;
+      const wrap = document.createElement("div");
+      wrap.className = "result-section";
+
+      const head = document.createElement("div");
+      head.className = "result-section-head";
+      head.innerHTML = `<span>${s.icon}</span><span>${s.key}</span>`;
+
+      const copyBtn = document.createElement("button");
+      copyBtn.className = "copy-btn";
+      copyBtn.textContent = "Copier";
+      copyBtn.addEventListener("click", () => copyText(s.content, copyBtn));
+      head.appendChild(copyBtn);
+
+      const bodyEl = document.createElement("div");
+      bodyEl.className = "result-section-body" + (s.prose ? " prose" : "");
+      bodyEl.textContent = s.content;
+
+      wrap.appendChild(head);
+      wrap.appendChild(bodyEl);
+      body.appendChild(wrap);
+    }
+
+    resultContent.appendChild(body);
+  }
+
+  // ── Analyze ──
+  btnAnalyze.addEventListener("click", async () => {
+    if (!selectedFile) return;
+
+    btnAnalyze.disabled = true;
+    btnAnalyze.innerHTML = '<span class="spinner"></span>Analyse en cours…';
+    resultCard.classList.remove("visible");
+    resultContent.innerHTML = "";
+    resultMeta.innerHTML = "";
+
+    const formData = new FormData();
+    formData.append("file", selectedFile);
+    formData.append("mode", modeSelect.value);
+    formData.append("context", contextInput.value);
+
+    try {
+      const resp = await fetch("/analyze", { method: "POST", body: formData });
+      const data = await resp.json();
+
+      if (!resp.ok) {
+        resultContent.innerHTML = `<div class="error-box">Erreur : ${data.detail || "Réponse inattendue du serveur."}</div>`;
+        resultCard.classList.add("visible");
+        return;
+      }
+
+      resultMeta.innerHTML =
+        `<span>Mode : <strong>${modeSelect.value}</strong></span>` +
+        `<span>Tokens entrée : <strong>${data.input_tokens}</strong></span>` +
+        `<span>Tokens sortie : <strong>${data.output_tokens}</strong></span>` +
+        `<span>Fichier : <strong>${selectedFile.name}</strong></span>`;
+
+      const sections = parseSections(data.result);
+      renderSections(sections, data.result);
+      resultCard.classList.add("visible");
+      resultCard.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    } catch (err) {
+      resultContent.innerHTML = `<div class="error-box">Erreur réseau : ${err.message}</div>`;
+      resultCard.classList.add("visible");
+    } finally {
+      btnAnalyze.disabled = false;
+      btnAnalyze.innerHTML = "Analyser le manuscrit";
+    }
+  });
+</script>
+</body>
+</html>
