@@ -142,11 +142,11 @@ STATIC_DIR.mkdir(exist_ok=True)
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 
 
-def get_client() -> anthropic.Anthropic:
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        raise HTTPException(status_code=500, detail="ANTHROPIC_API_KEY non configurée.")
-    return anthropic.Anthropic(api_key=api_key)
+def get_client(api_key: str | None = None) -> anthropic.Anthropic:
+    key = api_key or os.environ.get("ANTHROPIC_API_KEY", "")
+    if not key or not key.startswith("sk-"):
+        raise HTTPException(status_code=401, detail="Clé API Anthropic invalide ou manquante.")
+    return anthropic.Anthropic(api_key=key)
 
 
 def image_to_base64(data: bytes, content_type: str) -> tuple[str, str]:
@@ -173,6 +173,7 @@ async def analyze(
     file: UploadFile = File(...),
     mode: str = Form(default="complet"),
     context: str = Form(default=""),
+    api_key: str = Form(default=""),
 ):
     """Analyse un manuscrit via Claude avec le prompt paléographique."""
     if mode not in MODES:
@@ -188,7 +189,7 @@ async def analyze(
     if context.strip():
         user_message += f"\n\nContexte fourni par l'utilisateur : {context.strip()}"
 
-    client = get_client()
+    client = get_client(api_key or None)
 
     message = client.messages.create(
         model="claude-sonnet-4-6",

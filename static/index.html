@@ -319,6 +319,28 @@
     <h2>Paramètres d'analyse</h2>
 
     <div class="field">
+      <label for="api-key-input">
+        Clé API Anthropic
+        <a href="https://console.anthropic.com/settings/keys" target="_blank"
+           style="font-weight:normal;font-size:.75rem;color:var(--sepia-lt);margin-left:.5rem;">
+          ↗ Obtenir une clé
+        </a>
+      </label>
+      <div style="position:relative;">
+        <input type="password" id="api-key-input" autocomplete="off" spellcheck="false"
+               placeholder="sk-ant-…"
+               style="width:100%;background:var(--parchment);border:1px solid var(--border);
+                      border-radius:var(--radius);padding:.55rem 2.5rem .55rem .75rem;
+                      font-family:var(--font-mono);font-size:.85rem;color:var(--ink);outline:none;" />
+        <button id="toggle-key"
+                style="position:absolute;right:.5rem;top:50%;transform:translateY(-50%);
+                       background:none;border:none;cursor:pointer;color:var(--sepia);font-size:.85rem;"
+                title="Afficher/masquer">👁</button>
+      </div>
+      <p id="key-status" style="font-size:.75rem;margin-top:.3rem;min-height:1.2em;"></p>
+    </div>
+
+    <div class="field">
       <label for="mode-select">Mode d'analyse</label>
       <select id="mode-select">
         <option value="complet">Analyse complète</option>
@@ -380,8 +402,51 @@
   const resultCard   = document.getElementById("result-card");
   const resultMeta   = document.getElementById("result-meta");
   const resultContent= document.getElementById("result-content");
+  const apiKeyInput  = document.getElementById("api-key-input");
+  const keyStatus    = document.getElementById("key-status");
+  const toggleKey    = document.getElementById("toggle-key");
 
   let selectedFile = null;
+
+  // ── Clé API : chargement / sauvegarde ──
+  const STORAGE_KEY = "paleography_api_key";
+
+  function loadSavedKey() {
+    const saved = localStorage.getItem(STORAGE_KEY) || "";
+    if (saved) {
+      apiKeyInput.value = saved;
+      keyStatus.textContent = "✓ Clé sauvegardée localement dans ce navigateur.";
+      keyStatus.style.color = "var(--sepia)";
+    }
+    updateAnalyzeBtn();
+  }
+
+  function saveKey() {
+    const val = apiKeyInput.value.trim();
+    if (val.startsWith("sk-")) {
+      localStorage.setItem(STORAGE_KEY, val);
+      keyStatus.textContent = "✓ Clé sauvegardée — elle sera mémorisée pour les prochaines sessions.";
+      keyStatus.style.color = "#3a7d44";
+    } else if (val === "") {
+      localStorage.removeItem(STORAGE_KEY);
+      keyStatus.textContent = "";
+    } else {
+      keyStatus.textContent = "⚠ Format incorrect (doit commencer par sk-ant-…)";
+      keyStatus.style.color = "var(--red-wax)";
+    }
+    updateAnalyzeBtn();
+  }
+
+  function updateAnalyzeBtn() {
+    const hasKey  = apiKeyInput.value.trim().startsWith("sk-");
+    btnAnalyze.disabled = !(hasKey && selectedFile);
+  }
+
+  apiKeyInput.addEventListener("input", saveKey);
+  toggleKey.addEventListener("click", () => {
+    apiKeyInput.type = apiKeyInput.type === "password" ? "text" : "password";
+  });
+  loadSavedKey();
 
   // ── Mode description update ──
   function updateModeDesc() {
@@ -398,7 +463,7 @@
     previewImg.src = url;
     previewWrap.classList.add("visible");
     fileNameEl.textContent = file.name + "  (" + (file.size / 1024).toFixed(0) + " Ko)";
-    btnAnalyze.disabled = false;
+    updateAnalyzeBtn();
   }
 
   fileInput.addEventListener("change", () => { if (fileInput.files[0]) loadFile(fileInput.files[0]); });
@@ -416,7 +481,7 @@
     previewImg.src = "";
     previewWrap.classList.remove("visible");
     fileInput.value = "";
-    btnAnalyze.disabled = true;
+    updateAnalyzeBtn();
     resultCard.classList.remove("visible");
   });
 
@@ -504,6 +569,7 @@
     formData.append("file", selectedFile);
     formData.append("mode", modeSelect.value);
     formData.append("context", contextInput.value);
+    formData.append("api_key", apiKeyInput.value.trim());
 
     try {
       const resp = await fetch("/analyze", { method: "POST", body: formData });
