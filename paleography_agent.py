@@ -9,6 +9,7 @@ Usage: uvicorn paleography_agent:app --reload
 import base64
 import os
 from pathlib import Path
+from typing import Optional
 
 import anthropic
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
@@ -142,7 +143,7 @@ STATIC_DIR.mkdir(exist_ok=True)
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 
 
-def get_client(api_key: str | None = None) -> anthropic.Anthropic:
+def get_client(api_key: Optional[str] = None) -> anthropic.Anthropic:
     key = api_key or os.environ.get("ANTHROPIC_API_KEY", "")
     if not key or not key.startswith("sk-"):
         raise HTTPException(status_code=401, detail="Clé API Anthropic invalide ou manquante.")
