@@ -99,3 +99,27 @@ Si votre compte utilise la double authentification, le script vous demandera aut
 | Archives | .zip, .tar, .gz, .rar, .7z |
 | Code | .py, .js, .ts, .html, .css, .json, .xml, .yaml, .sh, .swift… |
 | Autres | Tout le reste |
+
+---
+
+# Fonds de manuscrits — `export_photos_album.py`
+
+Second script du dépôt : exporte un **album iCloud Photos** vers un dossier
+local, pour alimenter le traitement documentaire décrit dans
+[`manuscrits/README.md`](manuscrits/README.md).
+
+```bash
+# Lister les albums
+python export_photos_album.py --username votre@apple.com --list-albums
+
+# Exporter un album, avec conversion HEIC → JPEG (macOS)
+python export_photos_album.py -u votre@apple.com -a "Manuscrits" \
+    -o ~/Desktop/Manuscrits --jpeg
+```
+
+> À exécuter sur votre machine. Ne saisissez jamais votre mot de passe Apple
+> dans une session distante.
+
+Sans passer par le script, l'export manuel depuis Photos.app fait aussi
+l'affaire : sélectionner l'album → *Fichier > Exporter > Exporter N photos* →
+JPEG, qualité maximale, taille pleine.
