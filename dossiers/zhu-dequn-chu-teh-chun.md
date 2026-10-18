@@ -112,6 +112,28 @@ Lecture : un sommet en 2020-2021, puis un tassement en milieu de gamme depuis 20
 
 ---
 
+## 6 bis. Galeries — focus DE SARTHE (德萨画廊 / 德薩畫廊)
+
+**La galerie.** Fondée à **Paris en 1977**, à **San Francisco à partir de 1981**, puis installée à **Hong Kong à partir de 2010** (date selon Artsy). Elle a occupé un espace de 10 000 pieds carrés à Wong Chuk Hang entre 2017 et 2022 environ (Ocula). Depuis août 2025, elle a un nouvel espace à **Vita Tower, 29 Wong Chuk Hang Road** (Southside). Une antenne à Pékin est mentionnée en 2016. Elle est dirigée par **Pascal de Sarthe**. La piste « Pierre Bernard de Sarthe » n'est pas attestée par les sources trouvées. La galerie est **en activité en 2026** : stand 3C08 à Art Basel Hong Kong, exposition Jack Tworkov (mars-mai), *Echoes of Tonkin: Vietnamese Modern Art* (10 oct.-21 nov. 2026), résidence deSAR.
+
+**Liens avec Chu Teh-Chun**
+
+| Date | Événement | Niveau |
+|---|---|---|
+| après 2010 | Fait partie des expositions personnelles « fondatrices » de la galerie à Hong Kong, avec Rodin, Hartung, Zao Wou-Ki et Rauschenberg | B (Sohu 2019, CNCI 2016) |
+| **2012** | ***Chu Teh-Chun: Nature in Abstraction***, exposition personnelle. **Catalogue de 56 pages, anglais et chinois traditionnel**, avec un **texte de Wu Guanzhong** (cité p. 12 par Phillips) | B ; exemplaire consultable sur place à l'**Asia Art Archive** |
+| 2015 | Art Basel Hong Kong : présentation **Chu Teh-Chun / Zao Wou-Ki / T'ang Haywen**, trois artistes partis de Chine pour la France | B (Artsy) |
+| **2020, 11 avril-27 juin** (ou 7 juin) | ***Shifting Landscapes***, **Chu Teh-Chun × Andrew Luk**, dialogue entre générations, l'année du centenaire | B (Ocula) |
+| non daté | Pascal de Sarthe affirme entretenir une relation étroite avec les collectionneurs de Chu | B (LUXE) |
+
+**Intérêt pour Aion**
+- Cette galerie est un **relais majeur entre Paris et l'Asie** pour les abstraits chinois de l'École de Paris, avant l'envolée du marché hongkongais de 2020-2021.
+- Le **texte de Wu Guanzhong dans le catalogue de 2012** est une source de premier ordre sur l'amitié entre les deux peintres. À consulter à l'Asia Art Archive, en priorité.
+- À demander à la galerie : la liste complète des expositions de Chu, les archives de la période parisienne de 1977 à 1981 (Chu y exposait-il déjà ?), des photos d'accrochage, et un entretien avec Pascal de Sarthe pour Aion Radio.
+- À noter : **Alisan Fine Arts (藝倡畫廊)**, autre galerie historique de Hong Kong, a organisé entre mai et août 2026 l'exposition collective « 巴黎的中國先鋒派 » (Chu, T'ang Haywen, Walasse Ting, Zao Wou-Ki).
+
+---
+
 ## 7. Fonds d'archives et ressources
 
 | Fonds / ressource | Contenu probable | Accès | Niveau |
@@ -163,4 +185,7 @@ Lecture : un sommet en 2020-2021, puis un tassement en milieu de gamme depuis 20
 - HENI, *No. 269* : https://heni.com/news/article/chu-teh-chun-no-269-2025-03-28
 - SCMP, records à Paris (2019) : https://www.scmp.com/news/china/money-wealth/article/3013491/chinese-artists-chu-teh-chun-and-zao-wou-ki-set-records
 - Asia Art Archive : https://aaa.org.hk/en/collections/search/library/chu-teh-chun-retrospective
+- DE SARTHE : https://ocula.com/art-galleries/de-sarthe-gallery/ · https://www.artsy.net/partner/de-sarthe-gallery · https://en.wikipedia.org/wiki/De_Sarthe_Gallery · https://luxecityguides.com/hk-art-week-insider-pascal-de-sarthe-de-sarthe-gallery/ · https://www.artsy.net/article/editorial-see-zao-wou-ki-chu-teh-chun-and-tang · https://ocula.com/magazine/spotlight/hong-kong-lowdown-exhibitions-to-see/ · http://www.cnci.net.cn/content/2016-09/12/content_14587321.htm
+- Catalogue *Nature in Abstraction* (2012), notice de l'Asia Art Archive : https://aaa.org.hk/collections/search/library/chu-teh-chun-nature-in-abstraction · communiqué de presse : https://ocula.com/art-galleries/de-sarthe-gallery/exhibitions/nature-in-abstraction-(1)/
+- Alisan Fine Arts, exposition 2026 : https://timable.com/hk/zh/event/6a4b63da3c872c5856b51032/
 - Franceinfo, mort de l'artiste : https://www.franceinfo.fr/culture/arts-expos/peinture/la-mort-du-peintre-chu-teh-chun_3288435.html
