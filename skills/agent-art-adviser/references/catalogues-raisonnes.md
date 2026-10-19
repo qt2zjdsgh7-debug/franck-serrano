@@ -32,15 +32,62 @@ Toujours relever : auteur, éditeur, année, volume, numéro, page, et l'état d
 | **INHA, Bibliothèque Kandinsky, Frick Art Reference Library, Watson (Met)** | Consultation des volumes imprimés ; Frick et Watson ont des pans numérisés. |
 | **WorldCat / SUDOC / CCFr** | Localiser un exemplaire d'un volume rare (le Zervos n'est pas partout). |
 
-## 2. Artistes modernes occidentaux — repères
+## 2. Artistes prioritaires Aion (liste en cours : Monet, Pissarro, Picabia, Léger, Hélion)
+
+Liste fixée par Franck le 2026-10-19, à étendre au fil des dossiers. Pour ces cinq artistes, l'agent doit connaître sans recherche préalable le catalogue de référence, l'autorité qui délivre les certificats, et les pièges propres à chacun. Les éléments marqués ✓ ont été vérifiés en ligne le 2026-10-19.
+
+### Claude Monet (1840-1926) · 莫奈 (Mònài)
+
+- **Catalogue de référence** : Daniel Wildenstein, *Claude Monet. Biographie et catalogue raisonné*, 5 volumes (1974-1991), édition révisée en 4 volumes (Taschen / Wildenstein Institute, 1996). Les numéros « W » suivis d'un chiffre sont ceux de ce catalogue.
+- **Révision numérique** ✓ : le **Wildenstein Plattner Institute (WPI, New York)** publie *Claude Monet: The Revised Catalogue Raisonné* en ligne par sections ; première livraison **les pastels** (décembre 2023), accès gratuit sur wpi.art ; les notices (provenance, expositions, bibliographie) ne sont mises à jour qu'après examen de l'œuvre par le **Comité Monet** du WPI.
+- **Autorité** : le Comité Monet du WPI. Un tribunal français a refusé en 2016 de contraindre le Wildenstein Institute à inscrire une œuvre contestée ✓ : l'inclusion ne se force pas, et l'absence d'inclusion pèse lourd sur le marché.
+- **Pièges** : Monet signait souvent à la vente ; les toiles restées à l'atelier portent le **cachet de la succession** (à vérifier au Lugt) ; très nombreux faux, notamment pour les paysages tardifs ; les « nouvelles découvertes » non présentées au comité ne sont pas vendables dans les grandes maisons.
+- **Marché** : places de référence New York et Londres (Christie's, Sotheby's), Hong Kong depuis les années 2010 pour les acheteurs asiatiques ; distinguer les périodes (Argenteuil, Giverny, Nymphéas) : les comparables ne se mélangent pas.
+- **Provenance** : archives Durand-Ruel (Paris, fonds privé, consultation sur demande), livres de stock Durand-Ruel, Bernheim-Jeune, Knoedler (Getty Provenance Index), Boussod-Valadon / Goupil (Getty). Beaucoup de Monet ont une provenance américaine ancienne (collections de Boston, Chicago, New York).
+
+### Camille Pissarro (1830-1903) · 毕沙罗 (Bìshāluó)
+
+- **Catalogue de référence** ✓ : Joachim Pissarro et Claire Durand-Ruel Snollaerts, *Pissarro. Catalogue critique des peintures*, 3 volumes, Wildenstein Institute / Skira, 2005 (environ 1 528-1 529 peintures, dont 213 inédites ou peu connues). Il remplace le catalogue de **Ludovic-Rodolphe Pissarro et Lionello Venturi (1939)**, dont les numéros « P&V » restent cités dans les notices anciennes : toujours donner les deux numéros.
+- **Autres médiums** : dessins et œuvres sur papier (Brettell et Lloyd, Ashmolean, 1980 ; collections par fonds) ; estampes (Delteil, 1923, et révisions) ; les gouaches et pastels figurent en partie dans Pissarro-Venturi 1939.
+- **Autorité** : le Wildenstein Plattner Institute a repris les travaux du Wildenstein Institute ✓ ; Joachim Pissarro (descendant, historien) est l'auteur de référence. Vérifier auprès du WPI la procédure en vigueur pour les œuvres non répertoriées.
+- **Pièges** : confusion fréquente avec les œuvres de ses fils (Lucien, Georges Manzana, Félix, Ludovic-Rodolphe, Paul-Émile) et de ses petits-enfants ; signatures et cachets à comparer ; la famille Pissarro a connu des spoliations sous l'Occupation (affaires de restitution encore vivantes, dont des œuvres en musées américains et français) : couvrir 1933-1945 avec un soin particulier.
+- **Marché** : segment plus accessible que Monet, forte dispersion entre les périodes (Pontoise, Éragny, séries urbaines tardives de Paris, Rouen, Le Havre) ; Paris (Artcurial, Drouot) reste active pour les œuvres sur papier.
+- **Provenance** : archives Durand-Ruel (marchand principal), Bernheim-Jeune, Théo van Gogh chez Boussod-Valadon (Getty), Portier ; correspondance de Pissarro publiée (Bailly-Herzberg, 5 vol.) qui date beaucoup d'œuvres et de ventes.
+
+### Francis Picabia (1879-1953) · 毕卡比亚 (Bìkǎbǐyà)
+
+- **Catalogue de référence** ✓ : *Francis Picabia. Catalogue raisonné*, publié à l'initiative du **Comité Picabia** (fondé en 1990 par Olga Picabia, présidé par Pierre Calté) chez Mercatorfonds (Bruxelles) et Yale University Press, en 4 volumes chronologiques : vol. I (1898-1914, 2014), vol. II (1915-1927, 2016), vol. III (1927-1939, 2019), vol. IV (1940-1953, 2022). Auteurs : William A. Camfield, Beverley Calté, Candace Clements, Arnauld Pierre, avec Aurélie Verdier pour le vol. II. Un volume supplémentaire est annoncé pour les dessins, les estampes et les peintures acceptées après parution ✓ : vérifier s'il est paru.
+- **Autorité** : le Comité Picabia (picabia.com) délivre les certificats et instruit les demandes d'inclusion.
+- **Pièges** : œuvre très hétérogène (impressionnisme, orphisme, machinisme, Dada, transparences, nus « kitsch » des années 1940, abstraction tardive) : les comparables se font par période et par série, jamais sur l'ensemble ; nombreux faux pour les périodes mécaniste et Dada ; titres et datations souvent changés par l'artiste lui-même ; le marché a été réévalué après la rétrospective MoMA / Kunsthaus Zürich de 2016-2017.
+- **Marché** : New York et Londres pour Dada et les transparences ; Paris pour les périodes tardives ; vérifier le passage par les ventes d'atelier et les collections Dada historiques (Tzara, Breton, Arp).
+- **Provenance** : fonds Dada et surréalistes (Bibliothèque Kandinsky, Bibliothèque littéraire Jacques Doucet, Kunsthaus Zürich), galeries Léonce Rosenberg, Danthon, Pierre Colle ; agent-historien pour les archives.
+
+### Fernand Léger (1881-1955) · 莱热 (Láirè)
+
+- **Catalogue de référence** ✓ : *Fernand Léger. Catalogue raisonné de l'œuvre peint*, entrepris par **Georges Bauquier** (vol. I, 1903-1919, Maeght, 1990), poursuivi avec **Irus et Vincent Hansma** (vol. II, 1920-1924, 1992, et suivants), achevé par **Irus Hansma et Claude Lefebvre du Preÿ** (derniers volumes, dont les vol. 9 et 10 annoncés en 2013 ✓). Couverture : peintures 1903-1955.
+- **Œuvres sur papier** ✓ : *répertoire des œuvres sur papier* en préparation par Irus Hansma (notices de ventes récentes) ; les lettres d'inclusion dans ce répertoire font aujourd'hui référence pour les gouaches et dessins.
+- **Autorité** : le **Comité Léger** (Paris) tient les archives et délivre des certificats numérotés ✓ ; les notices de ventes citent soit un certificat du Comité, soit une lettre d'Irus Hansma, soit les deux. Articulation exacte entre le Comité et le répertoire Hansma : à confirmer auprès du Comité avant toute conclusion.
+- **Pièges** : les authentifications signées Bauquier antérieures à 1997 valent comme témoignage historique mais le marché attend aujourd'hui une confirmation du Comité ; grand nombre de gouaches et d'études préparatoires de qualité inégale ; distinguer les œuvres originales des **lithographies, pochoirs et éditions posthumes** (ateliers Mourlot, Teriade) et des œuvres de l'atelier (élèves) ; les commandes monumentales (mosaïques, vitraux, céramiques de Biot) ont leur propre marché.
+- **Marché** : Paris (Artcurial), New York, Londres ; les grandes périodes (contrastes de formes 1913-1914, période mécanique 1918-1924, objets dans l'espace, *Constructeurs*, *Grande Parade*) se comparent séparément.
+- **Provenance** : galeries Kahnweiler / Galerie Simon et Louise Leiris (archives chez Leiris), Léonce Rosenberg (L'Effort moderne, archives Bibliothèque Kandinsky), Louis Carré, Maeght ; musée national Fernand Léger (Biot) pour les archives du fonds Bauquier ; Zentralarchiv et Flechtheim pour l'Allemagne.
+
+### Jean Hélion (1904-1987) · 埃利翁 (Āilìwēng, transcription d'usage à confirmer)
+
+- **Catalogue de référence** ✓ : *Catalogue raisonné de l'œuvre peint*, établi par **Jacqueline Hélion** (veuve, ayant droit moral) avec son fils **Clovis Vail**, diffusé en version numérique en 2011 (source : page professionnelle de Clovis Vail, expert UFE). Une source commerciale affirme qu'aucun catalogue publié n'est confirmé ✓ : le dire tel quel et demander la référence exacte à l'Association.
+- **Œuvres sur papier** ✓ : catalogue raisonné en préparation par l'**Association Jean Hélion** (notices Piasa, Lefloch-Drouot).
+- **Autorité** : l'Association Jean Hélion et la famille (Jacqueline Hélion, Clovis Vail ; une source cite aussi Louis Hélion) ; demander qui signe les certificats aujourd'hui.
+- **Pièges** : marché étroit et très segmenté entre l'abstraction des années 1930 (Abstraction-Création, les *Équilibres*, très recherchée) et le retour à la figuration à partir de 1939-1945 (longtemps décoté, réévalué depuis les rétrospectives) ; vérifier la cohérence entre la date, la période et le prix demandé ; œuvres américaines (New York 1932-1946) souvent passées par des collections et galeries américaines ; les écrits (journal, carnets) permettent de dater finement.
+- **Marché** : Paris (Drouot, Piasa, Artcurial) en premier, puis Londres et New York ; une rétrospective au **Musée d'Art moderne de Paris en 2024-2025** (*La prose du monde*) avec la BnF, l'IMEC et l'Association Jean Hélion comme partenaires ✓ a resserré le marché.
+- **Provenance** : galerie Pierre (Pierre Loeb), Cahiers d'Art (Zervos, lien avec le fonds Aion), Galerie Louis Carré, Galerie Flinker, Galerie Karl Flinker, Paul Willard Gallery et Valentine Gallery (New York) ; archives : fonds Hélion à l'**IMEC** (éditeur de ses *Écrits* et de *À perte de vue*, partenaire de la rétrospective ✓ ; vérifier l'intitulé et la cote du fonds avec l'agent-historien), BnF pour les carnets.
+
+## 3. Autres artistes modernes occidentaux — repères
 
 | Artiste | Catalogue(s) | Autorité / contact | État |
 |---|---|---|---|
 | Picasso | **Zervos** (Cahiers d'Art, 33 vol., réédition 2014) ; Online Picasso Project (Enrique Mallen) ; catalogues spécialisés (Baer pour les gravures, Spies pour les sculptures, Ramié pour la céramique) | Picasso Administration (succession) ; pas de comité d'authentification formel, avis de la succession | Zervos achevé ; conflit d'intérêts Aion (vente du Zervos) à déclarer |
-| Monet | Wildenstein (1974-1991 et 1996) | Wildenstein Plattner Institute | Achevé, mises à jour WPI |
+| Monet, Pissarro, Picabia, Léger, Hélion | Voir § 2 | Voir § 2 | Prioritaires |
 | Renoir | Daulte ; Dauberville (Bernheim-Jeune) | Wildenstein Plattner Institute (comité) | Deux traditions concurrentes : le dire |
 | Matisse | Catalogues partiels (Duthuit pour sculptures et gravures) ; peintures en préparation | Archives Henri Matisse | En cours : prudence |
-| Léger | Bauquier | Comité Léger | Achevé |
 | Chagall | Comité Chagall (Paris) | Comité Chagall | Certificat du comité attendu par le marché |
 | Modigliani | Ceroni ; Lanthemann ; Parisot (contesté) ; Restellini (projet) | Aucune autorité unique : zone à risque maximal | À traiter cas par cas |
 | Giacometti | Fondation Giacometti, base en ligne (AGD) | Fondation Giacometti / Comité Giacometti | En ligne ✓ |
@@ -54,7 +101,7 @@ Toujours relever : auteur, éditeur, année, volume, numéro, page, et l'état d
 | Bacon | Harrison (Estate of Francis Bacon, 2016) | Estate | Achevé |
 | Fontana | Fondazione Lucio Fontana | Fondazione | Certificat attendu |
 
-## 3. Artistes chinois de Paris et art moderne chinois — repères
+## 4. Artistes chinois de Paris et art moderne chinois — repères
 
 | Artiste | Catalogue(s) | Autorité | État |
 |---|---|---|---|
@@ -70,7 +117,7 @@ Toujours relever : auteur, éditeur, année, volume, numéro, page, et l'état d
 
 Pour tout artiste chinois mort après 1911 : vérifier s'il figure sur la **liste 2023 de l'Administration nationale du patrimoine (国家文物局)** — voir `provenance.md`, § 7.
 
-## 4. Comités, fondations, estates : comment les saisir
+## 5. Comités, fondations, estates : comment les saisir
 
 - Repérer l'autorité reconnue par les grandes maisons (lire les notices des lots récents : « accompagné d'un certificat de… », « sera inclus dans… »).
 - Écrire avec : photos haute définition recto/verso, dimensions, provenance connue, bibliographie, expositions ; parfois un examen physique est exigé.
@@ -78,7 +125,7 @@ Pour tout artiste chinois mort après 1911 : vérifier s'il figure sur la **list
 - Conserver la lettre originale, sa date et son numéro ; elle fait partie du dossier de l'œuvre et se transmet à la revente.
 - Une réponse négative ou une absence de réponse se note aussi.
 
-## 5. Procédure type de vérification
+## 6. Procédure type de vérification
 
 1. Identifier le catalogue de référence (IFAR, notices récentes de maisons de ventes, fondation).
 2. Localiser le volume ou la base : en ligne (niveau A), bibliothèque (INHA, Kandinsky, Getty, Frick, Watson, CAFA/CAA pour les artistes chinois), ou exemplaire chez un partenaire.
