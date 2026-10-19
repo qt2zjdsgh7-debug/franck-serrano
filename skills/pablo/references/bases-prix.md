@@ -1,4 +1,4 @@
-# Annuaire des bases de prix et des archives de ventes — agent-art-adviser
+# Annuaire des bases de prix et des archives de ventes — Pablo
 
 Annuaire de travail. Les entrées marquées ✓ ont été vérifiées en ligne à la date indiquée ; les autres sont des repères à confirmer avant citation. Les conditions d'accès (abonnement, API, gratuité partielle) changent souvent : vérifier à chaque commande.
 

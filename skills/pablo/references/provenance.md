@@ -1,4 +1,4 @@
-# Analyse de provenance et conformité — agent-art-adviser
+# Analyse de provenance et conformité — Pablo
 
 Méthode, bases et signaux d'alerte. Les entrées marquées ✓ ont été vérifiées en ligne à la date indiquée ; les autres sont des repères à confirmer avant citation. Les règles juridiques (seuils d'exportation, anti-blanchiment, listes de sanctions) changent : vérifier à chaque commande et renvoyer vers un conseil.
 

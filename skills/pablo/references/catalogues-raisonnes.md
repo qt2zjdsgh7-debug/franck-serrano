@@ -1,4 +1,4 @@
-# Annuaire des catalogues raisonnés et des autorités d'authentification — agent-art-adviser
+# Annuaire des catalogues raisonnés et des autorités d'authentification — Pablo
 
 Annuaire de travail. Les entrées marquées ✓ ont été vérifiées en ligne à la date indiquée ; les autres sont des repères à confirmer avant citation. Un catalogue raisonné est un objet vivant : volumes à paraître, suppléments, errata, passage en ligne. Vérifier l'état à chaque commande.
 

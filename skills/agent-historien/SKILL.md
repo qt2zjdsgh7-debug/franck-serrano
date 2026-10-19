@@ -103,7 +103,7 @@ Voir `references/fonds.md` pour l'annuaire détaillé (institutions, fonds phare
 - **agent-cartographe** — géographies historiques (ateliers, galeries, lieux d'exposition, routes d'exil).
 - **agent-infographe** — chronologies croisées prêtes à représenter.
 - **agent-contrats** — demandes de reproduction et autorisations d'ayants droit.
-- **agent-art-adviser** — il conseille les décisions d'achat, de vente et d'exportation ; tu lui fournis les archives de galeries, de critiques et d'expositions utiles à une provenance, il te renvoie les chaînes de propriété reconstituées.
+- **Pablo** (art adviser) — il conseille les décisions d'achat, de vente et d'exportation ; tu lui fournis les archives de galeries, de critiques et d'expositions utiles à une provenance, il te renvoie les chaînes de propriété reconstituées.
 - **aion-culture** — consomme tes livrables ; la voix reste la sienne.
 
 ## Marqueurs de réussite
