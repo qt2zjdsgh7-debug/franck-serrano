@@ -32,9 +32,9 @@ Toujours relever : auteur, éditeur, année, volume, numéro, page, et l'état d
 | **INHA, Bibliothèque Kandinsky, Frick Art Reference Library, Watson (Met)** | Consultation des volumes imprimés ; Frick et Watson ont des pans numérisés. |
 | **WorldCat / SUDOC / CCFr** | Localiser un exemplaire d'un volume rare (le Zervos n'est pas partout). |
 
-## 2. Artistes prioritaires Aion (liste en cours : Monet, Pissarro, Picabia, Léger, Hélion)
+## 2. Artistes prioritaires Aion (liste en cours : Monet, Pissarro, Picabia, Léger, Hélion, Szafran)
 
-Liste fixée par Franck le 2026-10-19, à étendre au fil des dossiers. Pour ces cinq artistes, l'agent doit connaître sans recherche préalable le catalogue de référence, l'autorité qui délivre les certificats, et les pièges propres à chacun. Les éléments marqués ✓ ont été vérifiés en ligne le 2026-10-19.
+Liste fixée par Franck le 2026-10-19, à étendre au fil des dossiers. Pour ces six artistes, l'agent doit connaître sans recherche préalable le catalogue de référence, l'autorité qui délivre les certificats, et les pièges propres à chacun. Les éléments marqués ✓ ont été vérifiés en ligne le 2026-10-19.
 
 ### Claude Monet (1840-1926) · 莫奈 (Mònài)
 
@@ -80,12 +80,21 @@ Liste fixée par Franck le 2026-10-19, à étendre au fil des dossiers. Pour ces
 - **Marché** : Paris (Drouot, Piasa, Artcurial) en premier, puis Londres et New York ; une rétrospective au **Musée d'Art moderne de Paris en 2024-2025** (*La prose du monde*) avec la BnF, l'IMEC et l'Association Jean Hélion comme partenaires ✓ a resserré le marché.
 - **Provenance** : galerie Pierre (Pierre Loeb), Cahiers d'Art (Zervos, lien avec le fonds Aion), Galerie Louis Carré, Galerie Flinker, Galerie Karl Flinker, Paul Willard Gallery et Valentine Gallery (New York) ; archives : fonds Hélion à l'**IMEC** (éditeur de ses *Écrits* et de *À perte de vue*, partenaire de la rétrospective ✓ ; vérifier l'intitulé et la cote du fonds avec l'agent-historien), BnF pour les carnets.
 
+### Sam Szafran (1934-2019) · 萨姆·萨夫兰 (Sàmǔ Sàfūlán, transcription d'usage à confirmer)
+
+- **Catalogue de référence** ✓ : **catalogue raisonné en préparation par Julia Drost** (historienne de l'art, Deutsches Forum für Kunstgeschichte / Centre allemand d'histoire de l'art, Paris), directrice de la publication du catalogue de la rétrospective de l'Orangerie ; les notices de ventes récentes mentionnent « sera inclus dans le catalogue raisonné en préparation par Julia Drost ». Aucun volume paru identifié : toute inclusion est donc une allégation tant qu'une lettre de l'auteure ne la confirme pas.
+- **Autorité** : l'auteure du catalogue raisonné et la succession de l'artiste (veuve **Lilette Szafran**, née Keller, épousée en 1963 ✓) ; aucun comité formel identifié ✓ ; la **Galerie Claude Bernard** (Paris), qui le représente depuis les années 1960 après la première exposition chez Jacques Kerchache en 1965 ✓, reste l'interlocuteur du marché primaire, mais sa représentation de la succession est à confirmer. Demander qui signe les certificats aujourd'hui.
+- **Repères institutionnels** ✓ : rétrospective **« Obsessions d'un peintre », Musée de l'Orangerie, 28 septembre 2022 - 16 janvier 2023** (une soixantaine de pastels, aquarelles et fusains) ; Fondation Pierre Gianadda (Martigny) pour les grandes expositions antérieures ; le Centre Pompidou conserve un pastel sur quatre feuilles de 1981 acquis en 1982 ✓. Mort le 14 septembre 2019 ✓.
+- **Pièges** : œuvre presque entièrement sur papier (pastel, aquarelle, fusain), donc **état de conservation déterminant** (fixatif, frottements, décoloration, montage des grandes feuilles assemblées) : exiger un rapport d'état et des photos sous lumière rasante ; séries à comparer séparément (ateliers et imprimerie Bellini, **escaliers** à partir de 1974, philodendrons et serres, vues de Malakoff, portraits de Lilette) ; formats très variables, du petit pastel à l'œuvre monumentale sur feuilles assemblées, qui changent la fourchette d'un facteur dix ; production rare et lente, marché mince, donc comparables peu nombreux ; nombreuses œuvres passées par des collections privées proches de l'artiste (Giacometti, Beckett, Henri Cartier-Bresson, Jean Clair comme critique) : une provenance de ce cercle vaut une prime, mais se prouve.
+- **Marché** : Paris d'abord (Sotheby's Paris, Christie's Paris, Artcurial, Drouot), puis Londres ; les meilleurs résultats concernent les grands pastels d'escaliers et d'ateliers ; la rétrospective de l'Orangerie et la mort de l'artiste ont resserré l'offre : vérifier les résultats 2019-2026 avant toute fourchette (aucun record vérifié à ce jour, à établir sur les pages de lots).
+- **Provenance** : archives de la Galerie Claude Bernard, catalogues Gianadda et Orangerie (liste des prêteurs), monographie de Jean Clair, fonds de la succession ; dates souvent portées au dos ou sur le montage.
+
 ## 3. Autres artistes modernes occidentaux — repères
 
 | Artiste | Catalogue(s) | Autorité / contact | État |
 |---|---|---|---|
 | Picasso | **Zervos** (Cahiers d'Art, 33 vol., réédition 2014) ; Online Picasso Project (Enrique Mallen) ; catalogues spécialisés (Baer pour les gravures, Spies pour les sculptures, Ramié pour la céramique) | Picasso Administration (succession) ; pas de comité d'authentification formel, avis de la succession | Zervos achevé ; conflit d'intérêts Aion (vente du Zervos) à déclarer |
-| Monet, Pissarro, Picabia, Léger, Hélion | Voir § 2 | Voir § 2 | Prioritaires |
+| Monet, Pissarro, Picabia, Léger, Hélion, Szafran | Voir § 2 | Voir § 2 | Prioritaires |
 | Renoir | Daulte ; Dauberville (Bernheim-Jeune) | Wildenstein Plattner Institute (comité) | Deux traditions concurrentes : le dire |
 | Matisse | Catalogues partiels (Duthuit pour sculptures et gravures) ; peintures en préparation | Archives Henri Matisse | En cours : prudence |
 | Chagall | Comité Chagall (Paris) | Comité Chagall | Certificat du comité attendu par le marché |
