@@ -1,19 +1,17 @@
-# Alerte Pablo · 19 octobre 2026 — Artcurial Paris, « Selected 20/21 », 24 octobre
+# Alerte Pablo · Artcurial Paris, « Selected 20/21 » (vente 6478), 24 octobre 2026, 14 h
 
-Niveau de vérification : **B** (extrait Artnet et page Artcurial ; page de lot non lue). Vente dans **5 jours**.
+Émise le 19 octobre (niveau B). **Mise à jour le 22 octobre à 12 h 30 (Paris) au niveau A** : les 55 lots (100-154) lus sur artcurial.com. Exposition jusqu'au 24 octobre 13 h, 7 rond-point des Champs-Élysées.
 
-**Lot** : **Zao Wou-Ki 赵无极 (Zhào Wújí), *Cargo au port*, 1952**, période de transition vers l'abstraction (années Klee) ; médium et dimensions non obtenus ; numéro de lot non obtenu.
+| Lot | Œuvre | Estimation | Catalogue raisonné | Provenance |
+|---|---|---|---|---|
+| 125 | **Zao Wou-Ki 赵无极, *Cargo au port*, 22 avril 1952**, huile sur toile, 46 × 55 cm, signée en chinois et en pinyin, contresignée, titrée et datée au dos | **600 000-800 000 €** | **Marquet-Zao et Hendgen, CR des peintures vol. 1 (1935-1958), 2019, n° P-0272, p. 144 ; archives de l'artiste n° P-52-20** | Collection particulière européenne (acquis directement auprès de l'artiste) ; par descendance |
+| 121 | Picasso, *Nu, homme assis et buste de vieille femme*, 18 juin 1970, encre de Chine, 31,5 × 48,8 cm | 120 000-180 000 € | Zervos XXXII, n° 145 ; Picasso Project | Pierre Bergé, Bruxelles, 19 juin 2007, lot 22 ; Galerie Alain Le Gaillard ; acquis v. 2008. Expo. Louise Leiris 1971-72 |
+| 122 | Picasso, *Le Peintre*, 10 oct. 1964 (II), encre et lavis sur épreuve collotype et pochoir Spitzer n° 1, 98 × 74,7 cm | 200 000-300 000 € | Zervos XXIV, n° 216 | Probablement Louise Leiris ; Alfred Richet ; par descendance |
 
-**Vente** : Artcurial, « Selected 20/21 », Paris, 24 octobre 2026, 14 h (même jour que la collection Louis Grandchamp des Raux à 16 h). URL : artcurial.com (page de vente non lue) ; source : news.artnet.com/art-world/artcurial-art-basel-paris-2824041
+Aucun autre artiste de la watchlist dans la vente. Conflit d'intérêts Aion déclaré sur Picasso (vente du Zervos).
 
-**Estimation** : 600 000-800 000 €.
+**Comparables rapides** (niveau B, semaine de Hong Kong, hors fenêtre) : *Sans titre (La Théière)*, 1951, Phillips HK, 30 sept. 2026, estimé 10-15 M HK$, vendu plus de 11 M HK$ (environ 1,3 M€) ; *01.06.65*, Poly HK, 5 oct. 2026, 15,84 M HK$ frais inclus ; *Bateaux sur fond bleu*, période Klee, Sotheby's HK, 28 sept., estimé 24-32 M HK$, résultat non lu. Les œuvres de 1950-1954 se vendent mieux à Hong Kong qu'à Paris : l'estimation parisienne reste une opportunité, le dossier étant complet (numéro de catalogue raisonné, archives, provenance directe).
 
-**Provenance et catalogue raisonné** : non lus. Le lot relève du **volume 1 du catalogue raisonné des peintures (1935-1958)**, Marquet-Zao et Hendgen, Flammarion / Fondation Zao Wou-Ki, 2019 : vérifier le numéro dans la notice et, à défaut, exiger la lettre de la Fondation.
+**Points à vérifier avant d'enchérir** : rapport d'état (demandé via la page du lot) ; concordance de l'œuvre avec la reproduction P-0272 ; certificat d'exportation si l'œuvre part vers l'Asie (plus de 50 ans, seuil de valeur dépassé) ; barème Artcurial ; identité du bénéficiaire effectif côté acheteur.
 
-**Comparables rapides** (niveau B, semaine de Hong Kong, hors fenêtre) : *Sans titre (La Théière)*, 1951, Phillips Hong Kong, 30 sept. 2026, estimé 10-15 M HK$, vendu plus de 11 M HK$ (environ 1,3 M€) ; *01.06.65*, 1965, Poly Hong Kong, 5 oct. 2026, 15,84 M HK$ frais inclus ; *Bateaux sur fond bleu*, début de période Klee, Sotheby's Hong Kong, 28 sept. 2026, estimé 24-32 M HK$, résultat non trouvé. Les œuvres de 1950-1954 à sujet figuratif stylisé se vendent en général mieux à Hong Kong qu'à Paris : l'estimation parisienne peut être une opportunité si l'état et la provenance tiennent.
-
-**Pourquoi c'est intéressant pour Aion** : artiste au cœur du dialogue Est-Ouest d'Aion ; période recherchée par les collectionneurs asiatiques ; vente à Paris, pendant Art Basel Paris, à une estimation qui paraît inférieure aux prix de Hong Kong pour la même période.
-
-**Points à vérifier avant d'enchérir** : numéro du catalogue raisonné vol. 1 ; provenance complète (galerie Pierre Loeb, collections françaises des années 1950) ; rapport d'état ; signature et date au dos ; barème Artcurial ; certificat d'exportation si l'œuvre part vers l'Asie (œuvre de plus de 50 ans, seuil de valeur dépassé) ; devise de règlement et identité du bénéficiaire effectif côté acheteur.
-
-**Prochaine étape** : Pablo lit la page de lot dès que l'accès est rétabli (au plus tard le 22 oct.) et complète au niveau A ; Franck identifie un client potentiel avant le 23 oct. ; résultat à verser à la watchlist le 24 oct.
+**Prochaine étape** : résultat versé dans la watchlist le 24 octobre après-midi (contrôle programmé).
