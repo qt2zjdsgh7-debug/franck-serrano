@@ -1,6 +1,6 @@
 # Watchlist Pablo — veille enchères
 
-Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-10-19 (scan S43 ; niveau de vérification B au mieux, pages de lots non accessibles).
+Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-10-22, 10 h CEST, avant les ventes de Paris (mise à jour des lots en cours au niveau B ; pages de lots toujours inaccessibles : sothebys.com, christies.com, artcurial.com, piasa.fr refusés par le proxy). Aucun lot déplacé vers l'historique : aucune vente suivie n'a encore eu lieu. Résultats à verser dans `Pablo_Resultats_Paris_20261022-24.md` puis ici.
 
 ## 1. Artistes suivis
 
@@ -19,25 +19,27 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 
 ## 2. Lots en cours (annoncés, non encore vendus)
 
-| Artiste | Maison, vente, lieu | Date | Lot | Titre, année, médium, dimensions | Estimation | Fiche flash | Ajouté le |
-|---|---|---|---|---|---|---|---|
-| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 4 | *Iris*, v. 1924-25, huile sur toile, 159,6 × 180 cm (W 1838) | 22-30 M€ | Alerte émise | 2026-10-19 |
-| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 8 | *Saule pleureur ou L'Arbre de feu*, v. 1918-19, huile sur toile | 9-12 M€ | Alerte émise | 2026-10-19 |
-| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 5 | *La maison à travers les roses* | 2-3 M€ | Alerte émise | 2026-10-19 |
-| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 2 | *La Seine à Vernon, l'arbre* | 1,2-1,8 M€ (à confirmer) | Alerte émise | 2026-10-19 |
-| Monet | Christie's Paris, Durand-Ruel | 2026-10-22 | n. o. | *Bord des falaises à Pourville*, v. 1882, huile sur toile | 11-15 M€ | Alerte émise | 2026-10-19 |
-| Monet | Christie's Paris, Durand-Ruel | 2026-10-22 | n. o. | *Trois pots de tulipes*, 1885, 51,3 × 36,7 cm | 2,5-3,5 M€ | Alerte émise | 2026-10-19 |
-| Pissarro | Christie's Paris, Durand-Ruel | 2026-10-22 | n. o. | *Le Louvre, soleil d'hiver, matin*, 1900, huile sur toile | 2-3 M€ | Alerte émise | 2026-10-19 |
-| Picasso | Christie's Paris, Durand-Ruel ou Art Moderne | 2026-10-22/23 | n. o. | *Nature morte au gruyère*, 14 mars 1944 | 2,5-3,5 M€ | Alerte émise | 2026-10-19 |
-| Monet | Sotheby's Paris, Modernités | 2026-10-23 | 215 | *Sur la falaise près de Dieppe*, probablement 1897, 65 × 100 cm | 3-5 M€ | Alerte émise | 2026-10-19 |
-| Picasso | Sotheby's Paris, Modernités | 2026-10-23 | 212 | *Tête d'homme, profil* | 3-4 M€ | Alerte émise | 2026-10-19 |
-| Picabia | Sotheby's Paris, Surrealism and Its Legacy | 2026-10-23 | 118 | *Les âges de la femme*, 1936-37 | 400 000-600 000 € | Alerte émise | 2026-10-19 |
-| Picabia | Christie's Paris, Art Moderne (probable) | 2026-10-23 | n. o. | *Sans titre*, 1942-43 | n. o. | À confirmer (niveau C) | 2026-10-19 |
-| Zao Wou-Ki | Artcurial Paris, Selected 20/21 | 2026-10-24 | n. o. | *Cargo au port*, 1952 | 600 000-800 000 € | Alerte émise | 2026-10-19 |
-| Picasso | Sotheby's New York, Magnum Opus | 2026-10-21/22 | 21 ; 174 | *Tête de fou* ; *Nu étendu* | 100 000-150 000 $ (conflit) ; 60 000-80 000 $ | Non | 2026-10-19 |
-| Picasso (céramiques) | Piasa Paris | 2026-10-27 | n. o. | *Taureau* (A.R. 255) ; *Poisson* (var. A.R. 166) et autres | 80 000-120 000 € ; 10 000-15 000 € | Non | 2026-10-19 |
-| Pissarro | Sotheby's New York, Legendary (Blaquier-Arrieta) | 2026-11-18 | 8 | *La Place du Théâtre-Français et l'avenue de l'Opéra, soleil d'après-midi en hiver*, 1898, 74,4 × 92,5 cm | 30-40 M$ | À préparer (record possible) | 2026-10-19 |
-| Monet | Sotheby's New York, Legendary (Blaquier-Arrieta) | 2026-11-18 | 4 (à confirmer) | *Le Jardin des Tuileries*, 1876 | 15-20 M$ (à confirmer) | À préparer | 2026-10-19 |
+Niveau : B = extrait de page de maison ou de presse ; C = mention isolée. Aucune ligne au niveau A.
+
+| Artiste | Maison, vente, lieu | Date | Lot | Titre, année, médium, dimensions | Estimation | Fiche flash | Niv. | Ajouté le / mis à jour |
+|---|---|---|---|---|---|---|---|---|
+| Monet | Sotheby's Paris, coll. Schlumberger « Le Temps retrouvé » | 2026-10-22 18 h | 4 | *Iris*, v. 1924-25, huile sur toile, 159,6 × 180 cm, W 1838 (vol. IV 1985 ; éd. 1996), premier état | 22-30 M€ ; aucun lot garanti selon The Art Newspaper | Alerte mise à jour 22 oct. | B+ | 2026-10-19 / 2026-10-22 |
+| Monet | idem | 2026-10-22 | 8 | *Saule pleureur ou L'Arbre de feu*, v. 1918-19, huile sur toile, dimensions n. o., W n. o. | 9-12 M€ (The Art Newspaper : 8 M€ en bas) | Alerte mise à jour | B | 2026-10-19 / 2026-10-22 |
+| Monet | idem | 2026-10-22 | 5 | *La maison à travers les roses*, v. 1925-26, huile sur toile, 62,2 × 81,3 cm (Artnet, à confirmer), W n. o. | 2-3 M€ (un extrait : 3-5 M€) | Alerte mise à jour | B | 2026-10-19 / 2026-10-22 |
+| Monet | idem | 2026-10-22 | 2 | *La Seine à Vernon, l'arbre*, 1894, huile sur toile, dimensions n. o., W n. o. | 1,2-1,8 M€ (un extrait : 400 000-600 000 €) | Alerte mise à jour | B | 2026-10-19 / 2026-10-22 |
+| Monet | Christie's Paris, Durand-Ruel « Generations of Vision », vente 25209 | 2026-10-22 | n. o. | *Bord des falaises à Pourville*, 1882, huile sur toile, 59 × 100 cm ; W 751 selon Wikipédia FR (C) | 11-15 M€ | Alerte mise à jour | B | 2026-10-19 / 2026-10-22 |
+| Monet | idem | 2026-10-22 | n. o. | *Trois pots de tulipes*, 1885, huile sur toile, 51,3 × 36,7 cm, W n. o. | 2,5-3,5 M€ | Alerte mise à jour | B | 2026-10-19 / 2026-10-22 |
+| Pissarro | idem | 2026-10-22 | n. o. | *Le Louvre, soleil d'hiver, matin*, 1900, huile sur toile, dimensions n. o., PDRS n. o. | 2-3 M€ | Alerte mise à jour | B | 2026-10-19 / 2026-10-22 |
+| Picasso | Christie's Paris, Durand-Ruel (22 oct.) ou Art Moderne vente du jour (23 oct.) | 2026-10-22/23 | n. o. | *Nature morte au gruyère*, 14 mars 1944 (un site : 1943), Zervos n. o. | 2,5-3,5 M€ (à confirmer) | Alerte mise à jour ; conflit d'intérêts Aion | B | 2026-10-19 / 2026-10-22 |
+| Monet | Sotheby's Paris, Modernités PF2616 | 2026-10-23 17 h | 215 | *Sur la falaise près de Dieppe*, version non identifiée (1897 ?), dimensions n. o., W n. o. | 3-5 M€ | Alerte mise à jour | B | 2026-10-19 / 2026-10-22 |
+| Picasso | idem | 2026-10-23 | 212 | *Tête d'homme, profil*, date, médium, dimensions et Zervos n. o. | 3-4 M€ | Alerte mise à jour ; conflit d'intérêts Aion | B | 2026-10-19 / 2026-10-22 |
+| Picabia | Sotheby's Paris, Surrealism and Its Legacy PF2666 (33 lots, 2 garantis) | 2026-10-23 14 h 30 | 118 (à confirmer) | *Les âges de la femme*, 1936-37 (titre à confirmer : un Picabia à cette estimation est listé pour le 23 oct. 2026 ; le lot 118 « Les âges de la femme » apparaît aussi daté du 16 oct. 2019) | 400 000-600 000 € | Alerte mise à jour (écart signalé) | B- | 2026-10-19 / 2026-10-22 |
+| Picabia | Christie's Paris, Art Moderne vente du jour (confirmée par MutualArt, avec œuvres Durand-Ruel et Hays, 13,3-19,5 M$) | 2026-10-23 | n. o. | *Sans titre*, 1942-43 | n. o. | À confirmer | C | 2026-10-19 / 2026-10-22 |
+| Zao Wou-Ki | Artcurial Paris, Selected 20/21, vente n° 6478 (55 lots) | 2026-10-24 14 h | n. o. | *Cargo au port*, 1952, huile sur toile, 46 × 55 cm (Heni, C) ; n° Fondation n. o. | 600 000-800 000 € | Alerte mise à jour | B | 2026-10-19 / 2026-10-22 |
+| Picasso | Sotheby's New York, Magnum Opus (soir 21 oct., est. globale 32,65-47,62 M$ ; Act II « Figure & Form » 22 oct.) | 2026-10-21/22 | 342 (soir) ; 174 ; 21 (à confirmer) | *Portraits imaginaires* (lot 342, soir) ; *Nu étendu* (lot 174, Act II) ; *Tête de fou* (lot 21, non confirmé) ; un Picasso estimé 1-2 M$ selon ARTnews, non identifié | n. o. ; 60 000-80 000 $ ; 100 000-150 000 $ (conflit) | Non ; résultats du 21 oct. non trouvés | B/C | 2026-10-19 / 2026-10-22 |
+| Picasso (céramiques) | Piasa Paris, « Céramique de Picasso, collection privée européenne », 54 rue de Monceau (exposition 23, 24, 26 oct.) | 2026-10-27 17 h | 33 ; autres n. o. | *Taureau* (A.R. 255, lot 33) ; *Poisson* (A.R. 166) ; *Vase aux chèvres* (A.R. 156) ; *Tête au masque* (A.R. 362) ; *Corrida aux personnages* ; *Oiseau polychrome* (A.R. 33) ; *Oiseau n° 91* (A.R. 485) ; *Vallauris* (A.R. 179) ; *Picador* (A.R. 160) | 80 000-120 000 € ; 10 000-15 000 € ; 15 000-20 000 € ; 15 000-20 000 € ; 15 000-20 000 € ; 8 000-12 000 € ; 4 000-6 000 € ; 3 000-4 000 € ; 2 000-3 000 € | Non | B | 2026-10-19 / 2026-10-22 |
+| Pissarro | Sotheby's New York, Legendary (Blaquier-Arrieta) | 2026-11-18 | 8 | *La Place du Théâtre-Français et l'avenue de l'Opéra, soleil d'après-midi en hiver*, 1898, 74,4 × 92,5 cm | 30-40 M$ | À préparer (record possible) | B+ | 2026-10-19 |
+| Monet | Sotheby's New York, Legendary (Blaquier-Arrieta) | 2026-11-18 | 4 (à confirmer) | *Le Jardin des Tuileries*, 1876 | 15-20 M$ (à confirmer) | À préparer | B | 2026-10-19 |
 
 ## 3. Historique (lots passés en vente depuis le début de la veille)
 
