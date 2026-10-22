@@ -1,8 +1,55 @@
 # Pablo — Ventes de Paris, 22-27 octobre 2026 : vérification au niveau A
 
-Établi le 22 octobre 2026 à 10 h 30 UTC (12 h 30 à Paris), **avant** les premières vacations. Toutes les notices ci-dessous ont été lues sur les sites des maisons (Sotheby's, Christie's via son API de catalogue, Artcurial, Piasa) : **niveau A**. Les résultats seront versés dans ce fichier et dans la watchlist après chaque vacation (contrôles programmés le 22 au soir, le 23 au soir et le 24 après-midi).
+Établi le 22 octobre 2026 à 10 h 30 UTC (12 h 30 à Paris), **avant** les premières vacations. Toutes les notices ci-dessous ont été lues sur les sites des maisons (Sotheby's, Christie's via son API de catalogue, Artcurial, Piasa) : **niveau A**. Les résultats du 22 octobre sont versés ci-dessous ; ceux du 23 et du 24 le seront après les contrôles programmés.
 
 Conflit d'intérêts déclaré : Aion vend le catalogue raisonné Zervos de Picasso.
+
+## Résultats du 22 octobre (relevés à 22 h 15, heure de Paris)
+
+Prix avec frais acheteur, en euros. Christie's : API de catalogue de christies.com, niveau A. Sotheby's masque les prix aux visiteurs non connectés ; le résultat d'*Iris* vient d'une dépêche d'agence, niveau B.
+
+### Christie's, « Durand-Ruel, Generations of Vision » (25209) : 27 lots sur 27 vendus, total 41 658 640 €
+
+La somme des estimations des 27 lots va de 29,6 à 42,3 M€ : la vente finit en haut de la fourchette.
+
+| Lot | Œuvre | Estimation | Résultat | Lecture |
+|---|---|---|---|---|
+| 7 | Monet, *Bord des falaises à Pourville* | 11-15 M€ | **12 785 000 €** | Dans la fourchette (moitié basse), sans garantie affichée : le marché paie le tableau historique sans surenchère |
+| 11 | Monet, *Trois pots de tulipes* | 2,5-3,5 M€ | **3 155 000 €** | Dans la fourchette, lot garanti |
+| 8 | Pissarro, *Le Louvre, soleil d'hiver, matin* | 2-3 M€ | **2 545 000 €** | Dans la fourchette, lot garanti |
+| 4 | Pissarro, *La Côte Sainte-Catherine à Rouen* | 600-800 000 € | **832 000 €** | Au-dessus de l'estimation haute, lot garanti |
+| 12 | Pissarro, *Le Bêcheur* (gouache sur soie) | 150-250 000 € | **358 400 €** | 43 % au-dessus de l'estimation haute : la provenance Durand-Ruel pèse sur les petits formats |
+| 15 | Picasso, *Nature morte au gruyère* | 2,5-3,5 M€ | **3 033 000 €** | Dans la fourchette, provenance continue depuis Louis Carré, Zervos XIII 239 |
+
+Hors watchlist, à noter : Sisley, *Un Verger*, 3 704 000 € pour 1-1,5 M€ ; Renoir, *Jeunes filles au bord de la mer*, 5 839 000 €.
+
+### Christie's, « Paris Evening Sale » (24607)
+
+78 lots numérotés renvoyés par l'API, 71 avec un prix publié, somme des prix publiés 66,0 M€. Les numéros 105, 140, 145 et 150 sont absents de l'API.
+
+| Lot | Œuvre | Estimation | Résultat | Lecture |
+|---|---|---|---|---|
+| 139 | Léger, *Composition aux trois figures*, 1932 | 1,2-1,8 M€ | **1 408 000 €** | Dans la fourchette ; comparer au prix Kornfeld de juin 2022 (non lu) pour mesurer la plus-value en quatre ans |
+| 103 | Léger, *Paysage*, 1931 | 250-350 000 € | **281 600 €** | Dans la fourchette |
+| 150 | Léger, *Composition murale*, 1929 | 0,7-1 M€ | **non publié : lot absent du catalogue de résultats** | Retrait possible ; à vérifier sur la page du lot |
+| 106 | Picasso, *Le Coq*, bronze | 500-700 000 € | **aucun prix publié** | Invendu probable ; à confirmer |
+| 154 | Picasso, *Portrait d'Olga au chignon*, dessin 1917 | 150-250 000 € | **275 200 €** | Au-dessus de l'estimation haute |
+| 155 | Picasso, *Pichet oiseau*, céramique unique | 100-150 000 € | **256 000 €** | 71 % au-dessus de l'estimation haute : forte demande pour les céramiques uniques |
+| 156 | Picasso, *Chèvre*, céramique unique | 80-120 000 € | **115 200 €** | Dans la fourchette |
+| 157 | Picasso, *L'Oiseau*, assiette unique 1963 | 30-50 000 € | **64 000 €** | 28 % au-dessus de l'estimation haute |
+| 102 | Picasso, *Chèvre à la patte repliée*, bronze | 120-180 000 € | **128 000 €** | Bas de fourchette |
+| 101 | Picasso, *Étude de céramiques*, dessin 1947 | 50-70 000 € | **64 000 €** | Dans la fourchette |
+
+### Sotheby's, « Le Temps retrouvé : la collection Schlumberger » (22 oct., 18 h)
+
+| Lot | Œuvre | Estimation | Résultat |
+|---|---|---|---|
+| 4 | Monet, *Iris* | 22-30 M€ | **50 M€ frais inclus**, record pour une vente aux enchères en France (dépêche AFP reprise par Yahoo, niveau B ; le communiqué de Sotheby's n'a pas été lu) |
+| 2, 5, 8 | Monet, *La Seine à Vernon*, *La maison à travers les roses*, *Saule pleureur* | 1,2-1,8 / 2-3 / 9-12 M€ | **Non publiés** : la page Sotheby's affiche « Log in to view results ». À rechercher dans la presse de demain |
+
+Trois lots de Cézanne ont été retirés de la vente avant le marteau (la page de vente affiche 23 résultats sur 26 lots). Aucun n'est de la watchlist.
+
+Lecture : *Iris* dépasse de 67 % l'estimation haute. Le résultat fixe une référence pour un grand format tardif jamais exposé et non signé ; il ne s'applique pas aux Monet historiques des années 1880 comme *Pourville*, qui ont fait 12,8 M€.
 
 ## 0. Ce qui change par rapport aux alertes du 19 octobre
 

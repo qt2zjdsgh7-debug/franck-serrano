@@ -46,6 +46,16 @@ Dernière révision : 2026-10-19
 
 Si une source payante n'est pas accessible dans l'environnement de travail, le dire dans la synthèse et marquer les données concernées de niveau B ou C.
 
+## 3 bis. Accès techniques éprouvés (vérifiés le 2026-10-22, réseau ouvert)
+
+| Source | Méthode | Limite |
+|---|---|---|
+| Christie's, liste complète des lots et résultats avec frais | Page de la vente `christies.com.cn/en/auction/<slug>-<numéro>-par/` pour lire `sale_id` ; puis `https://www.christies.com/api/discoverywebsite/auctionpages/lotsearch?language=en&SaleId=<sale_id>&SaleNumber=<numéro>&geocountrycode=FR&loadall=true&page=1&pagesize=300&sortby=lotnumber` (JSON : estimation, `price_realised`, `lot_withdrawn`). Pages de lots : `christies.com/en/lot/lot-<object_id>` (provenance, bibliographie, avis de salle et garanties) | L'API peut omettre des numéros de lots (retraits probables) |
+| Sotheby's | Pages de vente et de lots lisibles avec un user-agent de navigateur (estimation, provenance, bibliographie) | **Résultats masqués** sans connexion (« Log in to view results ») : relever les prix dans la presse (dépêches AFP, ARTnews, Artnet) |
+| Artcurial | `artcurial.com/ventes/<numéro>/lots/<n>-a` : estimation, provenance, bibliographie | Résultats après la vente seulement |
+| Piasa | Page de la vente : liste des lots et estimations | — |
+| Bien'ici (immobilier) | `res.bienici.com/suggest.json?q=...` pour l'identifiant de zone (Paris 14e : -9522), puis `realEstateAds.json?filters=...` par pages de 200 | SeLoger, Leboncoin, MeilleursAgents, Bercail et Nestoria refusent les robots |
+
 ## 4. Déroulé fixe du scan (6 étapes)
 
 1. **Contexte** — semaine ISO et dates ; saison en cours par place ; liste des ventes de la semaine écoulée et des quatre semaines à venir susceptibles de contenir des lots suivis.
