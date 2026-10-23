@@ -4,52 +4,87 @@
 
 Conflit d'intérêts déclaré : Aion vend le catalogue raisonné Zervos de Picasso.
 
-## Résultats du 22 octobre (relevés à 22 h 15, heure de Paris)
+## Résultats du 22 octobre (relevés à 22 h 15, heure de Paris), corrigés le 23 octobre
 
-Prix avec frais acheteur, en euros. Christie's : API de catalogue de christies.com, niveau A. Sotheby's masque les prix aux visiteurs non connectés ; le résultat d'*Iris* vient d'une dépêche d'agence, niveau B.
+**Convention essentielle.** Christie's publie ses estimations **hors frais** et ses résultats **frais inclus**. Le marteau est donc nettement inférieur au prix publié. Le barème de frais est de 28 % jusqu'à au moins 1,5 M€ (cinq prix ronds vérifient ce taux) ; au-delà, le taux marginal n'a pas pu être reconstitué, d'où des marteaux encadrés. Comparer un prix publié à une estimation surestime la performance : la première version de cette section (22 octobre au soir) le faisait pour les gros lots et concluait à tort que *Pourville* était « dans la fourchette ». Les lectures ci-dessous sont celles du marteau.
 
-### Christie's, « Durand-Ruel, Generations of Vision » (25209) : 27 lots sur 27 vendus, total 41 658 640 €
+### Christie's, « Durand-Ruel, Generations of Vision » (25209) : 27 lots sur 27 vendus, total 41 658 640 € frais inclus
 
-La somme des estimations des 27 lots va de 29,6 à 42,3 M€ : la vente finit en haut de la fourchette.
+| Lot | Œuvre | Estimation (marteau) | Prix publié (frais inclus) | Marteau | Lecture |
+|---|---|---|---|---|---|
+| 7 | Monet, *Bord des falaises à Pourville* | 11 000 000-15 000 000 € | **12 785 000 €** | 10,0 à 11,0 M€ | À l’estimation basse ou juste en dessous ; aucune garantie affichée |
+| 11 | Monet, *Trois pots de tulipes* | 2 500 000-3 500 000 € | **3 155 000 €** | 2,5 à 2,6 M€ | À l’estimation basse ou juste en dessous ; lot garanti par un tiers |
+| 8 | Pissarro, *Le Louvre, soleil d’hiver, matin* | 2 000 000-3 000 000 € | **2 545 000 €** | 2,0 à 2,0 M€ | À l’estimation basse ou juste en dessous ; lot garanti par un tiers |
+| 4 | Pissarro, *La Côte Sainte-Catherine à Rouen* | 600 000-800 000 € | **832 000 €** | 650 000 € | Dans la fourchette ; lot garanti par un tiers |
+| 12 | Pissarro, *Le Bêcheur* (gouache sur soie) | 150 000-250 000 € | **358 400 €** | 280 000 € | Au-dessus de l’estimation haute |
+| 15 | Picasso, *Nature morte au gruyère* | 2 500 000-3 500 000 € | **3 033 000 €** | 2,4 à 2,5 M€ | Sous l’estimation basse ; aucune garantie affichée |
 
-| Lot | Œuvre | Estimation | Résultat | Lecture |
-|---|---|---|---|---|
-| 7 | Monet, *Bord des falaises à Pourville* | 11-15 M€ | **12 785 000 €** | Dans la fourchette (moitié basse), sans garantie affichée : le marché paie le tableau historique sans surenchère |
-| 11 | Monet, *Trois pots de tulipes* | 2,5-3,5 M€ | **3 155 000 €** | Dans la fourchette, lot garanti |
-| 8 | Pissarro, *Le Louvre, soleil d'hiver, matin* | 2-3 M€ | **2 545 000 €** | Dans la fourchette, lot garanti |
-| 4 | Pissarro, *La Côte Sainte-Catherine à Rouen* | 600-800 000 € | **832 000 €** | Au-dessus de l'estimation haute, lot garanti |
-| 12 | Pissarro, *Le Bêcheur* (gouache sur soie) | 150-250 000 € | **358 400 €** | 43 % au-dessus de l'estimation haute : la provenance Durand-Ruel pèse sur les petits formats |
-| 15 | Picasso, *Nature morte au gruyère* | 2,5-3,5 M€ | **3 033 000 €** | Dans la fourchette, provenance continue depuis Louis Carré, Zervos XIII 239 |
+Lecture d'ensemble : les trois lots principaux de la vente (Monet *Pourville*, Pissarro *Le Louvre*, Picasso *gruyère*) ont été adjugés autour de l'estimation basse, ou juste en dessous, alors que les petits formats ont dépassé l'estimation haute (Pissarro *Bêcheur* : marteau 280 000 € pour 150-250 000 €). La somme des estimations des 27 lots va de 29,6 à 42,3 M€ en marteau ; le total publié de 41,7 M€ frais inclus équivaut donc à un marteau voisin de 33-34 M€, dans la moitié basse de la fourchette de la vente. Hors watchlist : Sisley, *Un Verger*, 3 704 000 € frais inclus pour 1-1,5 M€ ; Renoir, *Jeunes filles au bord de la mer*, 5 839 000 €.
 
-Hors watchlist, à noter : Sisley, *Un Verger*, 3 704 000 € pour 1-1,5 M€ ; Renoir, *Jeunes filles au bord de la mer*, 5 839 000 €.
+### Christie's, « Paris Evening Sale including Thinking Italian » (24607)
 
-### Christie's, « Paris Evening Sale » (24607)
+78 lots numérotés renvoyés par l'API, 71 avec un prix publié, somme des prix publiés 66,0 M€ frais inclus. Les numéros 105, 140, 145 et 150 sont absents de l'API.
 
-78 lots numérotés renvoyés par l'API, 71 avec un prix publié, somme des prix publiés 66,0 M€. Les numéros 105, 140, 145 et 150 sont absents de l'API.
+| Lot | Œuvre | Estimation (marteau) | Prix publié (frais inclus) | Marteau | Lecture |
+|---|---|---|---|---|---|
+| 139 | Léger, *Composition aux trois figures*, 1932 | 1 200 000-1 800 000 € | **1 408 000 €** | 1 100 000 € | Sous l’estimation basse |
+| 103 | Léger, *Paysage*, 1931 | 250 000-350 000 € | **281 600 €** | 220 000 € | Sous l’estimation basse |
+| 150 | Léger, *Composition murale*, 1929 | 700 000-1 000 000 € | lot absent du catalogue de résultats | — | Retrait possible ; à vérifier sur la page du lot |
+| 106 | Picasso, *Le Coq*, bronze | 500 000-700 000 € | aucun prix publié | — | Invendu probable, à confirmer |
+| 154 | Picasso, *Portrait d’Olga au chignon*, dessin 1917 | 150 000-250 000 € | **275 200 €** | 215 000 € | Dans la fourchette |
+| 155 | Picasso, *Pichet oiseau*, céramique unique | 100 000-150 000 € | **256 000 €** | 200 000 € | Au-dessus de l’estimation haute |
+| 156 | Picasso, *Chèvre*, céramique unique | 80 000-120 000 € | **115 200 €** | 90 000 € | Dans la fourchette |
+| 157 | Picasso, *L’Oiseau*, assiette unique 1963 | 30 000-50 000 € | **64 000 €** | 50 000 € | Dans la fourchette |
+| 102 | Picasso, *Chèvre à la patte repliée*, bronze | 120 000-180 000 € | **128 000 €** | 100 000 € | Sous l’estimation basse |
+| 101 | Picasso, *Étude de céramiques*, dessin 1947 | 50 000-70 000 € | **64 000 €** | 50 000 € | Au bas de la fourchette |
 
-| Lot | Œuvre | Estimation | Résultat | Lecture |
-|---|---|---|---|---|
-| 139 | Léger, *Composition aux trois figures*, 1932 | 1,2-1,8 M€ | **1 408 000 €** | Dans la fourchette ; comparer au prix Kornfeld de juin 2022 (non lu) pour mesurer la plus-value en quatre ans |
-| 103 | Léger, *Paysage*, 1931 | 250-350 000 € | **281 600 €** | Dans la fourchette |
-| 150 | Léger, *Composition murale*, 1929 | 0,7-1 M€ | **non publié : lot absent du catalogue de résultats** | Retrait possible ; à vérifier sur la page du lot |
-| 106 | Picasso, *Le Coq*, bronze | 500-700 000 € | **aucun prix publié** | Invendu probable ; à confirmer |
-| 154 | Picasso, *Portrait d'Olga au chignon*, dessin 1917 | 150-250 000 € | **275 200 €** | Au-dessus de l'estimation haute |
-| 155 | Picasso, *Pichet oiseau*, céramique unique | 100-150 000 € | **256 000 €** | 71 % au-dessus de l'estimation haute : forte demande pour les céramiques uniques |
-| 156 | Picasso, *Chèvre*, céramique unique | 80-120 000 € | **115 200 €** | Dans la fourchette |
-| 157 | Picasso, *L'Oiseau*, assiette unique 1963 | 30-50 000 € | **64 000 €** | 28 % au-dessus de l'estimation haute |
-| 102 | Picasso, *Chèvre à la patte repliée*, bronze | 120-180 000 € | **128 000 €** | Bas de fourchette |
-| 101 | Picasso, *Étude de céramiques*, dessin 1947 | 50-70 000 € | **64 000 €** | Dans la fourchette |
+Lecture : le Léger *Composition aux trois figures* est adjugé 1,1 M€, sous l'estimation basse de 1,2 M€, et le Léger *Paysage* 220 000 € pour 250-350 000 €. Les deux sont dans le segment Léger années 1930 : demande plus faible que l'estimation. Les céramiques uniques de Picasso (*Pichet oiseau* 200 000 € pour 100-150 000 €) et le dessin d'Olga (215 000 €) ont dépassé l'estimation.
 
 ### Sotheby's, « Le Temps retrouvé : la collection Schlumberger » (22 oct., 18 h)
 
-| Lot | Œuvre | Estimation | Résultat |
+| Lot | Œuvre | Estimation (marteau) | Résultat |
 |---|---|---|---|
-| 4 | Monet, *Iris* | 22-30 M€ | **50 M€ frais inclus**, record pour une vente aux enchères en France (dépêche AFP reprise par Yahoo, niveau B ; le communiqué de Sotheby's n'a pas été lu) |
-| 2, 5, 8 | Monet, *La Seine à Vernon*, *La maison à travers les roses*, *Saule pleureur* | 1,2-1,8 / 2-3 / 9-12 M€ | **Non publiés** : la page Sotheby's affiche « Log in to view results ». À rechercher dans la presse de demain |
+| 4 | Monet, *Iris* | 22-30 M€ | **50 M€ frais inclus**, record pour une vente aux enchères en France (dépêche AFP, niveau B). Marteau estimé autour de 42-44 M€ si le barème de Sotheby's s'applique ici comme en dollars (non vérifié), soit 40 à 45 % au-dessus de l'estimation haute |
+| 2, 5, 8 | Monet, *La Seine à Vernon*, *La maison à travers les roses*, *Saule pleureur* | 1,2-1,8 / 2-3 / 9-12 M€ | **Non publiés** : « Log in to view results ». Aucune dépêche ne les cite au 23 oct. |
 
-Trois lots de Cézanne ont été retirés de la vente avant le marteau (la page de vente affiche 23 résultats sur 26 lots). Aucun n'est de la watchlist.
+Trois lots de Cézanne ont été retirés de la vente avant le marteau, classés « trésors nationaux », en vue de leur retour à Aix-en-Provence (Sotheby's, cité par la presse). La page de vente affiche 23 résultats sur 26 lots.
 
-Lecture : *Iris* dépasse de 67 % l'estimation haute. Le résultat fixe une référence pour un grand format tardif jamais exposé et non signé ; il ne s'applique pas aux Monet historiques des années 1880 comme *Pourville*, qui ont fait 12,8 M€.
+Lecture : *Iris* est un cas à part : grand format tardif, jamais exposé, non signé, avec des enchères au téléphone pendant près de 45 minutes selon la presse. À ne pas appliquer aux Monet historiques des années 1880, adjugés autour de l'estimation basse chez Christie's.
+
+## Résultats du 23 octobre (relevés le soir, heure de Paris)
+
+### Christie's, « Art Moderne, vente du jour » (24608) : 186 lots sur 214 avec un prix publié, somme 17,9 M€ frais inclus
+
+| Lot | Œuvre | Estimation (marteau) | Prix publié (frais inclus) | Marteau | Lecture |
+|---|---|---|---|---|---|
+| 386 | Picabia, *Baigneuse*, v. 1942-43 (Comité Picabia vol. IV, n° 1804) | 300 000-500 000 € | **601 600 €** | 470 000 € | Dans la fourchette |
+| 244 | Picasso, *Grand Vase aux danseurs* (A.R. 114) | 320 000-500 000 € | **691 200 €** | 540 000 € | Au-dessus de l’estimation haute |
+| 245 | Picasso, *Nature morte aux six pommes*, 1909 | 120 000-160 000 € | aucun prix publié | — | Invendu probable, à confirmer |
+| 282 | Picasso, *Femme couchée et femme ouvrant les rideaux*, 1920 | 120 000-180 000 € | **153 600 €** | 120 000 € | Au bas de la fourchette |
+| 251 | Picasso, *Huit Études d’homme*, 1923 | 30 000-50 000 € | **38 400 €** | 30 000 € | Au bas de la fourchette |
+| 365 | Picasso, *Portrait de Guillaume Apollinaire* | 20 000-30 000 € | **25 600 €** | 20 000 € | Au bas de la fourchette |
+| 364 | Picasso, *La Sirène*, 1952 | 7 000-10 000 € | **44 800 €** | 35 000 € | Au-dessus de l’estimation haute |
+| 391 | Léger, *Composition*, 1924, graphite | 50 000-70 000 € | **64 000 €** | 50 000 € | Au bas de la fourchette |
+| 242 | Blanche Hoschedé-Monet, *Giverny, vue partielle du bassin aux nymphéas* (hors watchlist) | 70 000-100 000 € | **409 600 €** | 320 000 € | Au-dessus de l’estimation haute |
+| 243 | Blanche Hoschedé-Monet, *La Prairie* (hors watchlist) | 70 000-120 000 € | **217 600 €** | 170 000 € | Au-dessus de l’estimation haute |
+
+Lecture : le Picabia *Baigneuse* est adjugé 470 000 €, en haut de la fourchette de 300-500 000 €, malgré une provenance antérieure à 2008 inconnue : le marché suit le numéro du catalogue raisonné et la rétrospective de Milan. Le vase de Picasso (540 000 €) dépasse l'estimation. Le dessin de 1909 *Nature morte aux six pommes*, pourtant certifié par Maya Widmaier et Claude Picasso, n'a pas de prix publié : invendu probable. Les deux peintures de Blanche Hoschedé-Monet, belle-fille de Monet, ont fait quatre à cinq fois leur estimation haute (320 000 et 170 000 € de marteau) : signe de la demande autour du centenaire de la mort de Monet.
+
+### Christie's, « Art Contemporain, vente du jour » (24609) : 119 lots sur 141 avec un prix publié, somme 12,0 M€ frais inclus
+
+L'API signale encore la vente comme non clôturée ; les prix sont publiés mais à reconfirmer.
+
+| Lot | Œuvre | Estimation (marteau) | Prix publié (frais inclus) | Marteau | Lecture |
+|---|---|---|---|---|---|
+| 519 | Szafran, *Feuillages avec Lilette*, 2009-10 | 70 000-100 000 € | **64 000 €** | 50 000 € | Sous l’estimation basse |
+| 602 | Chu Teh-Chun, *Sans titre*, 1990 (certificat Fondation du 24 juin 2026) | 80 000-120 000 € | **102 400 €** | 80 000 € | Au bas de la fourchette |
+| 603 | Chu Teh-Chun, *Composition V*, 1993, gouache (certificat Fondation) | 50 000-70 000 € | **96 000 €** | 75 000 € | Au-dessus de l’estimation haute |
+
+Lecture : le Szafran, grand format sur soie marouflée, part à 50 000 € de marteau pour 70-100 000 € : sous l'estimation basse malgré une provenance directe et une exposition en musée. Premier point de repère pour la veille de Szafran : le grand format sur soie, fragile, se vend sous les attentes à Paris. Les deux Chu Teh-Chun, certifiés par la Fondation, font 80 000 € (bas de fourchette) et 75 000 € (au-dessus de l'estimation haute pour la gouache).
+
+### Sotheby's, « Surrealism and Its Legacy » (PF2666) et « Modernités » (PF2616) : résultats non publiés
+
+Les pages affichent « Log in to view results » pour les 72 lots des deux ventes, et aucune dépêche ne cite encore les lots suivis (Picabia 118, Picasso 212, Monet 215) ni les totaux. À relever dans la presse (ARTnews, Artnet, HENI) et par le contrôle du 24 octobre.
 
 ## 0. Ce qui change par rapport aux alertes du 19 octobre
 
