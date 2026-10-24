@@ -1,6 +1,6 @@
 # Watchlist Pablo — veille enchères
 
-Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-10-23, soir (résultats des vacations des 22 et 23 octobre ; Artcurial et Piasa suivent). Les résultats Christie's sont frais inclus, les estimations hors frais : le marteau figure entre parenthèses.
+Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-10-24, 18 h 30 Paris (résultats des vacations des 22, 23 et 24 octobre ; Sotheby's Modernités et Surrealism non publiés). Les résultats Christie's sont frais inclus, les estimations hors frais : le marteau figure entre parenthèses.
 
 ## 1. Artistes suivis
 
@@ -21,9 +21,6 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 
 | Artiste | Maison, vente, lieu | Date | Lot | Titre, année, médium, dimensions | Estimation | Catalogue / certificat | Garantie | Fiche flash | Ajouté le |
 |---|---|---|---|---|---|---|---|---|---|
-| Picasso | Artcurial Paris, Selected 20/21 (6478) | 2026-10-24 14 h | 121 | *Nu, homme assis et buste de vieille femme*, 1970, encre, 31,5 × 48,8 | 120 000-180 000 € | Zervos XXXII 145 | — | Non | 2026-10-22 |
-| Picasso | Artcurial Paris, Selected 20/21 (6478) | 2026-10-24 14 h | 122 | *Le Peintre*, 1964, encre sur épreuve Spitzer, 98 × 74,7 | 200 000-300 000 € | Zervos XXIV 216 | — | Non | 2026-10-22 |
-| Zao Wou-Ki | Artcurial Paris, Selected 20/21 (6478) | 2026-10-24 14 h | 125 | *Cargo au port*, 1952, hst, 46 × 55 | 600 000-800 000 € | CR vol. 1 P-0272 ; archives P-52-20 | — | Alerte mise à jour | 2026-10-19 |
 | Picasso (céramiques) | Piasa Paris | 2026-10-27 17 h | 1-72 | 72 éditions Madoura (Ramié) ; repères : 33 *Taureau* A.R. 255 ; 7 *Poisson* ; 52 *Femme* | 8 000-120 000 € | Ramié | — | Non | 2026-10-19 |
 | Picasso | Sotheby's New York, Magnum Opus (niveau B/C) | 2026-10-21/22 | 21 ; 174 | *Tête de fou* ; *Nu étendu* | 100 000-150 000 $ (conflit) ; 60 000-80 000 $ | non lu | — | Non | 2026-10-19 |
 | Pissarro | Sotheby's New York, Legendary Blaquier-Arrieta (niveau B+) | 2026-11-18 | 8 | *La Place du Théâtre-Français…*, 1898, 74,4 × 92,5 | 30-40 M$ | PDRS non obtenu | presse : vente garantie | À préparer | 2026-10-19 |
@@ -54,10 +51,10 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 | Picasso | Christie's Paris, Evening Sale 24607 | 2026-10-22 | 155 | dessins, bronze et céramiques uniques | — | 256 000 € (marteau 200 000 €) | Vendu : au-dessus de l’estimation haute | Christie's API, A |
 | Picasso | Christie's Paris, Evening Sale 24607 | 2026-10-22 | 156 | dessins, bronze et céramiques uniques | — | 115 200 € (marteau 90 000 €) | Vendu : dans la fourchette | Christie's API, A |
 | Picasso | Christie's Paris, Evening Sale 24607 | 2026-10-22 | 157 | dessins, bronze et céramiques uniques | — | 64 000 € (marteau 50 000 €) | Vendu : dans la fourchette | Christie's API, A |
-| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 2 | *La Seine à Vernon, l'arbre*, 1894, hst, 49,3 × 65, cachet | 1,2-1,8 M€ | non publié (connexion exigée) | À retrouver dans la presse | Christie's API / Sotheby's, A (Iris : B) |
-| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 4 | *Iris*, v. 1924-25, hst, 159,6 × 180, cachet | 22-30 M€ | 50 000 000 € (dépêche AFP, niveau B) | Vendu : 67 % au-dessus de l’estimation haute, record en France | Christie's API / Sotheby's, A (Iris : B) |
-| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 5 | *La maison à travers les roses*, v. 1925-26, hst, 65 × 92,5, cachet | 2-3 M€ | non publié (connexion exigée) | À retrouver dans la presse | Christie's API / Sotheby's, A (Iris : B) |
-| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 8 | *Saule pleureur ou L'Arbre de feu*, v. 1918-19, hst, 100,3 × 80,5, cachet | 9-12 M€ | non publié (connexion exigée) | À retrouver dans la presse | Christie's API / Sotheby's, A (Iris : B) |
+| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 2 | *La Seine à Vernon, l'arbre*, 1894, hst, 49,3 × 65, cachet | 1,2-1,8 M€ | vendu, prix non publié | Tous les lots de la vente ont été vendus (Sotheby's) | Sotheby's via Artsy, B |
+| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 4 | *Iris*, v. 1924-25, hst, 159,6 × 180, cachet | 22-30 M€ | 50 000 000 € frais inclus (Sotheby's via Artsy et AFP, B) | Vendu : marteau vers 43 M€ (approximatif), environ 40 % au-dessus de l’estimation haute, record en France ; acheteur privé d’Asie via Sotheby’s Asie | Christie's API / Sotheby's, A (Iris : B) |
+| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 5 | *La maison à travers les roses*, v. 1925-26, hst, 65 × 92,5, cachet | 2-3 M€ | vendu, prix non publié | Tous les lots de la vente ont été vendus (Sotheby's) | Sotheby's via Artsy, B |
+| Monet | Sotheby's Paris, coll. Schlumberger | 2026-10-22 | 8 | *Saule pleureur ou L'Arbre de feu*, v. 1918-19, hst, 100,3 × 80,5, cachet | 9-12 M€ | 9 700 000 € frais inclus (Sotheby's via Artsy, B) | Vendu : marteau vers 7,9 M€ (approximatif), sous l’estimation basse | Sotheby's, B |
 | Picabia | Christie's Paris, Art Moderne jour 24608 | 2026-10-23 | 386 | *Baigneuse*, v. 1942-43, huile sur carton, 75,2 × 52,5 | 300 000-500 000 € | 601 600 € (marteau 470 000 €) | Vendu : dans la fourchette | Christie's API, A |
 | Picasso | Christie's Paris, Art Moderne jour 24608 | 2026-10-23 | 244 | *Grand Vase aux danseurs* (A.R. 114), 1950 | 320 000-500 000 € | 691 200 € (marteau 540 000 €) | Vendu : au-dessus de l’estimation haute | Christie's API, A |
 | Picasso | Christie's Paris, Art Moderne jour 24608 | 2026-10-23 | 245 | *Nature morte aux six pommes*, 1909, gouache et encre | 120 000-160 000 € | aucun prix publié | Invendu probable, à confirmer | Christie's API, A |
@@ -72,3 +69,6 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 | Picabia | Sotheby's Paris, Surrealism and Its Legacy PF2666 | 2026-10-23 | 118 | *Les âges de la femme*, v. 1936-37, hst, 73,3 × 92,4 | 400 000-600 000 € | non publié (connexion exigée) | À retrouver dans la presse et au contrôle du 24 oct. | Sotheby's, A (résultat masqué) |
 | Picasso | Sotheby's Paris, Modernités PF2616 | 2026-10-23 | 212 | *Tête d'homme, profil*, 9 mars 1963, hst, 65,2 × 54,3 | 3-4 M€ | non publié (connexion exigée) | À retrouver dans la presse et au contrôle du 24 oct. | Sotheby's, A (résultat masqué) |
 | Monet | Sotheby's Paris, Modernités PF2616 | 2026-10-23 | 215 | *Sur la falaise près de Dieppe*, 1897, hst, 65,4 × 92,9 | 3-5 M€ | non publié (connexion exigée) | À retrouver dans la presse et au contrôle du 24 oct. | Sotheby's, A (résultat masqué) |
+| Picasso | Artcurial Paris, Selected 20/21 (6478) | 2026-10-24 | 121 | *Nu, homme assis et buste de vieille femme*, 1970, encre, 31,5 × 48,8 | 120 000-180 000 € | 145 000 € (adjudication) | Vendu : dans la fourchette | Artcurial, A |
+| Picasso | Artcurial Paris, Selected 20/21 (6478) | 2026-10-24 | 122 | *Le Peintre*, 1964, encre sur épreuve Spitzer, 98 × 74,7 | 200 000-300 000 € | 340 000 € (adjudication) | Vendu : au-dessus de l’estimation haute | Artcurial, A |
+| Zao Wou-Ki | Artcurial Paris, Selected 20/21 (6478) | 2026-10-24 | 125 | *Cargo au port*, 1952, hst, 46 × 55 | 600 000-800 000 € | Invendu, dernière enchère 540 000 € | Invendu : 10 % sous l’estimation basse | Artcurial, A |

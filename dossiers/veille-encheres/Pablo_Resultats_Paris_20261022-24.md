@@ -1,6 +1,6 @@
 # Pablo — Ventes de Paris, 22-27 octobre 2026 : vérification au niveau A
 
-Établi le 22 octobre 2026 à 10 h 30 UTC (12 h 30 à Paris), **avant** les premières vacations. Toutes les notices ci-dessous ont été lues sur les sites des maisons (Sotheby's, Christie's via son API de catalogue, Artcurial, Piasa) : **niveau A**. Les résultats du 22 octobre sont versés ci-dessous ; ceux du 23 et du 24 le seront après les contrôles programmés.
+Établi le 22 octobre 2026 à 10 h 30 UTC (12 h 30 à Paris), **avant** les premières vacations. Toutes les notices ci-dessous ont été lues sur les sites des maisons (Sotheby's, Christie's via son API de catalogue, Artcurial, Piasa) : **niveau A**. Les résultats des 22, 23 et 24 octobre sont versés ci-dessous. Voir aussi la synthèse `Pablo_Synthese_Paris_20261022-24.md`.
 
 Conflit d'intérêts déclaré : Aion vend le catalogue raisonné Zervos de Picasso.
 
@@ -40,16 +40,19 @@ Lecture d'ensemble : les trois lots principaux de la vente (Monet *Pourville*, P
 
 Lecture : le Léger *Composition aux trois figures* est adjugé 1,1 M€, sous l'estimation basse de 1,2 M€, et le Léger *Paysage* 220 000 € pour 250-350 000 €. Les deux sont dans le segment Léger années 1930 : demande plus faible que l'estimation. Les céramiques uniques de Picasso (*Pichet oiseau* 200 000 € pour 100-150 000 €) et le dessin d'Olga (215 000 €) ont dépassé l'estimation.
 
-### Sotheby's, « Le Temps retrouvé : la collection Schlumberger » (22 oct., 18 h)
+### Sotheby's, « Le Temps retrouvé : la collection Schlumberger » (22 oct., 18 h) : 23 lots sur 23 vendus, total 74,4 M€ frais inclus
 
-| Lot | Œuvre | Estimation (marteau) | Résultat |
-|---|---|---|---|
-| 4 | Monet, *Iris* | 22-30 M€ | **50 M€ frais inclus**, record pour une vente aux enchères en France (dépêche AFP, niveau B). Marteau estimé autour de 42-44 M€ si le barème de Sotheby's s'applique ici comme en dollars (non vérifié), soit 40 à 45 % au-dessus de l'estimation haute |
-| 2, 5, 8 | Monet, *La Seine à Vernon*, *La maison à travers les roses*, *Saule pleureur* | 1,2-1,8 / 2-3 / 9-12 M€ | **Non publiés** : « Log in to view results ». Aucune dépêche ne les cite au 23 oct. |
+Source : Sotheby's, relayé par Artsy et la dépêche AFP, niveau B. Les pages de Sotheby's masquent les prix aux visiteurs non connectés.
 
-Trois lots de Cézanne ont été retirés de la vente avant le marteau, classés « trésors nationaux », en vue de leur retour à Aix-en-Provence (Sotheby's, cité par la presse). La page de vente affiche 23 résultats sur 26 lots.
+| Lot | Œuvre | Estimation (marteau) | Résultat (frais inclus) | Lecture |
+|---|---|---|---|---|
+| 4 | Monet, *Iris* | 22-30 M€ | **50 M€**, record pour une vente aux enchères en France | Six enchérisseurs, 45 minutes. Emporté au téléphone par Jen Hua, deputy chairman Asie de Sotheby's, **pour le compte d'un collectionneur privé en Asie**. Marteau estimé autour de 43 M€ (calcul approximatif avec le barème de Sotheby's), 40 % au-dessus de l'estimation haute |
+| 8 | Monet, *Saule pleureur ou L'Arbre de feu* | 9-12 M€ | **9,7 M€** | Artsy le juge « dans l'estimation » en comparant frais inclus et estimation. Le marteau se situe vers 7,9 M€ (calcul approximatif), donc sous l'estimation basse de 9 M€ |
+| 2, 5 | Monet, *La Seine à Vernon*, *La maison à travers les roses* | 1,2-1,8 / 2-3 M€ | Vendus (tous les lots l'ont été), **prix non publiés** | À chercher dans la presse payante ou sur le compte Sotheby's |
 
-Lecture : *Iris* est un cas à part : grand format tardif, jamais exposé, non signé, avec des enchères au téléphone pendant près de 45 minutes selon la presse. À ne pas appliquer aux Monet historiques des années 1880, adjugés autour de l'estimation basse chez Christie's.
+Trois Cézanne (*La Ferme*, *Arbres au bord de la rivière*, *Ciel entre les arbres*, estimés ensemble 1,4 à 2 M€), classés trésors nationaux, ont été retirés : la Ville d'Aix-en-Provence, soutenue par le ministère de la Culture, prévoit de les acheter pour le musée Granet. Records d'artiste : Bonnard, *La Cueillette des prunes*, 2,5 M€, plus haut prix pour un Bonnard dans une vente en France.
+
+Lecture : *Iris* est un cas à part (plus grand tableau de la série encore en mains privées, jamais exposé). À ne pas appliquer aux Monet historiques des années 1880 ni aux autres toiles d'atelier de la collection, adjugées autour de l'estimation basse ou sous elle.
 
 ## Résultats du 23 octobre (relevés le soir, heure de Paris)
 
@@ -85,6 +88,28 @@ Lecture : le Szafran, grand format sur soie marouflée, part à 50 000 € de ma
 ### Sotheby's, « Surrealism and Its Legacy » (PF2666) et « Modernités » (PF2616) : résultats non publiés
 
 Les pages affichent « Log in to view results » pour les 72 lots des deux ventes, et aucune dépêche ne cite encore les lots suivis (Picabia 118, Picasso 212, Monet 215) ni les totaux. À relever dans la presse (ARTnews, Artnet, HENI) et par le contrôle du 24 octobre.
+
+## Résultats du 24 octobre (relevés à 18 h 30, heure de Paris)
+
+### Artcurial, « Selected 20/21 » (6478)
+
+Prix d'adjudication tels que les affichent les données des pages de lots (frais d'acheteur non lus). Les estimations d'Artcurial sont hors frais.
+
+| Lot | Œuvre | Estimation | Résultat | Lecture |
+|---|---|---|---|---|
+| 125 | **Zao Wou-Ki, *Cargo au port*, 1952** (CR vol. 1 P-0272) | 600 000-800 000 € | **Invendu**, dernière enchère 540 000 € | Les enchères se sont arrêtées 10 % sous l'estimation basse. Pour un tableau de 46 × 55 cm de 1952, provenance directe, numéro de catalogue raisonné et archives de l'artiste : le marché parisien est plus froid que Hong Kong, où *La Théière* (1951) a dépassé 11 M HK$ fin septembre |
+| 122 | Picasso, *Le Peintre*, 10 oct. 1964 (II), encre et lavis sur épreuve Spitzer n° 1 | 200 000-300 000 € | **Vendu 340 000 €** | Au-dessus de l'estimation haute ; Zervos XXIV, n° 216 |
+| 121 | Picasso, *Nu, homme assis et buste de vieille femme*, 1970, encre | 120 000-180 000 € | **Vendu 145 000 €** | Dans la fourchette ; Zervos XXXII, n° 145 |
+
+Les pages Artcurial contiennent aussi, dans leurs données, le prix de réserve fixé par le vendeur. Je ne l'ai pas consigné : c'est une information confidentielle du vendeur.
+
+### Christie's, « Art Contemporain, vente du jour » (24609)
+
+Les prix du 23 octobre sont inchangés ; l'API signale toujours la vente comme non clôturée (119 lots sur 141 avec un prix, 12,0 M€). À considérer comme définitifs.
+
+### Sotheby's, « Modernités » (PF2616) et « Surrealism and Its Legacy » (PF2666)
+
+Aucun résultat publié par la presse ni visible sur les pages au 24 octobre, 18 h 30 : Picabia 118, Picasso 212, Monet 215 restent **non publiés**. Référence 2025 pour mémoire : Modernités 62,8 M€, Surrealism 26,9 M€.
 
 ## 0. Ce qui change par rapport aux alertes du 19 octobre
 
