@@ -1,5 +1,15 @@
 # Alerte Pablo · 19 octobre 2026 — Artcurial Paris, « Selected 20/21 », 24 octobre
 
+**Résultat, 24 octobre 2026 (page de lot relue à 19 h CEST, niveau A) : lot 125, Zao Wou-Ki 赵无极, *Cargo au port*, 1952, huile sur toile, 46 × 55 cm, estimé 600 000-800 000 €, RAVALÉ.** Les données de vente intégrées à la page indiquent une réserve ferme de 540 000 €, non atteinte. Même vente : Picasso lot 121 (encre, 1970) vendu 191 980 € frais inclus (marteau 145 000 €) ; Picasso lot 122 (*Le Peintre*, 1964, épreuve Spitzer rehaussée) vendu 450 160 € frais inclus (marteau 340 000 €, au-dessus de l'estimation haute). Conflit d'intérêts Aion déclaré sur Picasso.
+
+**Lecture** : une toile de la période Klee inédite, propre (P-0272, archives P-52-20, acquise de l'artiste), n'a pas trouvé d'enchère à 540 000 € à Paris pendant Art Basel Paris. L'hypothèse du 19 octobre (estimation parisienne inférieure aux prix de Hong Kong, donc opportunité) se retourne : sans acheteur asiatique en salle, Paris ne porte pas la période 1950-1954 à ce niveau. Fourchette Paris à ramener à 400 000-550 000 € frais inclus pour ce format ; Hong Kong reste la place de vente. Le lot est désormais disponible en vente après enchères chez Artcurial, probablement autour de la réserve : si un client Aion s'y intéresse, c'est le moment d'une offre, avec rapport d'état.
+
+**Prochaine étape** : Franck décide s'il y a un client pour une offre après vente (Elodie Landais, administratrice, +33 1 42 99 20 84) ; Pablo verse le résultat à la synthèse de la semaine le 27 oct.
+
+---
+
+## Mise à jour du 22 octobre 2026 (notice au niveau A, conservée)
+
 **Mise à jour du 22 octobre 2026, 21 h 45 CEST.** Niveau de vérification : **A** (page de lot artcurial.com lue directement ; les 55 lots de la vente, numéros 100 à 154, ont été parcourus). Vente dans **2 jours**.
 
 **Lot 125** : **Zao Wou-Ki 赵无极 (Zhào Wújí), *Cargo au port*, 1952**, huile sur toile, **46 × 55 cm**, signée en bas à droite en chinois et en pinyin « Zao », contresignée au dos sur le châssis, datée et titrée au dos « Zao Wou-Ki, Cargo Au port, 22 Avril 52 ».
