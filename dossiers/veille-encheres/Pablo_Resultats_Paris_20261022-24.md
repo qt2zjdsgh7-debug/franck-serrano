@@ -1,6 +1,6 @@
 # Pablo — Résultats des ventes de Paris, 22-24 octobre 2026 (artistes suivis)
 
-**État du document : mis à jour le 24 octobre 2026 à 19 h 20 CEST** (relance n° 3). Versés : Sotheby's Schlumberger (22 oct.), Christie's Durand-Ruel (22 oct.), Christie's ventes du jour (23 oct.), Sotheby's Surréalisme et Modernités (23 oct., totaux et invendus par Heni, prix des lots 118 et 212 toujours non publiés), Artcurial Selected 20/21 (24 oct., niveau A). Reste : Piasa (27 oct.).
+**État du document : clôture de la semaine parisienne, 27 octobre 2026, 21 h 15 CEST** (relance n° 4). Toutes les ventes suivies sont versées : Sotheby's Schlumberger (22 oct.), Christie's Durand-Ruel (22 oct.), Christie's ventes du jour (23 oct.), Sotheby's Surréalisme et Modernités (23 oct.), Artcurial Selected 20/21 (24 oct.), Piasa céramiques de Picasso (27 oct., niveau A). Deux prix restent non publiés par Sotheby's : Picabia lot 118 et Picasso lot 212 ; dernière vérification programmée le 5 novembre, après la période d'offres après vente de Sotheby's (2 et 4 nov.).
 
 **Niveau de vérification.** L'accès réseau a été ouvert dans l'après-midi : les pages de ventes et de lots de sothebys.com, christies.com, christies.com.cn, artcurial.com et piasa.fr ont été lues directement (**niveau A**). Limite : Sotheby's masque tous les prix de ses trois ventes parisiennes sur son site (« résultat non affiché », état inchangé le 23 oct. à 21 h 30) ; les prix Schlumberger viennent de The Art Newspaper (édition française, 23 oct.) et d'ARTnews, qui citent Sotheby's (**niveau B**). **Correction** : la lecture du 22 oct. (« réserve non atteinte » pour le *Saule pleureur*, ravalement probable) était fausse ; le champ du site n'est pas fiable et la vente a été « gants blancs ». Les pages Christie's des deux ventes du jour du 23 oct. ont été trouvées sur christies.com.cn (identifiants 31250 et 31251).
 
@@ -78,13 +78,35 @@ Pour mémoire, même vente : Blanche Hoschedé-Monet, *Giverny, vue partielle du
 
 Le barème reconstitué (frais inclus / marteau : 1,324 pour les deux lots) correspond au barème Artcurial en vigueur pour cette tranche. Conflit d'intérêts Aion déclaré sur Picasso. Total de la vente non publié sur la page au moment de la lecture.
 
+### 1g. Piasa Paris, « Céramique de Picasso, collection privée européenne », 27 oct. 17 h, 54 rue de Monceau (page de vente relue à 21 h CEST, niveau A)
+
+**65 lots affichés avec résultat, 100 % des lots affichés vendus, total 918 663 € frais inclus** (somme des résultats publiés ; trois numéros du catalogue d'avant-vente, 44 *Toros* A.R. 161, 50 *Chope visage* A.R. 432 et 68 *Pichet têtes* A.R. 221, n'apparaissent plus : retirés ou invendus non affichés). Les résultats Piasa sont frais inclus ; le rapport résultat / estimation basse sur les lots vendus au bas de l'estimation donne un coefficient de 1,312 (barème 26 % plus TVA), d'où les marteaux reconstitués ci-dessous. Conflit d'intérêts Aion déclaré sur Picasso.
+
+| Lot | Œuvre (référence Ramié) | Estimation | Résultat frais inclus | Marteau reconstitué | Lecture |
+|---|---|---|---|---|---|
+| **33** | ***Taureau* (A.R. 255)** | 80 000-120 000 € | **144 320 €** | 110 000 € | Dans l'estimation au marteau, 1,2 fois l'estimation haute frais inclus : sommet de la vente, mais sous le *Grand Vase aux danseurs* A.R. 114 de Christie's (691 200 €, 23 oct.) |
+| 35 | *Vase au décor pastel* (A.R. 190) | 15 000-20 000 € | 34 112 € | 26 000 € | 1,7 fois l'estimation haute |
+| 24 | *Pichet gravé gris* (A.R. 246) | 12 000-18 000 € | 32 800 € | 25 000 € | 1,8 fois l'estimation haute |
+| 31 | *Chouette* (A.R. 542) | 15 000-20 000 € | 30 176 € | 23 000 € | 1,5 fois |
+| 32 | *Chouette* (A.R. 604) | 15 000-20 000 € | 28 864 € | 22 000 € | 1,4 fois |
+| 5 | *Pichet aux arums* (A.R. 189) | 10 000-15 000 € | 23 616 € | 18 000 € | 1,6 fois |
+| 34 | *Tauromachie, hibou, trois têtes* | 18 000-25 000 € | 23 616 € | 18 000 € | Au bas de l'estimation |
+| 20 | *Vase aux chèvres* (A.R. 156) | 15 000-20 000 € | 22 304 € | 17 000 € | Dans l'estimation |
+| 57 | *Cavalier et cheval* (A.R. 138) | 8 000-12 000 € | 20 992 € | 16 000 € | 1,7 fois |
+| 7 | *Poisson* (var. A.R. 166) | 10 000-15 000 € | 19 680 € | 15 000 € | Estimation haute au marteau |
+| 39 | *Visage au trait oblique* (A.R. 587) | 5 000-7 000 € | 19 680 € | 15 000 € | 2,8 fois l'estimation haute, meilleure performance relative avec le lot 53 *Sujet colombe* (A.R. 435) à 9 840 € pour 3 000-4 000 € |
+| 1 | *Oiseau polychrome* (A.R. 33) | 8 000-12 000 € | 18 368 € | 14 000 € | 1,5 fois |
+| 3 | *Diaulos player* (A.R. 1) | 8 000-12 000 € | 17 712 € | 13 500 € | 1,5 fois |
+| 52 | *Femme* (A.R. 301) | 10 000-15 000 € | 15 744 € | 12 000 € | Dans l'estimation |
+| 22 | *Tête de chèvre de profil* (var. A.R. 148) | 10 000-15 000 € | 12 464 € | 9 500 € | Sous l'estimation basse au marteau |
+| Reste | 50 lots entre 1 968 € et 15 744 € | 1 500-12 000 € | Médiane des 65 résultats : environ 9 840 € | — | Aucun lot affiché sous 1 968 € ; la base Madoura à Paris fin 2026 se situe entre 1,2 et 1,8 fois l'estimation basse |
+
 ## 2. Lots encore en attente de résultat, notices lues au niveau A
 
 | # | Artiste | Vente | Lot | Notice (niveau A) | Estimation | Résultat |
 |---|---|---|---|---|---|---|
 | 9 | Picabia | Sotheby's « Surrealism and Its Legacy » PF2666, 23 oct. 14 h 30 (vente close, prix non publié au 24 oct.) | **118 (confirmé)** | *Les âges de la femme*, signé, huile sur toile, 73,3 × 92,4 cm, v. 1936-37. **Comité Picabia, catalogue raisonné vol. III (1927-1939), 2019, n° 1406, p. 355.** Provenance : Drouot 31 mai 1954, lot 81 (probable) ; Simone Collinet, galerie Furstenberg, 1956 ; galerie Motte, Genève, 1960 et 1963 (probable) ; Trianon Palace, Versailles, 14 mars 1961, lot 66 ; collection privée, France ; **Christie's Londres, 6 fév. 2007, lot 134** ; collection privée, par descendance. Expositions : Furstenberg 1956, Cahors 1986, Didier Imbert 1990, **Guggenheim New York 1999** (*Surrealism: Two Private Eyes*, n° 209). Aucun symbole de garantie | 400 000-600 000 € | En attente |
 | 10 | Picasso | Sotheby's « Modernités » PF2616, 23 oct. 17 h (vente close, prix non publié) | 212 | *Tête d'homme, profil*, signé, daté « 9.3.63 III » au revers, huile sur toile, 65,2 × 54,3 cm, 1963. **Zervos XXIII, 174.** Provenance : galerie Louise Leiris (Maurice Jardot, acquis de l'artiste) ; Saidenberg, New York ; Gissi, Turin ; Farsetti, Milan ; collection privée européenne (début des années 1970), par descendance. Exposé Turin, Gissi, 1967. Droit de suite. Conflit d'intérêts Aion déclaré | 3-4 M€ | En attente |
-| 14 | Picasso (céramiques) | Piasa, « Céramique de Picasso, collection privée européenne », 27 oct. 17 h, 54 rue de Monceau | 68 lots | Lot 33 *Taureau* (A.R. 255) 80 000-120 000 € ; lot 34 *Tauromachie, hibou, trois têtes* 18 000-25 000 € ; lots 20 *Vase aux chèvres* (A.R. 156), 32 *Chouette* (A.R. 604), 35 *Vase au décor pastel* (A.R. 190) 15 000-20 000 € ; lot 24 *Pichet gravé gris* (A.R. 246) 12 000-18 000 € ; lots 5, 7, 22, 52 10 000-15 000 € ; le reste 1 500-12 000 € | — | En attente |
 | 12 | Picabia | Christie's « Art Moderne, vente du jour », 23 oct. | — | *Sans titre*, 1942-43 : **absent de la vente** (84 lots lus) ; la mention MutualArt était erronée ou concernait une autre vente | — | Clos |
 
 Autres lots des ventes lues : Modernités (lots 201-240) et Surréalisme (lots 101-133) ne contiennent **aucun autre lot** d'un artiste suivi (listes complètes lues) ; Artcurial 6478 (lots 100-154 lus) : aucun Léger, Hélion, Szafran, Chu Teh-Chun ou Sanyu. Sotheby's New York, Magnum Opus, vente du soir du 21 oct. : 63,04 M$, 100 % vendu (Heni, niveau B) ; résultats des Picasso non trouvés.
@@ -106,14 +128,17 @@ Autres lots des ventes lues : Modernités (lots 201-240) et Surréalisme (lots 1
 13. **Picabia, lot 118 ; Picasso, lot 212** : prix non publiés ; les deux ventes ont eu 6 et 11 ravalés, donc rien n'est acquis pour ces deux lots tant que Sotheby's n'affiche pas.
 13b. **Zao Wou-Ki, lot 125, ravalé** : réserve ferme de 540 000 € non atteinte pour une toile de 1952 inédite et propre : à Paris, la période Klee ne se paie pas 600 000 € sans acheteur asiatique dans la salle ; l'estimation parisienne n'était pas une opportunité mais un prix sans demande ce jour-là.
 13c. **Picasso, Artcurial lots 121-122** : 191 980 € et 450 160 € frais inclus ; la grande feuille Spitzer de 1964 fait 1,13 fois l'estimation haute au marteau.
-14. **Piasa, 27 oct.** : 68 céramiques Madoura, 1 500 à 120 000 € ; le *Grand Vase aux danseurs* de Christie's (691 200 €) donne le plafond de la semaine pour le *Taureau* A.R. 255 (80 000-120 000 €).
+14. **Piasa, 27 oct., 918 663 €, 100 % des lots affichés vendus** : le *Taureau* A.R. 255 fait 144 320 € (marteau 110 000 €) et la quasi-totalité des pièces courantes dépassent leur estimation haute : la base Madoura à Paris est ferme et large, à la différence des œuvres sur papier anciennes (Christie's, lot 245 invendu).
 
-## 4. Ce que cela change pour les fourchettes (après le 22 octobre)
+## 4. Ce que cela change pour les fourchettes (synthèse de la semaine parisienne, 22-27 octobre, arrêtée le 27 oct.)
+
+**Chiffres de la semaine pour les artistes suivis** : 7 ventes lues, 29 lots suivis passés en vente, 24 vendus, 3 ravalés (Monet lot 215, Zao lot 125, Picasso papier 1909), 2 sans prix publié (Picabia 118, Picasso 212). Totaux : Schlumberger 74,4 M€ (gants blancs), Durand-Ruel 41,6 M€ (gants blancs, 5 garanties tierces), Modernités 38,62 M€ (72 %), Surréalisme 24,58 M€ (79 %), Art Moderne jour 17,93 M€, Artcurial Selected 20/21 plus de 13 M€ (presse), Piasa 0,92 M€.
 
 - **Monet.** Deux faits nouveaux. (1) Le record d'une œuvre vendue aux enchères en France passe à **50 M€ frais inclus** et le record Monet en France de 10,2 M€ (avril 2026) à 50 M€, avec un palier intermédiaire à **12,785 M€** (*Pourville*). Pour les grands formats tardifs du fonds Michel Monet–Granoff (toiles à cachet, non signées), la fourchette Paris passe du segment 5-15 M€ au segment 20-50 M€ quand le format dépasse 150 cm et que l'œuvre est inédite ; (2) la demande s'étage : *Saule pleureur* 9,7 M€ (bas de l'estimation), *La Seine à Vernon* 4,3 M€ (2,4 fois l'estimation haute), *La maison à travers les roses* 2,5 M€ (dans l'estimation) : l'emballement a porté sur l'icône et sur le petit lot d'entrée, pas sur le format moyen de la série des saules. Fourchette à retenir pour les formats 60 × 100 cm des années 1880, signés et datés, provenance de premier ordre : **11-13 M€ frais inclus à Paris**, avec garantie. Petites natures mortes des années 1880 : **3-3,2 M€**. (3) Limite basse : la toile à cachet de 1897 de 65 × 93 cm (lot 215) ravalée à 3 M€ : hors icône et hors fraîcheur absolue, les toiles d'atelier non signées de format moyen ne sont pas portées par l'effet *Iris*.
 - **Pissarro.** Série urbaine de 1900, 73 × 92 cm : **2,5 M€ frais inclus** (garanti) ; vue de Rouen 1883 : 830 000 € ; gouache sur soie 1881 : 358 000 €. Fourchette des séries urbaines 1897-1903 inchangée (2-8 M$) ; le lot du 18 nov. à New York (30-40 M$) reste hors série. Noter que la vivacité est en dessous de 1 M€.
 - **Picasso.** Nature morte de 1944, 60 × 92 cm : **3,03 M€ frais inclus** (garanti), au milieu de l'estimation. Tranche 2,5-4 M€ confirmée pour les huiles des années 1940-1960 de format moyen à Paris ; lot 212 (prix non publié) et œuvres sur papier Artcurial samedi complèteront. Céramique : *Grand Vase aux danseurs* A.R. 114 à 691 200 € (Christie's, 23 oct.) relève le haut de la fourchette des grandes pièces Madoura à Paris ; papier cubiste de 1909 invendu à 120 000 €. Conflit d'intérêts Aion déclaré : toute fourchette Picasso publiée par Aion doit le rappeler.
 - **Szafran.** Premier point : grand format tardif sur soie (150 × 100 cm, 2009-2010) à **64 000 € frais inclus**, sous l'estimation basse de 70 000 € (Christie's, 23 oct.). Fourchette provisoire pour les feuillages de ce format : 60 000-100 000 € à Paris, à étayer par d'autres résultats.
+- **Picasso, céramiques (complément du 27 oct.).** Piasa fixe la base : pièces courantes Madoura 2 000-35 000 € frais inclus, presque toutes au-dessus de l'estimation haute ; *Taureau* A.R. 255 144 320 € ; grandes pièces rares jusqu'à 691 200 € (*Grand Vase aux danseurs* A.R. 114, Christie's). Fourchette Aion pour une édition Madoura standard à Paris : **1,3 à 1,8 fois l'estimation basse des maisons** ; vérifier systématiquement la référence A.R. et le numéro d'exemplaire, la Picasso Administration ne répondant plus sur les éditions Madoura (niveau C, à confirmer). Conflit d'intérêts Aion déclaré.
 - **Picabia.** Inchangé : prix du lot 118 non publié ; la vente Surréalisme a fini sous son estimation basse avec 6 ravalés, ce qui invite à la prudence sur la tranche 400 000-600 000 €.
 - **Zao Wou-Ki.** *Cargo au port* (1952, 46 × 55 cm) **ravalé à Paris sous 540 000 €** le 24 oct. : la fourchette Paris pour la période 1950-1954 de petit format est à ramener à **400 000-550 000 € frais inclus** en l'absence d'enchérisseur asiatique, contre plus de 1,3 M€ à Hong Kong pour *La Théière* (1951). L'arbitrage Paris / Hong Kong reste en faveur d'une vente à Hong Kong pour cette période.
 
@@ -139,6 +164,8 @@ Autres lots des ventes lues : Modernités (lots 201-240) et Surréalisme (lots 1
 
 | Source | URL | Niveau |
 |---|---|---|
+| Piasa, page de vente avec résultats (27 oct., pages 1 et 2) | piasa.fr/en/auctions/ceramic-by-picasso | A |
+| Presse Agence (total Artcurial Art Basel Paris 20 877 380 €, Selected 20/21 plus de 13 M€) ; page d'accueil Artcurial (Gauguin, Denis) | presseagence.fr | B |
 | Artcurial, pages de lots 125, 121, 122 relues le 24 oct. (données de vente intégrées : statut, marteau, prix final, réserve) | artcurial.com/en/sales/6478/lots/125-a, 121-a, 122-a | A |
 | Heni News, 23 oct. 2026 (totaux, taux de vente, garantis, ravalés des deux ventes Sotheby's du 23 oct.) | heni.com/news/article/sotheby-s-modernites-auction-in-paris-2026-10-23 ; …/sotheby-s-surrealism-and-its-legacy-auction-in-paris-2026-10-23 | B |
 | The Art Newspaper FR, 23 oct. 2026 (résultats Schlumberger lot par lot, total, acheteur d'*Iris*) ; ARTnews, 22 oct. | artnewspaper.fr/2026/10/23/des-iris-de-claude-monet-signent-un-record-francais-chez-sothebys-a-paris ; artnews.com/art-news/market/claude-monet-iris-french-auction-record-sothebys-paris-1234803611/ | B |

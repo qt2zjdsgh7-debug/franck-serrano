@@ -1,6 +1,6 @@
 # Watchlist Pablo — veille enchères
 
-Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-10-24, 19 h 20 CEST (relance n° 3). Artcurial versé au niveau A (Zao ravalé, deux Picasso vendus) ; Sotheby's 23 oct. : Monet 215 ravalé (Heni), lots 118 et 212 toujours sans prix publié. Détail : `Pablo_Resultats_Paris_20261022-24.md`.
+Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-10-27, 21 h 15 CEST (relance n° 4, clôture de la semaine parisienne). Piasa versé au niveau A. Restent sans prix publié : Picabia lot 118 et Picasso lot 212 (Sotheby's, 23 oct.), vérification prévue le 5 nov. Détail : `Pablo_Resultats_Paris_20261022-24.md`.
 
 ## 1. Artistes suivis
 
@@ -23,7 +23,6 @@ Niveau : A = notice lue sur le site de la maison ; B = extrait de page de maison
 
 | Artiste | Maison, vente, lieu | Date | Lot | Titre, année, médium, dimensions, catalogue raisonné | Estimation | Fiche flash | Niv. | Ajouté le / mis à jour |
 |---|---|---|---|---|---|---|---|---|
-| Picasso (céramiques) | Piasa Paris, « Céramique de Picasso, collection privée européenne », 54 rue de Monceau (exposition 23, 24, 26 oct.) | 2026-10-27 17 h | 1-72 (68 lots) | Lot 33 *Taureau* (A.R. 255) ; lot 34 *Tauromachie, hibou, trois têtes* ; lots 20 *Vase aux chèvres* (A.R. 156), 32 *Chouette* (A.R. 604), 35 *Vase au décor pastel* (A.R. 190) ; lot 24 *Pichet gravé gris* (A.R. 246) ; lot 7 *Poisson* (var. A.R. 166) ; etc. | 80 000-120 000 € ; 18 000-25 000 € ; 15 000-20 000 € (×3) ; 12 000-18 000 € ; 10 000-15 000 € ; reste 1 500-12 000 € | Non | A | 2026-10-19 / 2026-10-22 |
 | Picasso | Sotheby's New York, Magnum Opus (soir 21 oct. : 63,04 M$, 100 % vendu selon Heni ; Act II 22 oct.) | 2026-10-21/22 | 342 ; 174 ; 21 (à confirmer) | *Portraits imaginaires* ; *Nu étendu* ; *Tête de fou* (non confirmé) | n. o. ; 60 000-80 000 $ ; 100 000-150 000 $ (conflit) | Non ; résultats des lots non trouvés | B/C | 2026-10-19 / 2026-10-22 |
 | Pissarro | Sotheby's New York, Legendary (Blaquier-Arrieta) | 2026-11-18 | 8 | *La Place du Théâtre-Français et l'avenue de l'Opéra, soleil d'après-midi en hiver*, 1898, 74,4 × 92,5 cm | 30-40 M$ | À préparer (record possible) | B+ | 2026-10-19 |
 | Monet | Sotheby's New York, Legendary (Blaquier-Arrieta) | 2026-11-18 | 4 (à confirmer) | *Le Jardin des Tuileries*, 1876 | 15-20 M$ (à confirmer) | À préparer | B | 2026-10-19 |
@@ -56,6 +55,8 @@ Prix frais acheteur inclus sauf mention. ○♦ = garantie de prix minimum finan
 | Zao Wou-Ki | Artcurial Paris, Selected 20/21 (6478) | 2026-10-24 | 125 | *Cargo au port*, 22 avril 1952, huile sur toile, 46 × 55 cm ; CR vol. 1 P-0272 ; archives P-52-20 | 600 000-800 000 € | — | **Ravalé** (réserve ferme 540 000 € non atteinte) | artcurial.com/en/sales/6478/lots/125-a (A) |
 | Picasso | idem | 2026-10-24 | 121 | *Nu, homme assis et buste de vieille femme*, 18 juin 1970 (II), encre de Chine, 31,5 × 48,8 cm ; Zervos XXXII 145 | 120 000-180 000 € | **191 980 €** (marteau 145 000 €) | Vendu ; conflit d'intérêts Aion | artcurial.com/en/sales/6478/lots/121-a (A) |
 | Picasso | idem | 2026-10-24 | 122 | *Le Peintre*, 10 oct. 1964 (II), encre et lavis sur épreuve Spitzer n° 1, 98 × 74,7 cm ; Zervos XXIV 216 | 200 000-300 000 € | **450 160 €** (marteau 340 000 €) | Vendu ; conflit d'intérêts Aion | artcurial.com/en/sales/6478/lots/122-a (A) |
+| Picasso (céramiques) | Piasa Paris, Céramique de Picasso, collection privée européenne | 2026-10-27 | 33 | *Taureau* (A.R. 255) | 80 000-120 000 € | **144 320 €** (marteau reconstitué 110 000 €) | Vendu ; conflit d'intérêts Aion | piasa.fr/en/auctions/ceramic-by-picasso (A) |
+| Picasso (céramiques) | idem | 2026-10-27 | 1-72 (65 affichés) | 64 autres éditions Madoura (A.R. 1 à 612), dont *Vase au décor pastel* A.R. 190 34 112 €, *Pichet gravé gris* A.R. 246 32 800 €, *Chouette* A.R. 542 30 176 €, *Poisson* var. A.R. 166 19 680 € | 1 500-25 000 € | **Total 918 663 €**, 100 % des lots affichés vendus, médiane env. 9 840 € ; lots 44, 50, 68 non affichés | Vendus ; conflit d'intérêts Aion | idem (A) |
 | Zao Wou-Ki | Poly Auction Hong Kong, Modern & Contemporary | 2026-10-05 | n. o. | *01.06.65*, 1965, huile (dédicace à André Chastel au dos) | 13,8-22 M HK$ | 15,84 M HK$ (marteau 13,2 M HK$) | Vendu (hors fenêtre S43, pour mémoire) | Extrait Artron / PRNewswire, niveau B |
 | Zao Wou-Ki | Phillips Hong Kong, Modern & Contemporary Evening | 2026-09-30 | n. o. | *Sans titre (La Théière)*, 1951 | 10-15 M HK$ | > 11 M HK$ (chiffre exact non lu) | Vendu (hors fenêtre, pour mémoire) | Communiqué Phillips, niveau B |
 | Chu Teh-Chun | Christie's Hong Kong, 20th/21st Century Evening | 2026-09-29 | n. o. | *Automne*, 1985 | 25-35 M HK$ | Non trouvé | À compléter | The Art Newspaper 18/09, niveau B |
