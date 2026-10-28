@@ -54,6 +54,11 @@ Si une source payante n'est pas accessible dans l'environnement de travail, le d
 | Sotheby's | Pages de vente et de lots lisibles avec un user-agent de navigateur (estimation, provenance, bibliographie) | **Résultats masqués** sans connexion (« Log in to view results ») : relever les prix dans la presse (dépêches AFP, ARTnews, Artnet) |
 | Artcurial | `artcurial.com/ventes/<numéro>/lots/<n>-a` : estimation, provenance, bibliographie | Résultats après la vente seulement |
 | Piasa | Page de la vente : liste des lots et estimations | — |
+| Presse et revues pour les résultats Sotheby's masqués | HENI (`heni.com/news/article/...`), Il Sole 24 Ore (`en.ilsole24ore.com/art/`), Artsy, AFP via Yahoo ou CP24 : totaux, lots invendus, lots phares | Lots secondaires rarement cités |
+| Aperçus chinois (Guardian, Poly) | Artemperor (`artemperor.tw/focus/<n>`) et Artron : lots, estimations en RMB et USD, références, provenances | Aperçu de la maison, pas le catalogue officiel ; résultats en « adjugé » |
+| Piasa | Page de la vente : `Estimate` et `Result` de chaque lot, après la vente | Barème de frais non lu |
+| Artcurial | Données embarquées dans la page du lot : statut SOLD ou UNSOLD et prix d'adjudication. La page contient aussi la réserve du vendeur : **ne pas la consigner** | — |
+| Phillips, Bonhams, Millon, Dorotheum | Refusent les robots depuis cet environnement (403) | Utiliser un compte de Franck, ou le connecteur Firecrawl avec une clé valide |
 | Bien'ici (immobilier) | `res.bienici.com/suggest.json?q=...` pour l'identifiant de zone (Paris 14e : -9522), puis `realEstateAds.json?filters=...` par pages de 200 | SeLoger, Leboncoin, MeilleursAgents, Bercail et Nestoria refusent les robots |
 
 ## 4. Déroulé fixe du scan (6 étapes)

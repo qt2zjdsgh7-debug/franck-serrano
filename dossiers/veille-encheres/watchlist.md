@@ -1,6 +1,6 @@
 # Watchlist Pablo — veille enchères
 
-Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-10-24, 18 h 30 Paris (résultats des vacations des 22, 23 et 24 octobre ; Sotheby's Modernités et Surrealism non publiés). Les résultats Christie's sont frais inclus, les estimations hors frais : le marteau figure entre parenthèses.
+Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-10-28 (scan S44). Les résultats Christie's sont frais inclus, les estimations hors frais : le marteau figure entre parenthèses.
 
 ## 1. Artistes suivis
 
@@ -21,11 +21,23 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 
 | Artiste | Maison, vente, lieu | Date | Lot | Titre, année, médium, dimensions | Estimation | Catalogue / certificat | Garantie | Fiche flash | Ajouté le |
 |---|---|---|---|---|---|---|---|---|---|
-| Picasso (céramiques) | Piasa Paris | 2026-10-27 17 h | 1-72 | 72 éditions Madoura (Ramié) ; repères : 33 *Taureau* A.R. 255 ; 7 *Poisson* ; 52 *Femme* | 8 000-120 000 € | Ramié | — | Non | 2026-10-19 |
-| Picasso | Sotheby's New York, Magnum Opus (niveau B/C) | 2026-10-21/22 | 21 ; 174 | *Tête de fou* ; *Nu étendu* | 100 000-150 000 $ (conflit) ; 60 000-80 000 $ | non lu | — | Non | 2026-10-19 |
-| Pissarro | Sotheby's New York, Legendary Blaquier-Arrieta (niveau B+) | 2026-11-18 | 8 | *La Place du Théâtre-Français…*, 1898, 74,4 × 92,5 | 30-40 M$ | PDRS non obtenu | presse : vente garantie | À préparer | 2026-10-19 |
-| Monet | Sotheby's New York, Legendary Blaquier-Arrieta (niveau B+) | 2026-11-18 | 4 (à confirmer) | *Le Jardin des Tuileries*, 1876 | 15-20 M$ (confirmé par le site Sotheby's, bandeau) | W non obtenu | — | À préparer | 2026-10-19 |
-| Picasso | Sotheby's New York, Modern Evening (niveau B+) | 2026-11-18 | n. o. | *Couple* ; *Femme nue et homme au fanion* | 10-15 M$ ; 15-20 M$ | non lus | — | À lire S44 | 2026-10-22 |
+| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 (aperçu 5-7 nov.) | 199 | *Nu allongé, genou plié II*, 1950-60, huile sur fibre, 66 × 122 | RMB 40-60 M (≈ 6,0-9,0 M$) | Fondation Li Ching LCF296 ; CR 2001 t. I p. 123, 2011 t. II p. 118, 2024 t. II p. 342 | — | Alerte émise | 2026-10-28 |
+| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 | 198 | *Muguet I*, 1929-32, huile sur toile, 33 × 25 | RMB 4,8-6,8 M (≈ 0,7-1,0 M$) | LCF57 ; Eslite CR270 (2018) | — | Alerte émise | 2026-10-28 |
+| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 | 209 | *Nu, tête appuyée*, 1920-30, encre et aquarelle sur papier, 42 × 20 | RMB 0,3-0,5 M | non lu | — | Non | 2026-10-28 |
+| Picasso | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 | 200 | Huile sur toile, 100 × 81, signée, datée 22.2.65 IV au revers | RMB 26,5-36 M (≈ 4,0-5,4 M$) | Zervos non cité dans l’aperçu | — | Alerte émise | 2026-10-28 |
+| Chu Teh-Chun | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 | 206 | Huile sur toile, 1976 (25.10.1976 au revers), 116 × 89 | RMB 3,8-5,8 M (≈ 0,6-0,9 M$) | non lu | — | Alerte émise | 2026-10-28 |
+| Chu Teh-Chun | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 | 205 | Huile sur toile, 1995-96, 88 × 115 | RMB 2-3 M (≈ 0,3-0,45 M$) | non lu | — | Alerte émise | 2026-10-28 |
+| Monet | Sotheby's New York, Legendary: Blaquier-Arrieta, soirée | 2026-11-18 18 h EST | n. o. | *Le Jardin des Tuileries*, 1876, hst, 59,5 × 81,8, signé et daté 76 | 15-20 M$ | W non obtenu (notice sans provenance en ligne) | non affichée | À préparer ★ | 2026-10-19 |
+| Pissarro | Sotheby's New York, Legendary: Blaquier-Arrieta, soirée | 2026-11-18 18 h EST | n. o. | *La Place du Théâtre-Français et l’avenue de l’Opéra, soleil d’après-midi en hiver*, 1898, hst, 74,4 × 92,5, signé et daté | **30-40 M$** (record Pissarro : 32,1 M$, 2014) | PDRS non obtenu | presse : vente garantie | À préparer ★ | 2026-10-19 |
+| Pissarro | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | n. o. | *Hameau aux environs de Pontoise* | 2,5-3,5 M$ | non obtenu | — | À lire au S45 | 2026-10-28 |
+| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | n. o. | *Femme nue et homme au fanion* | 15-20 M$ | non obtenu (Zervos attendu) | — | À lire au S45 ★ | 2026-10-19 |
+| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | n. o. | *Couple* | 10-15 M$ | non obtenu | — | À lire au S45 ★ | 2026-10-19 |
+| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | n. o. | *Le Peintre et son modèle* | 2,5-3,5 M$ | non obtenu | — | À lire au S45 | 2026-10-28 |
+| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | n. o. | *Nu* | 2,5-3,5 M$ | non obtenu | — | À lire au S45 | 2026-10-28 |
+| Picasso | Sotheby's New York, Modern Day | 2026-11-19 (à confirmer) | n. o. | *Tête de fou* | 1,2-1,8 M$ | non obtenu | — | Non | 2026-10-28 |
+| Picasso | Sotheby's New York, Modern Day | 2026-11-19 (à confirmer) | n. o. | *Tête* | 1-1,5 M$ | non obtenu | — | Non | 2026-10-28 |
+| Picasso | Sotheby's New York, Modern Day | 2026-11-19 (à confirmer) | n. o. | *Grand vase carré hibou*, 1954, céramique unique, H 49,8 ; vente au profit du Center for the Futures of Native Peoples (Dickinson College) | 500-700 000 $ | non obtenu | — | Non | 2026-10-28 |
+| Léger | Sotheby's New York, Modern Day | 2026-11-19 (à confirmer) | n. o. | *La Baigneuse au tronc d’arbre*, 1930, hst, 54,5 × 65,5 ; collection privée, France | 700 000-1 M$ | Bauquier non obtenu | — | À lire au S45 | 2026-10-28 |
 
 ## 3. Historique (lots passés en vente depuis le début de la veille)
 
@@ -66,9 +78,12 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 | Szafran | Christie's Paris, Art Contemporain jour 24609 | 2026-10-23 | 519 | *Feuillages avec Lilette*, 2009-10, soie marouflée | 70 000-100 000 € | 64 000 € (marteau 50 000 €) | Vendu : sous l’estimation basse | Christie's API, A |
 | Chu Teh-Chun | Christie's Paris, Art Contemporain jour 24609 | 2026-10-23 | 602 | *Sans titre*, 1990, hst | 80 000-120 000 € | 102 400 € (marteau 80 000 €) | Vendu : au bas de la fourchette | Christie's API, A |
 | Chu Teh-Chun | Christie's Paris, Art Contemporain jour 24609 | 2026-10-23 | 603 | *Composition V*, 1993, gouache | 50 000-70 000 € | 96 000 € (marteau 75 000 €) | Vendu : au-dessus de l’estimation haute | Christie's API, A |
-| Picabia | Sotheby's Paris, Surrealism and Its Legacy PF2666 | 2026-10-23 | 118 | *Les âges de la femme*, v. 1936-37, hst, 73,3 × 92,4 | 400 000-600 000 € | non publié (connexion exigée) | À retrouver dans la presse et au contrôle du 24 oct. | Sotheby's, A (résultat masqué) |
-| Picasso | Sotheby's Paris, Modernités PF2616 | 2026-10-23 | 212 | *Tête d'homme, profil*, 9 mars 1963, hst, 65,2 × 54,3 | 3-4 M€ | non publié (connexion exigée) | À retrouver dans la presse et au contrôle du 24 oct. | Sotheby's, A (résultat masqué) |
-| Monet | Sotheby's Paris, Modernités PF2616 | 2026-10-23 | 215 | *Sur la falaise près de Dieppe*, 1897, hst, 65,4 × 92,9 | 3-5 M€ | non publié (connexion exigée) | À retrouver dans la presse et au contrôle du 24 oct. | Sotheby's, A (résultat masqué) |
+| Picabia | Sotheby's Paris, Surrealism and Its Legacy PF2666 | 2026-10-23 | 118 | *Les âges de la femme*, v. 1936-37, hst, 73,3 × 92,4 | 400 000-600 000 € | non publié (connexion exigée) | À retrouver dans la presse | Sotheby's, A (résultat masqué) |
+| Picasso | Sotheby's Paris, Modernités PF2616 | 2026-10-23 | 212 | *Tête d'homme, profil*, 9 mars 1963, hst, 65,2 × 54,3 | 3-4 M€ | environ 3,6 M€ frais inclus (Il Sole 24 Ore) ; 4,1 M$ (HENI) | Vendu : marteau vers 3,0 M€, à l’estimation basse de 3-4 M€ | Presse, B |
+| Monet | Sotheby's Paris, Modernités PF2616 | 2026-10-23 | 215 | *Sur la falaise près de Dieppe*, 1897, hst, 65,4 × 92,9 | 3-5 M€ | invendu | Invendu (parmi 11 lots non vendus sur 40) ; estimation 3-5 M€ | HENI et Il Sole 24 Ore, B |
 | Picasso | Artcurial Paris, Selected 20/21 (6478) | 2026-10-24 | 121 | *Nu, homme assis et buste de vieille femme*, 1970, encre, 31,5 × 48,8 | 120 000-180 000 € | 145 000 € (adjudication) | Vendu : dans la fourchette | Artcurial, A |
 | Picasso | Artcurial Paris, Selected 20/21 (6478) | 2026-10-24 | 122 | *Le Peintre*, 1964, encre sur épreuve Spitzer, 98 × 74,7 | 200 000-300 000 € | 340 000 € (adjudication) | Vendu : au-dessus de l’estimation haute | Artcurial, A |
 | Zao Wou-Ki | Artcurial Paris, Selected 20/21 (6478) | 2026-10-24 | 125 | *Cargo au port*, 1952, hst, 46 × 55 | 600 000-800 000 € | Invendu, dernière enchère 540 000 € | Invendu : 10 % sous l’estimation basse | Artcurial, A |
+| Picasso (céramiques) | Piasa Paris, Céramique de Picasso 2465 | 2026-10-27 | 33 | *Taureau* (A.R. 255) | 80-120 000 € | 144 320 € | Vendu : au-dessus de l’estimation haute | Piasa, A |
+| Picasso (céramiques) | Piasa Paris, Céramique de Picasso 2465 | 2026-10-27 | 1, 7, 52 | *Oiseau polychrome* (A.R. 33), *Poisson* (var. A.R. 166), *Femme* (A.R. 301) | 8-12 000 € ; 10-15 000 € ; 10-15 000 € | 18 368 € ; 19 680 € ; 15 744 € | Vendus : au-dessus de l’estimation haute (frais compris) | Piasa, A |
+| Picasso | Sotheby's New York, Magnum Opus | 2026-10-21/22 | 21 ; 174 | *Tête de fou* ; *Nu étendu* | 100-150 000 $ (attribution douteuse) ; 60-80 000 $ | non publiés | Vente passée, résultats masqués ; *Tête de fou* est en réalité au Modern Day de novembre à 1,2-1,8 M$ | Sotheby's, C |
