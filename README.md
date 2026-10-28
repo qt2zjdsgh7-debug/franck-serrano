@@ -99,3 +99,16 @@ Si votre compte utilise la double authentification, le script vous demandera aut
 | Archives | .zip, .tar, .gz, .rar, .7z |
 | Code | .py, .js, .ts, .html, .css, .json, .xml, .yaml, .sh, .swift… |
 | Autres | Tout le reste |
+
+---
+
+# Skill : transcription et résumé de vidéos YouTube
+
+Dossier `skills/youtube-transcript/`. Donnez un lien YouTube à Claude : la transcription est récupérée par `scripts/get_transcript.py`, puis résumée (fiche de veille, note Aion, résumé express ou transcription nettoyée).
+
+```bash
+pip install youtube-transcript-api
+python3 skills/youtube-transcript/scripts/get_transcript.py "https://www.youtube.com/watch?v=..." --horodatage
+```
+
+À lancer depuis votre ordinateur : YouTube bloque les serveurs cloud, donc le script ne fonctionne pas dans une session Claude Code en ligne.
