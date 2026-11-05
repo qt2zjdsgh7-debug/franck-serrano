@@ -1,6 +1,6 @@
 # Watchlist Pablo — veille enchères
 
-Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-10-28 (scan S44). Les résultats Christie's sont frais inclus, les estimations hors frais : le marteau figure entre parenthèses.
+Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-11-04 (scan S45). Les résultats Christie's sont frais inclus, les estimations hors frais : le marteau figure entre parenthèses.
 
 ## 1. Artistes suivis
 
@@ -21,23 +21,43 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 
 | Artiste | Maison, vente, lieu | Date | Lot | Titre, année, médium, dimensions | Estimation | Catalogue / certificat | Garantie | Fiche flash | Ajouté le |
 |---|---|---|---|---|---|---|---|---|---|
-| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 (aperçu 5-7 nov.) | 199 | *Nu allongé, genou plié II*, 1950-60, huile sur fibre, 66 × 122 | RMB 40-60 M (≈ 6,0-9,0 M$) | Fondation Li Ching LCF296 ; CR 2001 t. I p. 123, 2011 t. II p. 118, 2024 t. II p. 342 | — | Alerte émise | 2026-10-28 |
-| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 | 198 | *Muguet I*, 1929-32, huile sur toile, 33 × 25 | RMB 4,8-6,8 M (≈ 0,7-1,0 M$) | LCF57 ; Eslite CR270 (2018) | — | Alerte émise | 2026-10-28 |
-| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 | 209 | *Nu, tête appuyée*, 1920-30, encre et aquarelle sur papier, 42 × 20 | RMB 0,3-0,5 M | non lu | — | Non | 2026-10-28 |
-| Picasso | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 | 200 | Huile sur toile, 100 × 81, signée, datée 22.2.65 IV au revers | RMB 26,5-36 M (≈ 4,0-5,4 M$) | Zervos non cité dans l’aperçu | — | Alerte émise | 2026-10-28 |
-| Chu Teh-Chun | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 | 206 | Huile sur toile, 1976 (25.10.1976 au revers), 116 × 89 | RMB 3,8-5,8 M (≈ 0,6-0,9 M$) | non lu | — | Alerte émise | 2026-10-28 |
-| Chu Teh-Chun | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Taïwan/Artron, B) | 2026-11-08 à 10 | 205 | Huile sur toile, 1995-96, 88 × 115 | RMB 2-3 M (≈ 0,3-0,45 M$) | non lu | — | Alerte émise | 2026-10-28 |
-| Monet | Sotheby's New York, Legendary: Blaquier-Arrieta, soirée | 2026-11-18 18 h EST | n. o. | *Le Jardin des Tuileries*, 1876, hst, 59,5 × 81,8, signé et daté 76 | 15-20 M$ | W non obtenu (notice sans provenance en ligne) | non affichée | À préparer ★ | 2026-10-19 |
-| Pissarro | Sotheby's New York, Legendary: Blaquier-Arrieta, soirée | 2026-11-18 18 h EST | n. o. | *La Place du Théâtre-Français et l’avenue de l’Opéra, soleil d’après-midi en hiver*, 1898, hst, 74,4 × 92,5, signé et daté | **30-40 M$** (record Pissarro : 32,1 M$, 2014) | PDRS non obtenu | presse : vente garantie | À préparer ★ | 2026-10-19 |
-| Pissarro | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | n. o. | *Hameau aux environs de Pontoise* | 2,5-3,5 M$ | non obtenu | — | À lire au S45 | 2026-10-28 |
-| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | n. o. | *Femme nue et homme au fanion* | 15-20 M$ | non obtenu (Zervos attendu) | — | À lire au S45 ★ | 2026-10-19 |
-| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | n. o. | *Couple* | 10-15 M$ | non obtenu | — | À lire au S45 ★ | 2026-10-19 |
-| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | n. o. | *Le Peintre et son modèle* | 2,5-3,5 M$ | non obtenu | — | À lire au S45 | 2026-10-28 |
-| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | n. o. | *Nu* | 2,5-3,5 M$ | non obtenu | — | À lire au S45 | 2026-10-28 |
-| Picasso | Sotheby's New York, Modern Day | 2026-11-19 (à confirmer) | n. o. | *Tête de fou* | 1,2-1,8 M$ | non obtenu | — | Non | 2026-10-28 |
-| Picasso | Sotheby's New York, Modern Day | 2026-11-19 (à confirmer) | n. o. | *Tête* | 1-1,5 M$ | non obtenu | — | Non | 2026-10-28 |
-| Picasso | Sotheby's New York, Modern Day | 2026-11-19 (à confirmer) | n. o. | *Grand vase carré hibou*, 1954, céramique unique, H 49,8 ; vente au profit du Center for the Futures of Native Peoples (Dickinson College) | 500-700 000 $ | non obtenu | — | Non | 2026-10-28 |
-| Léger | Sotheby's New York, Modern Day | 2026-11-19 (à confirmer) | n. o. | *La Baigneuse au tronc d’arbre*, 1930, hst, 54,5 × 65,5 ; collection privée, France | 700 000-1 M$ | Bauquier non obtenu | — | À lire au S45 | 2026-10-28 |
+| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | 2026-11-09 19 h 30 (Artron ; aperçu 5-7 nov.) | 199 | *Nu allongé, genou plié II*, 1950-60, huile sur fibre, 66 × 122 | RMB 40-60 M (≈ 6,0-9,0 M$) | Fondation Li Ching LCF296 ; CR 2001, 2011, 2024 | — | Alerte émise (mise à jour) | 2026-10-28 |
+| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | idem | 198 | *Muguet I*, 1929-32, huile sur toile, 33 × 25 | RMB 4,8-6,8 M | LCF57 ; Eslite CR270 | — | Alerte émise | 2026-10-28 |
+| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | idem | 209 | *Nu, tête appuyée*, 1920-30, encre et aquarelle, 42 × 20 | RMB 0,3-0,5 M | non lu | — | Non | 2026-10-28 |
+| Picasso | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | idem | 200 | Huile sur toile 1965, 100 × 81, datée 22.2.65 IV | RMB 26,5-36 M | Zervos non cité | — | Alerte émise | 2026-10-28 |
+| Chu Teh-Chun | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | idem | 206 | Huile 1976, 116 × 89 | RMB 3,8-5,8 M | aucun cité | — | Alerte émise | 2026-10-28 |
+| Chu Teh-Chun | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | idem | 205 | Huile 1995-96, 88 × 115 | RMB 2-3 M | aucun cité | — | Alerte émise | 2026-10-28 |
+| Zao Wou-Ki | Christie's Shanghai, 20th/21st Century Evening Sale 24583 (A) | 2026-11-13 | 109 | *Mars - 03.04.2003*, huile, 97 × 195 | CNY 9-14 M (≈ 1,3-2,0 M$) | **CR vol. III (Flammarion, 2025) pl. 1714, p. 296 et 409** ; archives de la Fondation Zao Wou-Ki ; certificat sur demande | non lue | Alerte émise | 2026-11-04 |
+| Chu Teh-Chun | Christie's Shanghai, 20th/21st Century Evening Sale 24583 (A) | 2026-11-13 | 108 | *Paysage d’hiver*, 76 × 56 | CNY 1,2-2,5 M | aucun certificat de la Fondation cité | non lue | Alerte émise | 2026-11-04 |
+| Chu Teh-Chun | Christie's Shanghai, 20th/21st Century Evening Sale 24583 (A) | 2026-11-13 | 110 | *Fête nocturne*, 73 × 92 | CNY 1,5-2,0 M | aucun certificat cité | non lue | Alerte émise | 2026-11-04 |
+| Picasso | Christie's Shanghai, 20th/21st Century Evening Sale 24583 (A) | 2026-11-13 | 107 | *Homme assis*, 56,6 × 28,7 | CNY 8-12 M | Zervos XXXI n° 153 | non lue | Alerte émise | 2026-11-04 |
+| Monet | Sotheby's New York, Legendary: Blaquier-Arrieta | 2026-11-18 18 h EST | 4 | *Le Jardin des Tuileries*, 1876, hst, 59,5 × 81,8 | 15-20 M$ | W vol. I n° 402 | non lue | Alerte émise | 2026-10-19 |
+| Pissarro | Sotheby's New York, Legendary | 2026-11-18 18 h EST | 10 | *La Place du Théâtre-Français…*, 1898, hst, 74,4 × 92,5 | **30-40 M$** (record 32,1 M$) | P&V 1027 ; PDRS cité | presse : garantie | Alerte émise | 2026-10-19 |
+| Pissarro | Sotheby's New York, Legendary | 2026-11-18 18 h EST | 12 | *Maison de Piette à Montfoucault, effet de neige…*, 1875, hst, 46,3 × 56,2 | 0,7-0,9 M$ | P&V 326 ; PDRS II n° 391 | non lue | Alerte émise | 2026-11-04 |
+| Monet | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | 127 | *La Barque bleue* (notice masquée) | **20-30 M$** | notice non publiée | non lue | Alerte émise | 2026-11-04 |
+| Monet | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | 126 | *Chrysanthèmes*, 1897, hst, 80,6 × 120,7 | 6-8 M$ | W III n° 1495 | non lue | Alerte émise | 2026-11-04 |
+| Monet | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | 139 | *Effet du soir sur la Seine*, 1881, hst, 60 × 81,3 | 3-5 M$ | W n° 702 | non lue | Alerte émise | 2026-11-04 |
+| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | 134 | *Femme nue et homme au fanion*, 29.7.1969, 162 × 130 | 15-20 M$ | Zervos XXXI n° 337 | non lue | Alerte émise | 2026-10-19 |
+| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | 104 | *Couple* (notice masquée) | 10-15 M$ | notice non publiée | non lue | Alerte émise | 2026-10-19 |
+| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | 146 | *Mousquetaire à la pipe*, 26.4.1967, 115,6 × 88,4 ; collection japonaise | 8-12 M$ | Zervos XXV n° 347 | non lue | Alerte émise | 2026-11-04 |
+| Picasso | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | 101 ; 144 ; 110 ; 103 | *Nu* (gouache 1972) ; *Le Peintre et son modèle* (1964) ; *Deux femmes nues* (pastel 1966) ; *Tête de fou* | 2,5-3,5 M$ ; 2,5-3,5 M$ ; 1,5-2,5 M$ ; 1,2-1,8 M$ | Zervos XXXIII 375 ; XXIV 265 ; Claude Picasso ; — | non lue | Alerte émise | 2026-11-04 |
+| Pissarro | Sotheby's New York, Modern Evening | 2026-11-18 19 h EST | 113 ; 131 | *Hameau aux environs de Pontoise*, 1872 ; *Paysage à Osny, vue de la ferme*, v. 1883 (Armand Hammer) | 2,5-3,5 M$ ; 2-3 M$ | P&V 165 ; P&V 598 | non lue | Alerte émise | 2026-11-04 |
+| Monet ; Pissarro | Sotheby's New York, Modern Day | 2026-11-19 (à confirmer) | 236 ; 235 | *Paysage à Villez*, v. 1883 ; *Le Clocher de Bazincourt*, v. 1885 | 1-1,5 M$ ; 250-350 000 $ | à paraître au CR en ligne WPI ; P&V 687 | non lue | Non | 2026-11-04 |
+| Léger ; Picasso | Sotheby's New York, Modern Day | 2026-11-19 (à confirmer) | n. o. | Léger *La Baigneuse au tronc d’arbre*, 1930 ; Picasso *Tête* ; *Grand vase carré hibou*, 1954 | 0,7-1 M$ ; 1-1,5 M$ ; 0,5-0,7 M$ | non lus | non lue | Non | 2026-10-28 |
+| Picasso | Christie's New York, 20th Century Evening 24266 | 2026-11-17 | 26 | *Le Baiser*, 1969, 97 × 129,9 | **40-60 M$** | Zervos XXXI n° 483 | non lue | Alerte émise | 2026-11-04 |
+| Picasso | Christie's New York, 20th Century Evening | 2026-11-17 | 23 | *Tête de femme (Dora Maar)*, 40,9 × 33 | 25-35 M$ | non lu | non lue | Alerte émise | 2026-11-04 |
+| Picasso | Christie's New York, 20th Century Evening | 2026-11-17 | 17 | *La leçon de dessin*, 131,5 × 98,1 | 15-25 M$ | Paul Rosenberg 1926 | non lue | Alerte émise | 2026-11-04 |
+| Picasso | Christie's New York, 20th Century Evening | 2026-11-17 | 25 | *Couple*, 1969, 116,3 × 89,3 | 12-18 M$ | Zervos XXXI n° 524 | non lue | Alerte émise | 2026-11-04 |
+| Picasso | Christie's New York, 20th Century Evening | 2026-11-17 | 28 ; 13 ; 70 | *Tête de femme* (Kootz 1946) ; *Tête de femme* (période cubiste, Zervos n° 389) ; *Femme assise* | 10-15 M$ ; 4-6 M$ ; 4-6 M$ | Zervos ; Zervos XVIII n° 69 | non lue | Alerte émise | 2026-11-04 |
+| Monet | Christie's New York, 20th Century Evening | 2026-11-17 | 15 | *Champ d’avoine et coquelicots*, 73 × 92,4 ; Durand-Ruel 1890, Pope | 12-18 M$ | à paraître au CR en ligne WPI | non lue | Alerte émise | 2026-11-04 |
+| Monet | Christie's New York, 20th Century Evening | 2026-11-17 | 30 ; 62 | *La berge du Petit-Gennevilliers* (W n° 375) ; *Prairie ensoleillée, Giverny* (W n° 1082) | 7-10 M$ ; 4-6 M$ | W cités | non lue | Alerte émise | 2026-11-04 |
+| Pissarro | Christie's New York, 20th Century Evening | 2026-11-17 | 60 | *Le Pont-Neuf, après-midi de pluie, 1re série*, 80,9 × 65 | 6-8 M$ | non lu | non lue | Alerte émise | 2026-11-04 |
+| Léger | Christie's New York, 20th Century Evening | 2026-11-17 | 78 | *Le jongleur chinois*, 65,9 × 91,7 | 1,2-1,8 M$ | Bauquier VII n° 1205 | non lue | Non | 2026-11-04 |
+| Monet | Christie's New York, Impressionist & Modern Day 24501 | 2026-11-18 | 332 ; 303 | *Argenteuil, L’Hospice* (W n° 240) ; *La Barque* | 2,5-3,5 M$ ; 0,3-0,5 M$ | CR en ligne WPI à paraître | non lue | Non | 2026-11-04 |
+| Pissarro | Christie's New York, Impressionist & Modern Day | 2026-11-18 | 311 ; 317 ; 373 ; 369 ; 448 ; 378 ; 458 | 7 lots, de *La Briqueterie Delafolie à Éragny* (1-1,5 M$) à *Charette sur une route* (0,1-0,15 M$) | 0,1-1,5 M$ | P&V ; PDRS (ex. 1336) | non lue | Non | 2026-11-04 |
+| Léger ; Picasso | Christie's New York, Impressionist & Modern Day | 2026-11-18 | 355 ; 350 | Léger *Deux bouteilles jaunes sur fond rouge* (Bauquier VIII n° 1385) ; Picasso *Jarre paysage andalou* | 0,5-0,8 M$ ; 0,15-0,25 M$ | Bauquier | non lue | Non | 2026-11-04 |
+| Monet ; Pissarro ; Picasso ; Léger | Christie's New York, Impressionist & Modern Works on Paper 24500 | 2026-11-18 | 15 lots (102-209) | Dessins, pastels, gouaches : Pissarro (6), Picasso (5), Monet (2), Léger (2) | 2 000 $ à 300 000 $ | Comité Picasso (lot 104) | non lue | Non | 2026-11-04 |
+| Monet | Phillips New York, Modern & Contemporary Evening (annonce web, C) | 2026-11-18 17 h ET | n. o. | *La Maison dans les roses* | 2-4 M$ | non lu ; titre voisin du lot 5 de Schlumberger vendu le 22 oct. : à distinguer | — | À lire | 2026-11-04 |
 
 ## 3. Historique (lots passés en vente depuis le début de la veille)
 

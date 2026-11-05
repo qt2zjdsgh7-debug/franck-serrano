@@ -2,6 +2,8 @@
 
 Niveau de vérification : **B** (aperçu de la maison publié par la revue Artemperor, Taïwan, le 23 octobre ; catalogue officiel et notices complètes non lus). Vente dans **11 jours**. Aperçu public du 5 au 7 novembre au China Guardian Art Center, Pékin. Les prix sont en yuans (RMB), avec la conversion en dollars donnée par la maison.
 
+> **Mise à jour du 4 novembre.** Artron indique pour la soirée « 20th Century Art Evening Sale » une vente le **9 novembre à 19 h 30** (heure de Pékin), alors que l'aperçu parlait d'une vente du 8 au 10 novembre : la date exacte est à confirmer sur l'annonce de la maison. Aperçu public du 5 au 7 novembre. Le catalogue officiel n'était pas encore lisible le 4 novembre ; aucun changement d'estimation connu. Vente dans **5 jours**.
+
 **Règle chinoise.** En Chine continentale, un prix d'adjudication n'est pas un prix payé : le taux de règlement est souvent inférieur. Ces résultats resteront « adjugé » tant que le paiement n'est pas confirmé.
 
 | Lot | Œuvre | Estimation | Catalogue raisonné / certificat | Provenance et expositions |
