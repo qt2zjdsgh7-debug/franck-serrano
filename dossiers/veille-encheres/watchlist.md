@@ -1,6 +1,6 @@
 # Watchlist Pablo — veille enchères
 
-Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-11-04 (scan S45). Les résultats Christie's sont frais inclus, les estimations hors frais : le marteau figure entre parenthèses.
+Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-11-11 (scan S46). Les résultats Christie's sont frais inclus, les estimations hors frais : le marteau figure entre parenthèses. Chine continentale : adjugé, règlement inconnu.
 
 ## 1. Artistes suivis
 
@@ -21,12 +21,6 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 
 | Artiste | Maison, vente, lieu | Date | Lot | Titre, année, médium, dimensions | Estimation | Catalogue / certificat | Garantie | Fiche flash | Ajouté le |
 |---|---|---|---|---|---|---|---|---|---|
-| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | 2026-11-09 19 h 30 (Artron ; aperçu 5-7 nov.) | 199 | *Nu allongé, genou plié II*, 1950-60, huile sur fibre, 66 × 122 | RMB 40-60 M (≈ 6,0-9,0 M$) | Fondation Li Ching LCF296 ; CR 2001, 2011, 2024 | — | Alerte émise (mise à jour) | 2026-10-28 |
-| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | idem | 198 | *Muguet I*, 1929-32, huile sur toile, 33 × 25 | RMB 4,8-6,8 M | LCF57 ; Eslite CR270 | — | Alerte émise | 2026-10-28 |
-| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | idem | 209 | *Nu, tête appuyée*, 1920-30, encre et aquarelle, 42 × 20 | RMB 0,3-0,5 M | non lu | — | Non | 2026-10-28 |
-| Picasso | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | idem | 200 | Huile sur toile 1965, 100 × 81, datée 22.2.65 IV | RMB 26,5-36 M | Zervos non cité | — | Alerte émise | 2026-10-28 |
-| Chu Teh-Chun | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | idem | 206 | Huile 1976, 116 × 89 | RMB 3,8-5,8 M | aucun cité | — | Alerte émise | 2026-10-28 |
-| Chu Teh-Chun | China Guardian Pékin, 20th Century Art Evening Sale (aperçu Artemperor, B) | idem | 205 | Huile 1995-96, 88 × 115 | RMB 2-3 M | aucun cité | — | Alerte émise | 2026-10-28 |
 | Zao Wou-Ki | Christie's Shanghai, 20th/21st Century Evening Sale 24583 (A) | 2026-11-13 | 109 | *Mars - 03.04.2003*, huile, 97 × 195 | CNY 9-14 M (≈ 1,3-2,0 M$) | **CR vol. III (Flammarion, 2025) pl. 1714, p. 296 et 409** ; archives de la Fondation Zao Wou-Ki ; certificat sur demande | non lue | Alerte émise | 2026-11-04 |
 | Chu Teh-Chun | Christie's Shanghai, 20th/21st Century Evening Sale 24583 (A) | 2026-11-13 | 108 | *Paysage d’hiver*, 76 × 56 | CNY 1,2-2,5 M | aucun certificat de la Fondation cité | non lue | Alerte émise | 2026-11-04 |
 | Chu Teh-Chun | Christie's Shanghai, 20th/21st Century Evening Sale 24583 (A) | 2026-11-13 | 110 | *Fête nocturne*, 73 × 92 | CNY 1,5-2,0 M | aucun certificat cité | non lue | Alerte émise | 2026-11-04 |
@@ -49,7 +43,7 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 | Picasso | Christie's New York, 20th Century Evening | 2026-11-17 | 17 | *La leçon de dessin*, 131,5 × 98,1 | 15-25 M$ | Paul Rosenberg 1926 | non lue | Alerte émise | 2026-11-04 |
 | Picasso | Christie's New York, 20th Century Evening | 2026-11-17 | 25 | *Couple*, 1969, 116,3 × 89,3 | 12-18 M$ | Zervos XXXI n° 524 | non lue | Alerte émise | 2026-11-04 |
 | Picasso | Christie's New York, 20th Century Evening | 2026-11-17 | 28 ; 13 ; 70 | *Tête de femme* (Kootz 1946) ; *Tête de femme* (période cubiste, Zervos n° 389) ; *Femme assise* | 10-15 M$ ; 4-6 M$ ; 4-6 M$ | Zervos ; Zervos XVIII n° 69 | non lue | Alerte émise | 2026-11-04 |
-| Monet | Christie's New York, 20th Century Evening | 2026-11-17 | 15 | *Champ d’avoine et coquelicots*, 73 × 92,4 ; Durand-Ruel 1890, Pope | 12-18 M$ | à paraître au CR en ligne WPI | non lue | Alerte émise | 2026-11-04 |
+| Monet | Christie's New York, 20th Century Evening | 2026-11-17 | 15 | *Champ d’avoine et coquelicots*, 73 × 92,4 ; Durand-Ruel 1890, Pope ; collection Bill Koch (ARTnews) | 12-18 M$ | à paraître au CR en ligne WPI | non lue | Alerte émise | 2026-11-04 |
 | Monet | Christie's New York, 20th Century Evening | 2026-11-17 | 30 ; 62 | *La berge du Petit-Gennevilliers* (W n° 375) ; *Prairie ensoleillée, Giverny* (W n° 1082) | 7-10 M$ ; 4-6 M$ | W cités | non lue | Alerte émise | 2026-11-04 |
 | Pissarro | Christie's New York, 20th Century Evening | 2026-11-17 | 60 | *Le Pont-Neuf, après-midi de pluie, 1re série*, 80,9 × 65 | 6-8 M$ | non lu | non lue | Alerte émise | 2026-11-04 |
 | Léger | Christie's New York, 20th Century Evening | 2026-11-17 | 78 | *Le jongleur chinois*, 65,9 × 91,7 | 1,2-1,8 M$ | Bauquier VII n° 1205 | non lue | Non | 2026-11-04 |
@@ -57,7 +51,7 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 | Pissarro | Christie's New York, Impressionist & Modern Day | 2026-11-18 | 311 ; 317 ; 373 ; 369 ; 448 ; 378 ; 458 | 7 lots, de *La Briqueterie Delafolie à Éragny* (1-1,5 M$) à *Charette sur une route* (0,1-0,15 M$) | 0,1-1,5 M$ | P&V ; PDRS (ex. 1336) | non lue | Non | 2026-11-04 |
 | Léger ; Picasso | Christie's New York, Impressionist & Modern Day | 2026-11-18 | 355 ; 350 | Léger *Deux bouteilles jaunes sur fond rouge* (Bauquier VIII n° 1385) ; Picasso *Jarre paysage andalou* | 0,5-0,8 M$ ; 0,15-0,25 M$ | Bauquier | non lue | Non | 2026-11-04 |
 | Monet ; Pissarro ; Picasso ; Léger | Christie's New York, Impressionist & Modern Works on Paper 24500 | 2026-11-18 | 15 lots (102-209) | Dessins, pastels, gouaches : Pissarro (6), Picasso (5), Monet (2), Léger (2) | 2 000 $ à 300 000 $ | Comité Picasso (lot 104) | non lue | Non | 2026-11-04 |
-| Monet | Phillips New York, Modern & Contemporary Evening (annonce web, C) | 2026-11-18 17 h ET | n. o. | *La Maison dans les roses* | 2-4 M$ | non lu ; titre voisin du lot 5 de Schlumberger vendu le 22 oct. : à distinguer | — | À lire | 2026-11-04 |
+| Monet | Phillips New York, Modern & Contemporary (annonce web, C) | 2026-11-17 (page Phillips) ou 18 nov. ; session du matin du 19 nov. possible | n. o. | *La Maison dans les roses* | 2-4 M$ (une page évoque 10-15 M$ : ambigu) | non lu ; à distinguer du lot 5 de Schlumberger (vendu le 22 oct.) | — | À lire | 2026-11-04 |
 
 ## 3. Historique (lots passés en vente depuis le début de la veille)
 
@@ -107,3 +101,9 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 | Picasso (céramiques) | Piasa Paris, Céramique de Picasso 2465 | 2026-10-27 | 33 | *Taureau* (A.R. 255) | 80-120 000 € | 144 320 € | Vendu : au-dessus de l’estimation haute | Piasa, A |
 | Picasso (céramiques) | Piasa Paris, Céramique de Picasso 2465 | 2026-10-27 | 1, 7, 52 | *Oiseau polychrome* (A.R. 33), *Poisson* (var. A.R. 166), *Femme* (A.R. 301) | 8-12 000 € ; 10-15 000 € ; 10-15 000 € | 18 368 € ; 19 680 € ; 15 744 € | Vendus : au-dessus de l’estimation haute (frais compris) | Piasa, A |
 | Picasso | Sotheby's New York, Magnum Opus | 2026-10-21/22 | 21 ; 174 | *Tête de fou* ; *Nu étendu* | 100-150 000 $ (attribution douteuse) ; 60-80 000 $ | non publiés | Vente passée, résultats masqués ; *Tête de fou* est en réalité au Modern Day de novembre à 1,2-1,8 M$ | Sotheby's, C |
+| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale | 2026-11-09 | 199 | *Nu allongé, genou plié II*, 1950-60, huile sur fibre, 66 × 122 | RMB 40-60 M (≈ 6,0-9,0 M$) | RMB 94,4 M frais inclus (marteau RMB 80 M ; ≈ 14 M$ au taux de la maison) | Adjugé : marteau 33 % au-dessus de l’estimation haute (40-60 M) ; réglé inconnu. Même tableau que Phillips HK 25 nov. 2024, lot 13 : HK$ 42,8 M frais inclus (marteau HK$ 35 M, ≈ 5,5 M$), soit environ ×2,4 en deux ans | Presse chinoise (Artron, smzdm), B |
+| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale | 2026-11-09 | 198 | *Muguet I*, 1929-32, huile sur toile, 33 × 25 | RMB 4,8-6,8 M | non publié dans les sources lues | Résultat inconnu | — |
+| Sanyu | China Guardian Pékin, 20th Century Art Evening Sale | 2026-11-09 | 209 | *Nu, tête appuyée*, 1920-30, encre et aquarelle, 42 × 20 | RMB 0,3-0,5 M | non publié | Résultat inconnu | — |
+| Picasso | China Guardian Pékin, 20th Century Art Evening Sale | 2026-11-09 | 200 | Huile sur toile 1965, 100 × 81, datée 22.2.65 IV | RMB 26,5-36 M | RMB 38,94 M frais inclus (marteau RMB 30 M) | Adjugé : dans l’estimation (26,5-36 M). *Père et fils*, 1965, 100 × 81,5 | Presse chinoise, B |
+| Chu Teh-Chun | China Guardian Pékin, 20th Century Art Evening Sale | 2026-11-09 | 206 | Huile 1976, 116 × 89 | RMB 3,8-5,8 M | non publié | Résultat inconnu | — |
+| Chu Teh-Chun | China Guardian Pékin, 20th Century Art Evening Sale | 2026-11-09 | 205 | Huile 1995-96, 88 × 115 | RMB 2-3 M | non publié | Résultat inconnu | — |
