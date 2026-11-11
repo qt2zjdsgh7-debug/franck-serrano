@@ -2,7 +2,7 @@
 
 Mode 2 de Pablo. Déroulé fixe, sources à passer en revue, format du livrable et des alertes, tenue de la watchlist. Les calendriers des maisons changent chaque saison : vérifier les dates sur les sites des maisons à chaque scan.
 
-Dernière révision : 2026-10-19
+Dernière révision : 2026-11-11 (ajout du § 10 « Suivi des résultats après une alerte » et des leçons de la semaine parisienne du 22-27 octobre 2026)
 
 ---
 
@@ -34,17 +34,18 @@ Dernière révision : 2026-10-19
 
 | Source | Usage | Accès |
 |---|---|---|
-| Calendriers et pages « artiste » des maisons (Christie's, Sotheby's, Phillips, Bonhams, Artcurial) | Lots à venir et résultats, niveau A | Gratuit ; alertes par artiste sur compte personnel de Franck |
+| Calendriers et pages de ventes et de lots des maisons (Christie's, Sotheby's, Phillips, Bonhams, Artcurial, Piasa) | Lots à venir et résultats, niveau A ; méthodes de lecture et pièges dans `lecture-pages-maisons.md` | Gratuit ; nécessite que la politique réseau de l'environnement autorise les domaines (tester avant chaque scan) ; alertes par artiste sur compte personnel de Franck |
+| Heni News (comptes rendus de ventes le soir même : totaux, taux de vente, garantis, ravalés nommés) | Résultats quand la maison masque ses prix, niveau B | Gratuit |
 | Drouot.com, Interencheres, Auction.fr | Ventes parisiennes et régionales, successions | Gratuit ; alertes mot-clé |
 | Invaluable, LiveAuctioneers, Barnebys | Maisons moyennes et petites, toutes places | Gratuit partiel ; alertes mot-clé |
 | Artnet, Artprice, MutualArt | Résultats consolidés, alertes | Abonnement selon compte |
 | Artron 雅昌, Poly, Guardian, Ravenel | Chine, Hong Kong, Taïwan | Gratuit partiel, en chinois |
 | Communiqués des maisons après les ventes phares | Totaux, taux de vente, records | Gratuit |
-| The Art Newspaper, Artnet News, Le Journal des Arts, La Gazette Drouot, 艺术新闻中文版, ArtAsiaPacific | Signaux de marché, litiges, restitutions, nominations | Gratuit partiel |
+| The Art Newspaper (FR et EN), ARTnews, AFP (via Boursorama, L'essentiel), Le Journal des Arts, La Gazette Drouot, 艺术新闻中文版, ArtAsiaPacific | Signaux de marché, comptes rendus lot par lot, litiges, restitutions, nominations | Gratuit partiel ; Artnet News souvent bloqué en lecture directe |
 | Sites des comités et fondations (Comité Picabia, Comité Léger, WPI, Association Jean Hélion, Fondation Zao Wou-Ki, Fondation Chu Teh-Chun) | Nouvelles des catalogues raisonnés | Gratuit |
 | Ministère de la Culture (France), Arts Council (Royaume-Uni), 国家文物局 (Chine), HMRC, Tracfin | Réglementation | Gratuit |
 
-Si une source payante n'est pas accessible dans l'environnement de travail, le dire dans la synthèse et marquer les données concernées de niveau B ou C.
+Si une source payante n'est pas accessible dans l'environnement de travail, le dire dans la synthèse et marquer les données concernées de niveau B ou C. Si ce sont les sites des maisons qui sont refusés par le réseau, aucune ligne ne peut atteindre le niveau A : l'écrire en tête du livrable, nommer les domaines à autoriser et prévoir une relance dès l'accès rétabli.
 
 ## 4. Déroulé fixe du scan (6 étapes)
 
@@ -111,6 +112,9 @@ Un artiste s'ajoute ou se retire sur une ligne de Franck ; chaque ajout déclenc
 
 ## 8. Règles
 
+- Un champ technique d'une page (réserve atteinte ou non, bouton « vendu » sans montant, état « clos ») n'est jamais interprété comme un résultat ; seuls un prix publié par la maison ou un compte rendu nommant le lot le sont (voir `lecture-pages-maisons.md`, § 6).
+- Une lecture publiée qui se révèle fausse est corrigée dans le fichier avec la mention « correction » et la date ; elle n'est pas effacée.
+
 - Un résultat sans mention marteau/frais, devise et date n'entre pas dans la synthèse.
 - Un lot chinois continental est noté « adjugé » tant que le règlement n'est pas connu.
 - Un lot sans numéro de catalogue raisonné ni certificat de l'autorité reconnue est signalé comme tel, même si la maison est prestigieuse.
@@ -120,7 +124,22 @@ Un artiste s'ajoute ou se retire sur une ligne de Franck ; chaque ajout déclenc
 
 ## 9. Anti-patterns
 
+- Annoncer un ravalement ou une vente à partir d'un indicateur du site de la maison au lieu d'un prix ou d'un compte rendu (erreur commise et corrigée le 23 octobre 2026 sur le *Saule pleureur* de Monet).
+- Reprendre une mention d'agrégateur (« à venir chez … ») sans la retrouver sur la page de vente.
+- Déclarer une alerte close avant d'avoir versé le résultat ou constaté par écrit qu'il ne sera pas publié.
+
 - Confondre une estimation avec une valeur, un adjugé avec un prix payé, une garantie avec une demande réelle.
 - Reprendre un communiqué de maison de ventes sans lire les pages de lots.
 - Laisser passer la vente d'un lot suivi parce que la synthèse hebdomadaire n'était pas encore due : l'alerte existe pour cela.
 - Étendre la watchlist sans fiche de référence vérifiée.
+
+## 10. Suivi des résultats après une alerte
+
+Une alerte engage Pablo jusqu'au résultat. Déroulé vérifié sur la semaine parisienne d'octobre 2026 :
+
+1. **Avant la vente** : lire les pages de lots (niveau A) et compléter l'alerte : numéro de lot, notice (signature ou cachet, médium, dimensions, date), numéro de catalogue raisonné avec volume et page, provenance complète, expositions, symboles de garantie. Signaler chaque écart avec ce que disait l'alerte initiale (estimation, identité de la version, historique de passage en vente).
+2. **Fichier de résultats** : créer `dossiers/veille-encheres/Pablo_Resultats_[place]_[AAAAMMJJ-JJ].md` dès la première lecture, avec un tableau prêt à remplir (lot, œuvre, catalogue raisonné, estimation, garantie, marteau, frais inclus, statut, niveau), une lecture en une phrase par lot et une grille « ce que cela change pour les fourchettes », puis un tableau des écarts par rapport aux alertes. L'état du document (date, ventes versées, ce qui manque) est en tête.
+3. **Relances programmées** : une relance par vente, le soir même entre 21 h et 22 h locales (Christie's publie ses prix en ligne dans l'heure, la presse suit), puis une relance de clôture après la dernière vente, et une dernière vérification environ dix jours après pour les prix que la maison masque. Chaque relance relit les pages, cherche la presse et Heni, met à jour le fichier de résultats, la watchlist et les alertes, committe et pousse, et laisse à Franck un résumé en cinq lignes.
+4. **Watchlist** : chaque lot passé en vente quitte « lots en cours » pour « historique » avec son prix frais inclus, le marteau s'il est publié ou reconstitué (dire lequel), le statut (vendu, ravalé, garanti, non publié), l'URL de la page de lot et le niveau.
+5. **Clôture** : le fichier de résultats se termine par la synthèse de la semaine (lots vendus, ravalés, sans prix publié ; totaux par vente ; fourchettes révisées par artiste) et la liste de ce qui n'est pas résolu. Un lot dont la maison ne publie pas le prix est clos « sans prix publié », pas « vendu ».
+6. **Après-vente** : un lot ravalé reste disponible en offre après vente autour de la réserve pendant quelques semaines ; si la notice est propre, le dire à Franck avec le contact de l'administrateur de la vente.

@@ -2,7 +2,7 @@
 
 Annuaire de travail. Les entrées marquées ✓ ont été vérifiées en ligne à la date indiquée ; les autres sont des repères à confirmer avant citation. Les conditions d'accès (abonnement, API, gratuité partielle) changent souvent : vérifier à chaque commande.
 
-Dernière révision : 2026-10-19
+Dernière révision : 2026-11-11
 
 ---
 
@@ -17,6 +17,9 @@ Dernière révision : 2026-10-19
 | Chine continentale | Les maisons publient l'adjugé ; le **taux de règlement** (结算率) publié par la China Association of Auctioneers est historiquement bas sur les lots de plus de 10 millions de RMB. Un adjugé non réglé n'est pas un comparable ferme. |
 | Ventes privées | Non publiées. Les prix rapportés par la presse sont de niveau B au mieux. |
 | Fraîcheur | Une œuvre jamais passée en vente (fresh to market) et une œuvre revenue trois fois en cinq ans ne se comparent pas sans ajustement. |
+| Résultat masqué | Certaines maisons ne publient pas les prix lot par lot sur leur site (Sotheby's Paris, octobre 2026, encore masqués deux semaines après). Le prix vient alors de la presse ou d'un agrégateur citant la maison (niveau B) ; sans cela, le lot est « sans prix publié », jamais « vendu ». |
+| Marteau reconstitué | Quand seul le prix frais inclus est publié, le marteau peut être reconstitué avec le coefficient de la maison vérifié sur des lots de la même vente (Artcurial 1,324 ; Piasa 1,312 en octobre 2026) ; l'écrire « marteau reconstitué ». Ne pas reconstituer sans coefficient vérifié. |
+| Champs techniques | Les indicateurs techniques des pages (réserve atteinte, bouton « vendu » sans montant) ne sont pas des résultats : voir `lecture-pages-maisons.md`. |
 
 ## 1. Bases agrégées internationales
 
@@ -39,11 +42,12 @@ Les pages de lots des grandes maisons sont la source de niveau **A** pour un com
 
 | Maison | Archives en ligne | Remarques |
 |---|---|---|
-| Christie's | Résultats depuis 1998 environ, recherche par artiste | Notices de provenance détaillées ; barème des frais par place. |
-| Sotheby's | Résultats en ligne, catalogues anciens partiellement | Idem. |
+| Christie's | Résultats depuis 1998 environ, recherche par artiste ; prix frais inclus en ligne le soir même de la vente | Notices de provenance et bibliographie complètes sur christies.com.cn (rendu côté serveur) ; symboles de garantie ○♦ et droit de suite λ sur les notices ; barème des frais par place. |
+| Sotheby's | Notices complètes en ligne (provenance, expositions, bibliographie) ; **prix des ventes de Paris masqués** sur le site en octobre-novembre 2026 | Chercher les prix dans la presse et chez Heni ; ne jamais lire le champ « réserve atteinte » comme un résultat. |
 | Phillips | Résultats en ligne | Fort sur l'art d'après-guerre et contemporain, Hong Kong. |
 | Bonhams | Résultats en ligne | Utile pour les segments intermédiaires. |
-| Artcurial (Paris) | Résultats en ligne | Première maison française pour l'art moderne. |
+| Artcurial (Paris) | Résultats intégrés aux pages de lots après la vente : statut, marteau, prix frais inclus, et réserve ferme | Première maison française pour l'art moderne ; la réserve lisible dans les données permet de situer une offre après vente. |
+| Piasa (Paris) | Résultats frais inclus affichés sur la page de vente ; les invendus disparaissent de la liste | Céramiques Madoura de Picasso, design, tapisseries. |
 | Drouot (drouot.com) / Interencheres / Auction.fr | Résultats des études de commissaires-priseurs | Essentiel pour les ventes de succession françaises et les artistes chinois de Paris (Sanyu, Pan Yuliang, Chu Teh-Chun passés par Drouot). |
 | Lempertz, Ketterer, Grisebach, Van Ham (Allemagne) ; Dorotheum (Vienne) ; Koller (Zurich) | Résultats en ligne | Art moderne européen, provenance germanophone. |
 | Heritage, Swann, Doyle, Freeman's (États-Unis) | Résultats en ligne | Segments intermédiaires. |
@@ -89,7 +93,7 @@ Rappels : droits de douane et TVA à l'importation en Chine continentale pèsent
 | Wikidata | Identifiants, dates, noms en ZH ; quelques résultats de ventes record | SPARQL |
 | Getty ULAN | Autorité noms d'artistes | SPARQL / LOD |
 | Artprice, Artnet | Exports CSV selon abonnement | Abonnement |
-| Pages de lots des maisons | Lecture directe (niveau A) | Web |
+| Pages de lots des maisons | Lecture directe (niveau A) ; méthodes par maison dans `lecture-pages-maisons.md` | Web, sous réserve de la politique réseau de l'environnement |
 | Rapports Art Basel & UBS, Artprice, Deloitte | PDF annuels | Gratuit |
 
 ## 7. Procédure type pour un jeu de comparables

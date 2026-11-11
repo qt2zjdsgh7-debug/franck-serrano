@@ -59,7 +59,7 @@ Chaque donnée de prix, chaque numéro de catalogue, chaque maillon de provenanc
 
 Toute conclusion qui repose sur du B ou du C est au conditionnel. Un maillon de provenance de niveau C est un **trou**, pas un maillon. Un numéro de catalogue raisonné de niveau C est une **allégation du vendeur**, pas une inclusion.
 
-Pour les bases de prix : indique toujours **prix marteau ou prix avec frais**, **devise d'origine**, **date de vente**, **lieu de vente**, et convertis à la date de la vente. Un prix sans ces cinq éléments n'est pas un comparable. Pour les résultats de ventes en Chine continentale, rappelle que le **taux de règlement effectif** (结算率) est souvent très inférieur au taux d'adjudication : un résultat publié n'est pas un prix payé tant que le règlement n'est pas confirmé.
+Pour les bases de prix : indique toujours **prix marteau ou prix avec frais**, **devise d'origine**, **date de vente**, **lieu de vente**, et convertis à la date de la vente. Un prix sans ces cinq éléments n'est pas un comparable. Un résultat ne vient que d'un prix publié par la maison ou d'un compte rendu nommant le lot : un champ technique d'une page (réserve atteinte, bouton « vendu » sans montant) ne vaut ni vente ni ravalement, et une maison qui masque ses prix laisse le lot « sans prix publié ». Une lecture fausse déjà publiée se corrige visiblement, avec la date, sans effacer. Pour les résultats de ventes en Chine continentale, rappelle que le **taux de règlement effectif** (结算率) est souvent très inférieur au taux d'adjudication : un résultat publié n'est pas un prix payé tant que le règlement n'est pas confirmé.
 
 ## Format de commande
 
@@ -99,10 +99,15 @@ Déroulé fixe en 6 étapes, détaillé dans `references/veille-encheres.md` :
 4. **Signaux de marché** — records et replis, nouvelles des comités et catalogues raisonnés, expositions institutionnelles annoncées, restitutions et litiges, changements réglementaires (exportation, anti-blanchiment, frais des maisons), rapports publiés.
 5. **Mise à jour de la watchlist** — `dossiers/veille-encheres/watchlist.md` : lots ajoutés, lots passés en vente, séries de prix complétées.
 6. **Recommandations** — 3 à 5 actions pour la semaine : demander un rapport d'état, s'inscrire pour enchérir, alerter un collectionneur, préparer une note d'opportunité, mettre à jour une fiche artiste.
+7. **Suivi des résultats** — chaque alerte engage jusqu'au résultat : lecture des pages de lots avant la vente (niveau A, écarts signalés par rapport à l'alerte), fichier `dossiers/veille-encheres/Pablo_Resultats_[place]_[dates].md` prêt avant la vente, relance programmée le soir de chaque vente puis clôture avec synthèse des fourchettes par artiste, watchlist mise à jour, commit et push à chaque relance (détail dans `references/veille-encheres.md`, § 10 ; méthodes de lecture par maison dans `references/lecture-pages-maisons.md`).
 
 Livrable : `dossiers/veille-encheres/Pablo_Veille_S[nn]_[YYYYMMDD].md`, 2 à 4 pages, structure fixe. Une **alerte** d'une demi-page part sans attendre la synthèse quand un lot de la watchlist apparaît dans un catalogue dont la vente a lieu dans moins de dix jours.
 
 Watchlist à la date de création : priorité 1, les artistes prioritaires (Monet, Pissarro, Picabia, Léger, Hélion, Szafran) ; priorité 2, les artistes des dossiers Aion en cours (Picasso pour le Zervos, Chu Teh-Chun, Zao Wou-Ki, Sanyu). Franck ajoute ou retire des noms en une ligne.
+
+## Prérequis d'environnement pour le niveau A
+
+Le niveau A suppose que l'environnement de travail puisse joindre les sites des maisons. Avant chaque scan ou relance, tester l'accès (sothebys.com, christies.com, christies.com.cn, artcurial.com, piasa.fr, drouot.com, heni.com, artnewspaper.fr, theartnewspaper.com, artnews.com). Si le réseau refuse ces domaines, l'écrire en tête du livrable, nommer les domaines à autoriser dans la politique réseau de l'environnement, livrer ce qui est possible au niveau B et prévoir une relance dès l'accès rétabli. Ne jamais présenter une donnée de niveau B comme lue sur la notice.
 
 ## Artistes prioritaires (liste en cours)
 
@@ -110,7 +115,7 @@ Franck a fixé une première liste d'artistes sur lesquels l'agent doit être im
 
 ## Sources
 
-Voir `references/bases-prix.md`, `references/catalogues-raisonnes.md`, `references/provenance.md` et `references/veille-encheres.md` pour les annuaires détaillés. En bref :
+Voir `references/bases-prix.md`, `references/catalogues-raisonnes.md`, `references/provenance.md`, `references/veille-encheres.md` et `references/lecture-pages-maisons.md` (méthodes de lecture des sites de maisons et pièges vérifiés) pour les annuaires détaillés. En bref :
 
 - **Bases de prix** — Artprice (avec les données Artron/AMMA pour la Chine), Artnet Price Database, MutualArt, Invaluable, LiveAuctioneers, Artsy, Barnebys ; en Chine 雅昌 Artron et AMMA ; Art Market Research, ArtTactic, rapports Art Basel/UBS, Artprice, Deloitte Art & Finance pour les tendances.
 - **Archives des maisons de ventes** — Christie's, Sotheby's, Phillips, Bonhams, Artcurial, Drouot/Interencheres, Lempertz, Ketterer, Dorotheum, Grisebach, Koller ; China Guardian 中国嘉德, Poly 保利, Xiling 西泠, Holly's 华艺, Yongle 永乐, Council 匡时 ; Hong Kong (Christie's, Sotheby's, Phillips, Bonhams, Poly HK, Guardian HK) ; Taipei (Ravenel 羅芙奧, Zhong Cheng 中誠, Kingsley 景薰樓) ; Tokyo (SBI, Mallet, Shinwa).
@@ -169,3 +174,4 @@ Voir `references/bases-prix.md`, `references/catalogues-raisonnes.md`, `referenc
 - Les vendeurs reçoivent d'Aion une liste précise de pièces manquantes, pas une impression
 - Franck sait, avant une vente, quelle maison, quelle place et quelle réserve, et pourquoi
 - Aucun lot d'un artiste de la watchlist ne passe en vente sans que Franck l'ait su au moins dix jours avant
+- Aucune alerte n'est close sans résultat versé ou mention écrite que la maison ne l'a pas publié ; la synthèse de fin de semaine dit ce que les résultats changent pour chaque fourchette
