@@ -32,9 +32,9 @@ Toujours relever : auteur, éditeur, année, volume, numéro, page, et l'état d
 | **INHA, Bibliothèque Kandinsky, Frick Art Reference Library, Watson (Met)** | Consultation des volumes imprimés ; Frick et Watson ont des pans numérisés. |
 | **WorldCat / SUDOC / CCFr** | Localiser un exemplaire d'un volume rare (le Zervos n'est pas partout). |
 
-## 2. Artistes prioritaires Aion (liste en cours : Monet, Pissarro, Picabia, Léger, Hélion, Szafran)
+## 2. Artistes prioritaires Aion (liste en cours : Monet, Pissarro, Cézanne, Picabia, Léger, Cormon, Hélion, Szafran)
 
-Liste fixée par Franck le 2026-10-19, à étendre au fil des dossiers. Pour ces six artistes, l'agent doit connaître sans recherche préalable le catalogue de référence, l'autorité qui délivre les certificats, et les pièges propres à chacun. Les éléments marqués ✓ ont été vérifiés en ligne le 2026-10-19.
+Liste fixée par Franck le 2026-10-19, à étendre au fil des dossiers. Pour les six premiers artistes (Cézanne et Cormon, ajoutés le 2026-11-15, ont des fiches distinctes ci-dessous), l'agent doit connaître sans recherche préalable le catalogue de référence, l'autorité qui délivre les certificats, et les pièges propres à chacun. Les éléments marqués ✓ ont été vérifiés en ligne le 2026-10-19.
 
 ### Claude Monet (1840-1926) · 莫奈 (Mònài)
 
@@ -89,12 +89,35 @@ Liste fixée par Franck le 2026-10-19, à étendre au fil des dossiers. Pour ces
 - **Marché** : Paris d'abord (Sotheby's Paris, Christie's Paris, Artcurial, Drouot), puis Londres ; les meilleurs résultats concernent les grands pastels d'escaliers et d'ateliers ; la rétrospective de l'Orangerie et la mort de l'artiste ont resserré l'offre : vérifier les résultats 2019-2026 avant toute fourchette (aucun record vérifié à ce jour, à établir sur les pages de lots).
 - **Provenance** : archives de la Galerie Claude Bernard, catalogues Gianadda et Orangerie (liste des prêteurs), monographie de Jean Clair, fonds de la succession ; dates souvent portées au dos ou sur le montage.
 
+
+### Paul Cézanne (1839-1906) · 塞尚 (Sāi'shàng)
+
+Ajouté le 2026-11-15 sur demande de Franck (veille des enchères sur les grands modernes ; ligne Pissarro, Cézanne, Picabia). Éléments marqués ✓ vérifiés en ligne le 2026-11-15 (niveau B : sources secondaires, le site du catalogue n'a pas été ouvert fiche par fiche).
+
+- **Catalogue de référence** ✓ : **catalogue raisonné en ligne** *The Paintings, Watercolors and Drawings of Paul Cezanne* (cezannecatalogue.com), mis en ligne en novembre 2014 par Walter Feilchenfeldt, Jayne Warman et David Nash, aujourd'hui placé sous la direction de la **Société Paul Cezanne** ; les peintures y sont numérotées par groupe (paysage, portrait, figure, nature morte, baigneuses), avec une **concordance** avec les numéros de Rewald (1996) et de Venturi (1936). Il y a une page « Catalogue Concordance » et des rubriques dessins et aquarelles, carnets, collections, expositions, archives Vollard. Citer en priorité le numéro du catalogue en ligne, puis Rewald (R.) et Venturi (V.).
+- **Catalogues imprimés** ✓ : Lionello Venturi, 1936 (peintures, publié par Paul Rosenberg) ; John Rewald, *The Paintings of Paul Cézanne: A Catalogue Raisonné*, 1996 (avec Feilchenfeldt et Warman) ; Rewald, aquarelles, 1983 ; Chappuis pour les dessins (à confirmer).
+- **Autorité** : pas de comité d'authentification identifié ; l'avis qui fait foi est l'inclusion au catalogue en ligne, tenu par la Société Paul Cezanne ✓. Une œuvre absente du catalogue est à traiter comme non reconnue jusqu'à preuve du contraire : demander la fiche à l'équipe du catalogue.
+- **Pièges** : numéros Venturi et Rewald qui ne se recoupent pas toujours, d'où la concordance ; dessins, aquarelles et carnets (catalogue en cours d'extension, état à vérifier) ; faux et pastiches historiques à écarter par la provenance ; œuvres de musée ou d'institution, hors marché.
+- **Marché** : rare en vente (la majorité des peintures est en collections publiques) ; New York et Londres pour les œuvres majeures, Paris pour les œuvres sur papier ; aucun record vérifié à ce jour, à établir sur les pages de lots. Veiller aux garanties et aux « irrevocable bids ».
+- **Provenance** : Vollard (archives en ligne sur le site du catalogue ✓) ; autres marchands et collectionneurs historiques (Bernheim-Jeune, Durand-Ruel, Pellerin, Rosenberg : à confirmer, œuvre par œuvre) ; la liste des premiers collectionneurs figure dans le catalogue en ligne ✓.
+
+### Fernand Cormon (1845-1924) · 费尔南·科尔蒙 (Fèi'ěrnán Kē'ěrméng, transcription d'usage à confirmer)
+
+Ajouté le 2026-11-15 sur demande de Franck : suivi à la fois comme **artiste de marché** et comme **repère historique** (peintre d'histoire, directeur d'atelier). Éléments marqués ✓ vérifiés en ligne le 2026-11-15 (niveau B).
+
+- **Repère historique** ✓ : né le 24 décembre 1845 à Paris, mort le 20 mars 1924 à Paris ; élève de Cabanel, de Fromentin et de Portaels ; peintre d'histoire (grandes compositions préhistoriques et antiques, par exemple *Cain*, à confirmer) ; son **atelier** (années 1880) a formé notamment Toulouse-Lautrec, Anquetin et Émile Bernard, et Van Gogh y est passé (vers 1886, à confirmer ; article de Louis van Tilborgh, 2007, sur le séjour de Van Gogh à l'atelier). Les grandes commandes d'État sont en musée (décors du Muséum d'histoire naturelle et du musée d'Archéologie nationale de Saint-Germain-en-Laye, à confirmer).
+- **Catalogue de référence** : **aucun catalogue raisonné identifié** à ce jour (recherche en ligne du 2026-11-15) ; à établir (monographies, fonds d'atelier, musées). Toute mention « figure au catalogue raisonné » sur une notice de vente est une allégation à vérifier.
+- **Autorité** : aucune fondation, comité ni ayant droit identifié ; à chercher auprès des musées conservant les grandes œuvres (Orsay, Quimper) avant toute décision d'acquisition.
+- **Pièges** : nombreuses attributions (« attribué à », « atelier de », « école de ») et dates parfois fautives sur les notices (naissance donnée en 1854 sur une notice Drouot) ; études préparatoires pour les grands tableaux ; dessins et lithographies (par exemple *Cité lacustre*, 1897) à ne pas confondre avec les peintures ; ne pas confondre avec des élèves de l'atelier.
+- **Marché** : segment accessible, majoritairement France (Drouot, Interenchères, ventes régionales) ; estimations de quelques milliers d'euros pour les œuvres courantes ; **aucun record vérifié**, résultats des maisons masqués derrière abonnement : établir une base de prix sur les pages de lots avant toute fourchette.
+- **Provenance** : ventes d'atelier et successions ; collections privées anglaises (via Colnaghi, à confirmer) ; musées de Quimper (nombreuses œuvres).
+
 ## 3. Autres artistes modernes occidentaux — repères
 
 | Artiste | Catalogue(s) | Autorité / contact | État |
 |---|---|---|---|
 | Picasso | **Zervos** (Cahiers d'Art, 33 vol., réédition 2014) ; Online Picasso Project (Enrique Mallen) ; catalogues spécialisés (Baer pour les gravures, Spies pour les sculptures, Ramié pour la céramique) | Picasso Administration (succession) ; pas de comité d'authentification formel, avis de la succession | Zervos achevé |
-| Monet, Pissarro, Picabia, Léger, Hélion, Szafran | Voir § 2 | Voir § 2 | Prioritaires |
+| Monet, Pissarro, Cézanne, Picabia, Léger, Cormon, Hélion, Szafran | Voir § 2 | Voir § 2 | Prioritaires |
 | Renoir | Daulte ; Dauberville (Bernheim-Jeune) | Wildenstein Plattner Institute (comité) | Deux traditions concurrentes : le dire |
 | Matisse | Catalogues partiels (Duthuit pour sculptures et gravures) ; peintures en préparation | Archives Henri Matisse | En cours : prudence |
 | Chagall | Comité Chagall (Paris) | Comité Chagall | Certificat du comité attendu par le marché |

@@ -1,6 +1,6 @@
 # Watchlist Pablo — veille enchères
 
-Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-11-11 (scan S46). Les résultats Christie's sont frais inclus, les estimations hors frais : le marteau figure entre parenthèses. Chine continentale : adjugé, règlement inconnu.
+Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Franck. Dernière mise à jour : 2026-11-15 (ajout de Cézanne et de Cormon, sur demande de Franck ; dernier scan : S46). Les résultats Christie's sont frais inclus, les estimations hors frais : le marteau figure entre parenthèses. Chine continentale : adjugé, règlement inconnu.
 
 ## 1. Artistes suivis
 
@@ -12,6 +12,8 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 | Fernand Léger · 莱热 | 1 | Bauquier puis Hansma (peintures) ; répertoire œuvres sur papier en préparation | Comité Léger / Irus Hansma | — | 2026-10-22 |
 | Jean Hélion · 埃利翁 (à confirmer) | 1 | J. Hélion & C. Vail (numérique, 2011, à confirmer) ; œuvres sur papier en préparation | Association Jean Hélion | — | 2026-10-19 |
 | Sam Szafran · 萨姆·萨夫兰 (à confirmer) | 1 | En préparation (Julia Drost ; une notice 2025 cite Alain Le Kim, à clarifier) | Succession / Galerie Claude Bernard (à confirmer) | — | 2026-10-22 |
+| Paul Cézanne · 塞尚 | 1 | Rewald, 1996 (peintures, 2 vol.) ; Venturi, 1936 ; Rewald, 1983 (aquarelles) ; catalogue en ligne *The Paintings, Watercolors and Drawings of Paul Cezanne* (cezannecatalogue.com), avec concordance Rewald et Venturi (niveau B ; fiche à vérifier sur le site, voir `catalogues-raisonnes.md`) | Société Paul Cezanne (catalogue en ligne, ex-équipe Feilchenfeldt, Warman, Nash) | — | 2026-11-15 |
+| Fernand Cormon · 费尔南·科尔蒙 (à confirmer) | 1 | Aucun catalogue raisonné identifié (niveau B) ; repère de recherche : L. van Tilborgh, 2007, sur l'atelier Cormon | Aucune autorité identifiée : à établir | — | 2026-11-15 |
 | Pablo Picasso · 毕加索 | 2 | Zervos (33 vol.) | Picasso Administration | — | 2026-10-22 |
 | Chu Teh-Chun · 朱德群 | 2 | En préparation (Fondation Chu Teh-Chun) ; la Fondation délivre des certificats datés (ex. 24 juin 2026) | Fondation Chu Teh-Chun | Dossier Hangzhou 2026-2027 | 2026-10-22 |
 | Zao Wou-Ki · 赵无极 | 2 | Marquet-Zao & Hendgen, vol. 1-2 (vol. 3 annoncé publié, à confirmer) ; archives de l'artiste (n° P-aa-nn) | Fondation Zao Wou-Ki | — | 2026-10-22 |

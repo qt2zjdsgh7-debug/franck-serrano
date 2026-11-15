@@ -12,7 +12,7 @@ Dernière révision : 2026-11-15
 
 | Objet | Détail |
 |---|---|
-| **Watchlist priorité 1** | Monet, Pissarro, Picabia, Fernand Léger, Jean Hélion, Sam Szafran (fiches dans `catalogues-raisonnes.md`, § 2) |
+| **Watchlist priorité 1** | Monet, Pissarro, Paul Cézanne, Picabia, Fernand Léger, Fernand Cormon, Jean Hélion, Sam Szafran (fiches dans `catalogues-raisonnes.md`, § 2) |
 | **Watchlist priorité 2** | Artistes des dossiers Aion en cours : Picasso, Chu Teh-Chun, Zao Wou-Ki, Sanyu ; tout artiste ajouté par Franck |
 | **Résultats** | Lots des artistes suivis vendus dans la semaine écoulée, toutes places |
 | **Catalogues à venir** | Lots des artistes suivis annoncés dans les quatre semaines à venir |
