@@ -8,7 +8,7 @@
 | 121 | Picasso, *Nu, homme assis et buste de vieille femme*, 18 juin 1970, encre de Chine, 31,5 × 48,8 cm | 120 000-180 000 € | Zervos XXXII, n° 145 ; Picasso Project | Pierre Bergé, Bruxelles, 19 juin 2007, lot 22 ; Galerie Alain Le Gaillard ; acquis v. 2008. Expo. Louise Leiris 1971-72 |
 | 122 | Picasso, *Le Peintre*, 10 oct. 1964 (II), encre et lavis sur épreuve collotype et pochoir Spitzer n° 1, 98 × 74,7 cm | 200 000-300 000 € | Zervos XXIV, n° 216 | Probablement Louise Leiris ; Alfred Richet ; par descendance |
 
-Aucun autre artiste de la watchlist dans la vente. Conflit d'intérêts Aion déclaré sur Picasso (vente du Zervos).
+Aucun autre artiste de la watchlist dans la vente.
 
 **Comparables rapides** (niveau B, semaine de Hong Kong, hors fenêtre) : *Sans titre (La Théière)*, 1951, Phillips HK, 30 sept. 2026, estimé 10-15 M HK$, vendu plus de 11 M HK$ (environ 1,3 M€) ; *01.06.65*, Poly HK, 5 oct. 2026, 15,84 M HK$ frais inclus ; *Bateaux sur fond bleu*, période Klee, Sotheby's HK, 28 sept., estimé 24-32 M HK$, résultat non lu. Les œuvres de 1950-1954 se vendent mieux à Hong Kong qu'à Paris : l'estimation parisienne reste une opportunité, le dossier étant complet (numéro de catalogue raisonné, archives, provenance directe).
 

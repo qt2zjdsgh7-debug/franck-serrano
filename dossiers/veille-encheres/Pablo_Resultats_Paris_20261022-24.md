@@ -2,8 +2,6 @@
 
 Établi le 22 octobre 2026 à 10 h 30 UTC (12 h 30 à Paris), **avant** les premières vacations. Toutes les notices ci-dessous ont été lues sur les sites des maisons (Sotheby's, Christie's via son API de catalogue, Artcurial, Piasa) : **niveau A**. Les résultats des 22, 23 et 24 octobre sont versés ci-dessous. Voir aussi la synthèse `Pablo_Synthese_Paris_20261022-24.md`.
 
-Conflit d'intérêts déclaré : Aion vend le catalogue raisonné Zervos de Picasso.
-
 ## Résultats du 22 octobre (relevés à 22 h 15, heure de Paris), corrigés le 23 octobre
 
 **Convention essentielle.** Christie's publie ses estimations **hors frais** et ses résultats **frais inclus**. Le marteau est donc nettement inférieur au prix publié. Le barème de frais est de 28 % jusqu'à au moins 1,5 M€ (cinq prix ronds vérifient ce taux) ; au-delà, le taux marginal n'a pas pu être reconstitué, d'où des marteaux encadrés. Comparer un prix publié à une estimation surestime la performance : la première version de cette section (22 octobre au soir) le faisait pour les gros lots et concluait à tort que *Pourville* était « dans la fourchette ». Les lectures ci-dessous sont celles du marteau.

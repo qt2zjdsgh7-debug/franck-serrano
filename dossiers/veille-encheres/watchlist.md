@@ -12,7 +12,7 @@ Tenue par Pablo (mode 2). Un artiste s'ajoute ou se retire sur une ligne de Fran
 | Fernand Léger · 莱热 | 1 | Bauquier puis Hansma (peintures) ; répertoire œuvres sur papier en préparation | Comité Léger / Irus Hansma | — | 2026-10-22 |
 | Jean Hélion · 埃利翁 (à confirmer) | 1 | J. Hélion & C. Vail (numérique, 2011, à confirmer) ; œuvres sur papier en préparation | Association Jean Hélion | — | 2026-10-19 |
 | Sam Szafran · 萨姆·萨夫兰 (à confirmer) | 1 | En préparation (Julia Drost ; une notice 2025 cite Alain Le Kim, à clarifier) | Succession / Galerie Claude Bernard (à confirmer) | — | 2026-10-22 |
-| Pablo Picasso · 毕加索 | 2 | Zervos (33 vol.) | Picasso Administration | Vente du Zervos (conflit d'intérêts à déclarer) | 2026-10-22 |
+| Pablo Picasso · 毕加索 | 2 | Zervos (33 vol.) | Picasso Administration | — | 2026-10-22 |
 | Chu Teh-Chun · 朱德群 | 2 | En préparation (Fondation Chu Teh-Chun) ; la Fondation délivre des certificats datés (ex. 24 juin 2026) | Fondation Chu Teh-Chun | Dossier Hangzhou 2026-2027 | 2026-10-22 |
 | Zao Wou-Ki · 赵无极 | 2 | Marquet-Zao & Hendgen, vol. 1-2 (vol. 3 annoncé publié, à confirmer) ; archives de l'artiste (n° P-aa-nn) | Fondation Zao Wou-Ki | — | 2026-10-22 |
 | Sanyu · 常玉 | 2 | Rita Wong (2001, 2011, 2014) | Rita Wong / Li Ching Foundation | — | 2026-10-19 |

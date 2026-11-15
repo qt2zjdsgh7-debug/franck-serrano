@@ -4,8 +4,6 @@ Watchlist : Monet, Pissarro, Picabia, Léger, Hélion, Szafran (P1) · Picasso, 
 
 **Limite de ce premier scan, à lire avant tout.** L'environnement de travail n'a pas pu ouvrir une seule page de lot : les sites des maisons (Christie's, Sotheby's, Phillips, Bonhams, Artcurial, Drouot, Invaluable, Artnet, MutualArt, Artron et les sites de presse) sont refusés par le proxy de sortie. Seuls les extraits de recherche web ont été lus, et le quota de recherche a été épuisé avant la fin. **Aucune ligne n'atteint le niveau A** ; tout est B (extrait de page de maison ou de presse) ou C (simple mention). Dimensions, numéros de catalogue raisonné, garanties et provenances complètes n'ont donc pas été vérifiés sur les notices. Avant toute décision, ouvrir les pages de lots citées. Voir la recommandation 1.
 
-Conflit d'intérêts déclaré : Aion vend le catalogue raisonné Zervos de Picasso.
-
 ---
 
 ## 1. Contexte

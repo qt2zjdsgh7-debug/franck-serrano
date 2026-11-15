@@ -1,6 +1,6 @@
 # Pablo — Synthèse des ventes de Paris, 22-24 octobre 2026
 
-Clôture du dossier, établie le 24 octobre à 18 h 30 (Paris). Détail lot par lot : `Pablo_Resultats_Paris_20261022-24.md`. Niveau A pour Christie's et Artcurial (API et pages de lots), niveau B pour Sotheby's (presse), car Sotheby's masque ses prix aux visiteurs non connectés. Conflit d'intérêts déclaré : Aion vend le catalogue raisonné Zervos de Picasso.
+Clôture du dossier, établie le 24 octobre à 18 h 30 (Paris). Détail lot par lot : `Pablo_Resultats_Paris_20261022-24.md`. Niveau A pour Christie's et Artcurial (API et pages de lots), niveau B pour Sotheby's (presse), car Sotheby's masque ses prix aux visiteurs non connectés.
 
 **Règle de lecture.** Les estimations s'entendent hors frais, les prix publiés frais inclus. Toute comparaison se fait en marteau. Cette règle a corrigé la première lecture du 22 octobre.
 

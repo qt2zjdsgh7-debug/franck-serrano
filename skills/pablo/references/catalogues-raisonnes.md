@@ -78,7 +78,7 @@ Liste fixée par Franck le 2026-10-19, à étendre au fil des dossiers. Pour ces
 - **Autorité** : l'Association Jean Hélion et la famille (Jacqueline Hélion, Clovis Vail ; une source cite aussi Louis Hélion) ; demander qui signe les certificats aujourd'hui.
 - **Pièges** : marché étroit et très segmenté entre l'abstraction des années 1930 (Abstraction-Création, les *Équilibres*, très recherchée) et le retour à la figuration à partir de 1939-1945 (longtemps décoté, réévalué depuis les rétrospectives) ; vérifier la cohérence entre la date, la période et le prix demandé ; œuvres américaines (New York 1932-1946) souvent passées par des collections et galeries américaines ; les écrits (journal, carnets) permettent de dater finement.
 - **Marché** : Paris (Drouot, Piasa, Artcurial) en premier, puis Londres et New York ; une rétrospective au **Musée d'Art moderne de Paris en 2024-2025** (*La prose du monde*) avec la BnF, l'IMEC et l'Association Jean Hélion comme partenaires ✓ a resserré le marché.
-- **Provenance** : galerie Pierre (Pierre Loeb), Cahiers d'Art (Zervos, lien avec le fonds Aion), Galerie Louis Carré, Galerie Flinker, Galerie Karl Flinker, Paul Willard Gallery et Valentine Gallery (New York) ; archives : fonds Hélion à l'**IMEC** (éditeur de ses *Écrits* et de *À perte de vue*, partenaire de la rétrospective ✓ ; vérifier l'intitulé et la cote du fonds avec l'agent-historien), BnF pour les carnets.
+- **Provenance** : galerie Pierre (Pierre Loeb), Cahiers d'Art (Zervos), Galerie Louis Carré, Galerie Flinker, Galerie Karl Flinker, Paul Willard Gallery et Valentine Gallery (New York) ; archives : fonds Hélion à l'**IMEC** (éditeur de ses *Écrits* et de *À perte de vue*, partenaire de la rétrospective ✓ ; vérifier l'intitulé et la cote du fonds avec l'agent-historien), BnF pour les carnets.
 
 ### Sam Szafran (1934-2019) · 萨姆·萨夫兰 (Sàmǔ Sàfūlán, transcription d'usage à confirmer)
 
@@ -93,7 +93,7 @@ Liste fixée par Franck le 2026-10-19, à étendre au fil des dossiers. Pour ces
 
 | Artiste | Catalogue(s) | Autorité / contact | État |
 |---|---|---|---|
-| Picasso | **Zervos** (Cahiers d'Art, 33 vol., réédition 2014) ; Online Picasso Project (Enrique Mallen) ; catalogues spécialisés (Baer pour les gravures, Spies pour les sculptures, Ramié pour la céramique) | Picasso Administration (succession) ; pas de comité d'authentification formel, avis de la succession | Zervos achevé ; conflit d'intérêts Aion (vente du Zervos) à déclarer |
+| Picasso | **Zervos** (Cahiers d'Art, 33 vol., réédition 2014) ; Online Picasso Project (Enrique Mallen) ; catalogues spécialisés (Baer pour les gravures, Spies pour les sculptures, Ramié pour la céramique) | Picasso Administration (succession) ; pas de comité d'authentification formel, avis de la succession | Zervos achevé |
 | Monet, Pissarro, Picabia, Léger, Hélion, Szafran | Voir § 2 | Voir § 2 | Prioritaires |
 | Renoir | Daulte ; Dauberville (Bernheim-Jeune) | Wildenstein Plattner Institute (comité) | Deux traditions concurrentes : le dire |
 | Matisse | Catalogues partiels (Duthuit pour sculptures et gravures) ; peintures en préparation | Archives Henri Matisse | En cours : prudence |

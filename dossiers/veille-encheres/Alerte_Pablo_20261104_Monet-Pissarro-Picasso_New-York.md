@@ -2,8 +2,6 @@
 
 Niveau de vérification : **A** pour les estimations, dimensions, provenances et références lues sur les pages de lots (sothebys.com et christies.com, 4 novembre) ; **C** pour Phillips (annonce web). Ventes dans **13 à 15 jours**. Pré-alerte à dix jours de marge : les notices sont déjà publiées, les avis de salle (garanties) ne le sont pas. Estimations hors frais.
 
-Conflit d'intérêts déclaré : Aion vend le catalogue raisonné Zervos de Picasso.
-
 ## Ce que New York met en vente en trois jours
 
 - **Monet** : au moins **8 huiles** chez Sotheby's et Christie's, de 0,3 à 30 M$. Trois sont à plus de 10 M$ : *La Barque bleue* (20-30 M$, Sotheby's), *Le Jardin des Tuileries* (15-20 M$) et *Champ d'avoine et coquelicots* (12-18 M$, Christie's).
@@ -69,7 +67,7 @@ Day sale : Monet 332 *Argenteuil, L'Hospice* (W n° 240, 2,5-3,5 M$) et 303 *La 
 - **Notices masquées** : Sotheby's 127 (Monet, 20-30 M$), 104 et 103 (Picasso). Un compte Sotheby's est nécessaire.
 - **Pissarro lot 10** : comparer à *Boulevard Montmartre, matinée de printemps* (32,1 M$, 2014) et à la vente des Pissarro Durand-Ruel de Christie's Paris (*Le Louvre* : marteau vers 2,0 M€ pour 2-3 M€). Les estimations sont hors frais.
 - **Offre Monet** : huit huiles en trois jours dont trois à plus de 10 M$ : risque de concurrence interne ; lire le résultat d'*Iris* (50 M€, 22 oct.) comme cas à part.
-- **Picasso 1969** : trois grandes toiles de la série d'Avignon sur deux jours, plus un *Couple* dont la notice est masquée ; comparer provenance, état et prix de reventes récentes. Conflit d'intérêts Aion déclaré.
+- **Picasso 1969** : trois grandes toiles de la série d'Avignon sur deux jours, plus un *Couple* dont la notice est masquée ; comparer provenance, état et prix de reventes récentes.
 - **Mentions d'exportation et d'importation**, droits de suite (non applicables à des artistes morts depuis plus de 70 ans), barème de frais 2026 de Sotheby's (28 % jusqu'à 2 M$, 22 % jusqu'à 8 M$, 15 % au-delà) et de Christie's.
 
 **Prochaine étape** : scan S46 du 11 novembre pour relire les notices masquées si un accès est disponible, puis avis de salle le 16 novembre ; résultats à verser le 18-20 novembre.

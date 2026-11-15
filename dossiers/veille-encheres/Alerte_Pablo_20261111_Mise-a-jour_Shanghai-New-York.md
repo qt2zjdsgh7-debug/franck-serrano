@@ -24,7 +24,7 @@ Même tableau que Phillips Hong Kong du 25 novembre 2024 (lot 13) : HK$ 42,8 M f
 
 1. **Pissarro, Sotheby's, lot 10** : 30-40 M$, record de 32,1 M$ à battre. Chaîne de provenance complète depuis Durand-Ruel (1898), Norton Simon (1964), même propriétaire depuis 1978.
 2. **Monet** : Sotheby's 127 *La Barque bleue* (20-30 M$, notice masquée), 4 *Le Jardin des Tuileries* (15-20 M$), Christie's 15 (12-18 M$, Koch). Trois lots à plus de 10 M$ en trois jours : surveiller les résultats croisés et le sort du Monet de Dieppe (invendu le 23 octobre).
-3. **Picasso 1969** : Christie's *Le Baiser* (40-60 M$) et *Couple* (12-18 M$), Sotheby's *Femme nue et homme au fanion* (15-20 M$). Conflit d'intérêts Aion déclaré.
+3. **Picasso 1969** : Christie's *Le Baiser* (40-60 M$) et *Couple* (12-18 M$), Sotheby's *Femme nue et homme au fanion* (15-20 M$).
 4. **Shanghai** : Zao *Mars - 03.04.2003* (CNY 9-14 M, CR vol. III pl. 1714) et Chu sans certificat cité.
 
 ## À faire avant les ventes
