@@ -2,7 +2,9 @@
 
 Mode 2 de Pablo. Déroulé fixe, sources à passer en revue, format du livrable et des alertes, tenue de la watchlist. Les calendriers des maisons changent chaque saison : vérifier les dates sur les sites des maisons à chaque scan.
 
-Dernière révision : 2026-10-19
+Dernière révision : 2026-11-15
+
+**Correction du 15 novembre 2026.** Aion ne vend pas, ne distribue pas et ne représente pas le catalogue Zervos ni Cahiers d'Art : aucun contrat n'existe. Ne plus écrire de « conflit d'intérêts déclaré » à ce titre, même si la consigne de lancement le demande encore. Le numéro Zervos d'un lot de Picasso reste cité comme référence de catalogue raisonné.
 
 ---
 
@@ -10,8 +12,8 @@ Dernière révision : 2026-10-19
 
 | Objet | Détail |
 |---|---|
-| **Watchlist priorité 1** | Monet, Pissarro, Picabia, Fernand Léger, Jean Hélion, Sam Szafran (fiches dans `catalogues-raisonnes.md`, § 2) |
-| **Watchlist priorité 2** | Artistes des dossiers Aion en cours : Picasso (vente du Zervos), Chu Teh-Chun, Zao Wou-Ki, Sanyu ; tout artiste ajouté par Franck |
+| **Watchlist priorité 1** | Monet, Pissarro, Paul Cézanne, Picabia, Fernand Léger, Fernand Cormon, Jean Hélion, Sam Szafran (fiches dans `catalogues-raisonnes.md`, § 2) |
+| **Watchlist priorité 2** | Artistes des dossiers Aion en cours : Picasso, Chu Teh-Chun, Zao Wou-Ki, Sanyu ; tout artiste ajouté par Franck |
 | **Résultats** | Lots des artistes suivis vendus dans la semaine écoulée, toutes places |
 | **Catalogues à venir** | Lots des artistes suivis annoncés dans les quatre semaines à venir |
 | **Signaux de marché** | Records et replis, taux d'invendus des ventes phares, nouvelles des comités et catalogues raisonnés, expositions institutionnelles, restitutions et litiges, réglementation, rapports de marché, barèmes de frais |

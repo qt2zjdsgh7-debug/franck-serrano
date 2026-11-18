@@ -45,7 +45,7 @@ Si Franck ne précise pas le format, prends la **fiche de veille**. Rédige en f
 ## En une phrase
 ## Points clés          (5 à 8 puces, chacune avec son repère [mm:ss])
 ## Noms, œuvres, lieux, chiffres cités
-## Ce qui compte pour Aion   (lien avec les projets en cours : Zervos, dialogue Est-Ouest, artistes suivis par Pablo, agents Aion)
+## Ce qui compte pour Aion   (lien avec les projets en cours : dialogue Est-Ouest, artistes suivis par Pablo, agents Aion)
 ## À vérifier            (affirmations non sourcées, chiffres douteux, erreurs probables de la transcription automatique)
 ```
 

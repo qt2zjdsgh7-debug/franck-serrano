@@ -2,8 +2,6 @@
 
 Watchlist : Monet, Pissarro, Picabia, Léger, Hélion, Szafran (P1) · Picasso, Chu Teh-Chun, Zao Wou-Ki, Sanyu (P2) · Sources consultées : Christie's, Sotheby's, Artcurial, Piasa, Tajan, Chinanews, Artemperor, HENI, Il Sole 24 Ore, Artsy · Lots suivis vendus entre le 21 et le 28 octobre : **voir § 2** · Lots à venir (28 oct.-25 nov.) : **17** · Alertes émises : **1**
 
-Conflit d'intérêts déclaré : Aion vend le catalogue raisonné Zervos de Picasso.
-
 **Accès.** Le réseau est ouvert pour Christie's, Sotheby's, Artcurial, Piasa, Tajan et les sites de presse. Phillips (New York), Bonhams, Millon et Dorotheum refusent les robots (erreur 403 ou 000) : leurs ventes de novembre n'ont pas pu être vues. Sotheby's masque les prix aux visiteurs non connectés. Niveau A pour les notices de Sotheby's, Christie's, Artcurial et Piasa ; niveau B pour la presse et pour le catalogue pékinois.
 
 ## 1. Contexte
