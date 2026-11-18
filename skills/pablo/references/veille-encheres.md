@@ -139,3 +139,12 @@ Un artiste s'ajoute ou se retire sur une ligne de Franck ; chaque ajout déclenc
 - Reprendre un communiqué de maison de ventes sans lire les pages de lots.
 - Laisser passer la vente d'un lot suivi parce que la synthèse hebdomadaire n'était pas encore due : l'alerte existe pour cela.
 - Étendre la watchlist sans fiche de référence vérifiée.
+
+## Compléments d'accès (scan S47)
+
+- **Résultats Christie's par l'API de catalogue** : après la vente, `price_realised` donne le résultat frais inclus de chaque lot et son absence signale un invendu probable ; le marteau se déduit du barème. Pour New York, 28 % jusqu'à 2 M$, 22 % de 2 à 8 M$, 15 % au-delà redonne un marteau rond sur les 68 lots de la soirée du 17 novembre 2026 (déduit, à contrôler si le barème change). Pour Shanghai, 28 % supposé (marteaux ronds sur 4 lots). Filtrer les noms avec précision : « FERNAND » capte Fernando Botero.
+- **Dates et nombre de lots Sotheby's** : dans `__NEXT_DATA__`, `scheduledOpeningDate` (UTC), `totalLotCount` et les `startDate` d'exposition ; l'URL d'une vente s'obtient en suivant la redirection de `sothebys.com/buy/<uuid>`.
+- **Calendrier Christie's** : `christies.com/en/calendar?date=2026-12` ; les liens `/en/auction/auction-<id>` donnent chacun `sale_number` et `start_date`.
+- **HENI** : l'article `heni.com/news/article/christie-s-20th-century-evening-sale-in-new-york-<AAAA-MM-JJ>` est lisible le jour de la vente et donne total, taux de vente, garanties, invendus.
+- **Phillips** : toujours 403 aux robots et hors de l'outil de lecture (hôte non autorisé).
+
